@@ -1,1 +1,4 @@
 # vGIS
+lib
+axios
+fs
