@@ -5,6 +5,10 @@
   text-align: center;
 }
 
+#map {
+  height: 100vh;
+}
+
 
 
 @keyframes logo-spin {
