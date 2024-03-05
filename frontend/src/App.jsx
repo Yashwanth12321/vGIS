@@ -5,6 +5,7 @@ import FreeView from "./pages/FreeView";
 import Home from "./pages/Home";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
+import Covid from "./pages/Covid";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/features" element={<Features />} />
           <Route path="/freeView" element={<FreeView />} />
+          <Route path="/covid" element={<Covid />} />
         </Routes>
       </Router>
     </main>
