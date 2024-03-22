@@ -7,7 +7,7 @@ import "leaflet/dist/leaflet.css";
 import "../App.css";
 const covid = () => {
   useEffect(() => {
-    const mapContainer = L.map("map").setView([24.6, 85.75], 4);
+    const mapContainer = L.map("map", { minZoom: 4 }).setView([24.6, 85.75], 5);
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
       attribution:
         '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
@@ -93,7 +93,9 @@ const covid = () => {
 
   return (
     <div>
-      <h1>India Map Highlighting</h1>
+      <h1 className="bg-gradient-to-r from-purple-500 to-blue-500 text-transparent bg-clip-text">
+        Chloropeth map
+      </h1>
       <div id="map"></div>
       <div id="state-name"></div>
       <div id="covid-data"></div>
