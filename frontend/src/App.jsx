@@ -8,6 +8,7 @@ import Navbar from "./components/Navbar";
 import Covid from "./pages/Covid";
 import ThreeD from "./pages/ThreeD";
 import Classic from "./pages/Classic";
+import IndiaMap from "./pages/IndiaMap";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/covid" element={<Covid />} />
           <Route path="/threeD" element={<ThreeD />} />
           <Route path="/classic" element={<Classic />} />
+          <Route path="/deathchloropeth" element={<IndiaMap />} />
         </Routes>
       </Router>
     </main>
