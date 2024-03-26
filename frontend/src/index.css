@@ -9,15 +9,27 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
+  color-scheme: dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color:#000011;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.container {
+  background-color: #000011;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 100%;
+  max-height: 100vh;
+}
+
+
 
 a {
   font-weight: 500;
@@ -28,13 +40,6 @@ a:hover {
   color: #535bf2;
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
 
 h1 {
   font-size: 3.2em;
@@ -71,4 +76,46 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+ #map {margin: 0;padding: 0} 
+ #auto { width: 300px; position: absolute;z-index: 999;  font-size: 15px;  padding: 10px; border: 1px solid #ddd; outline: none !important;  top: 5px;border-radius: 10px;margin: 4px;}
+
+ .bouncing {
+  -webkit-animation-duration: .7s;
+  animation-duration: .7s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes bounce {
+
+  0%,
+  100% {
+      -webkit-transform: translateY(0);
+  }
+
+  50% {
+      -webkit-transform: translateY(-30px);
+  }
+}
+
+@keyframes bounce {
+
+  0%,
+  100% {
+      transform: translateY(0);
+  }
+
+  50% {
+      transform: translateY(-30px);
+  }
+}
+
+.bounce {
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
 }
