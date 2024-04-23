@@ -6,6 +6,8 @@ const Features = () => {
       <NavLink to="/covid">Go to Covid</NavLink>
       <br />
       <NavLink to="/deathchloropeth">Go to Chloropeth death map</NavLink>
+      <br />
+      <NavLink to="/datavisuals">Go to Data Visuals</NavLink>
     </div>
   );
 };
