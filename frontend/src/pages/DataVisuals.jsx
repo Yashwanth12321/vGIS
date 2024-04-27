@@ -1,10 +1,10 @@
 // src/IndiaMap.js
-import React, { useEffect } from "react";
 import L from "leaflet";
+import "leaflet/dist/leaflet.css";
+import React, { useEffect } from "react";
+import "../App.css";
 import data from "./TS_District_Boundary_33.json"; // Import the JSON data
 import covidData from "./gdp.json"; // Import the COVID-19 data
-import "leaflet/dist/leaflet.css";
-import "../App.css";
 const DataVisuals = () => {
   useEffect(() => {
     const mapContainer = L.map("map", { minZoom: 8 }).setView(
@@ -15,25 +15,43 @@ const DataVisuals = () => {
       attribution:
         '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
     }).addTo(mapContainer);
+
     const stateName = document.getElementById("state-name");
     const covidDataContainer = document.getElementById("covid-data");
     var legend = L.control({ position: "bottomleft" });
+
     legend.onAdd = function (mapContainer) {
       var div = L.DomUtil.create("div", "legend");
-      div.innerHTML += "<h4>Tegnforklaring</h4>";
-      div.innerHTML +=
-        '<i style="background: #477AC2"></i><span>Water</span><br>';
-      div.innerHTML +=
-        '<i style="background: #448D40"></i><span>Forest</span><br>';
-      div.innerHTML +=
-        '<i style="background: #E6E696"></i><span>Land</span><br>';
-      div.innerHTML +=
-        '<i style="background: #E8E6E0"></i><span>Residential</span><br>';
-      div.innerHTML +=
-        '<i style="background: #FFFFFF"></i><span>Ice</span><br>';
-      div.innerHTML +=
-        '<i class="icon" style="background-image: url(https://d30y9cdsu7xlg0.cloudfront.net/png/194515-200.png);background-repeat: no-repeat;"></i><span>Grænse</span><br>';
+      div.innerHTML += "<h4>Range Wise Colors</h4>";
 
+
+      const maxgdp = Math.max(
+        ...covidData.records.map((state) => parseInt(state[3].replace(/,/g, "")))
+      );
+      const mingdp = Math.min(
+        ...covidData.records.map((state) => parseInt(state[3].replace(/,/g, "")))
+      );
+      const rangeSize = (maxgdp - mingdp) / 10;
+      
+      for (let i = 0; i < 10; i++) {
+        let rangeStart = (mingdp + i * rangeSize); 
+        let rangeEnd = (mingdp + (i + 1) * rangeSize); 
+        let unitStart = 'L'; 
+        let unitEnd = 'L'; 
+        let color = getColor(rangeStart);
+      
+        if (rangeStart <= 99999) {
+          rangeStart = rangeStart / 1000;
+          unitStart = 'T'; 
+        }else {
+          rangeStart = (rangeStart / 100000).toFixed(2); // Convert to lakhs and set precision to 2 decimal places
+        }
+        
+        rangeEnd = (rangeEnd / 100000).toFixed(2);
+      
+        div.innerHTML += `<i style="background: ${color}"></i><span>${rangeStart}${unitStart} - ${rangeEnd}${unitEnd}</span><br>`;
+      }
+      
       return div;
     };
 
@@ -158,18 +176,18 @@ function getColor(deaths) {
   console.log(maxgdp + "  " + mingdp); // Find minimum death count
 
   const colorRamp = [
-    "#90EE90",
-    "#32CD32",
-    "#228B22",
-    "#006400",
-    "#808000",
-    "#FFA500",
-    "#FF8C00",
-    "#FF4500",
-    "#FF0000",
-    "#B22222",
-    "#8B0000",
+    "#4CAF50",
+    "#8BC34A",
+    "#CDDC39",
+    "#FFEB3B",
+    "#FFC107",
+    "#FF9800",
+    "#FF5722",
+    "#F44336",
+    "#E57373",
+    "#EF5350"
   ];
+
   // Normalize death count for color mapping
   const normalized = (deaths - mingdp) / (maxgdp - mingdp);
 
