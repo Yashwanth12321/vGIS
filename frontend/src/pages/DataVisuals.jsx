@@ -5,7 +5,7 @@ import data from "./TS_District_Boundary_33.json"; // Import the JSON data
 import covidData from "./gdp.json"; // Import the COVID-19 data
 import "leaflet/dist/leaflet.css";
 import "../App.css";
-const covid = () => {
+const DataVisuals = () => {
   useEffect(() => {
     const mapContainer = L.map("map", { minZoom: 8 }).setView(
       [17.0944, 79.775],
@@ -17,6 +17,27 @@ const covid = () => {
     }).addTo(mapContainer);
     const stateName = document.getElementById("state-name");
     const covidDataContainer = document.getElementById("covid-data");
+    var legend = L.control({ position: "bottomleft" });
+    legend.onAdd = function (mapContainer) {
+      var div = L.DomUtil.create("div", "legend");
+      div.innerHTML += "<h4>Tegnforklaring</h4>";
+      div.innerHTML +=
+        '<i style="background: #477AC2"></i><span>Water</span><br>';
+      div.innerHTML +=
+        '<i style="background: #448D40"></i><span>Forest</span><br>';
+      div.innerHTML +=
+        '<i style="background: #E6E696"></i><span>Land</span><br>';
+      div.innerHTML +=
+        '<i style="background: #E8E6E0"></i><span>Residential</span><br>';
+      div.innerHTML +=
+        '<i style="background: #FFFFFF"></i><span>Ice</span><br>';
+      div.innerHTML +=
+        '<i class="icon" style="background-image: url(https://d30y9cdsu7xlg0.cloudfront.net/png/194515-200.png);background-repeat: no-repeat;"></i><span>Grænse</span><br>';
+
+      return div;
+    };
+
+    legend.addTo(mapContainer);
 
     async function loadGeoJSON() {
       console.log("Data:", data); // Log the imported data
@@ -157,4 +178,4 @@ function getColor(deaths) {
   return colorRamp[colorIndex];
 }
 
-export default covid;
+export default DataVisuals;
