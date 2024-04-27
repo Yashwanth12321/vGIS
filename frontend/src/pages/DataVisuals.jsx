@@ -1,11 +1,15 @@
 // src/IndiaMap.js
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "../App.css";
 import data from "./TS_District_Boundary_33.json"; // Import the JSON data
 import covidData from "./gdp.json"; // Import the COVID-19 data
+
 const DataVisuals = () => {
+  const [clickedDistrict, setClickedDistrict] = useState(null);
+  const [remainingData, setRemainingData] = useState(null);
+
   useEffect(() => {
     const mapContainer = L.map("map", { minZoom: 8 }).setView(
       [17.0944, 79.775],
@@ -20,38 +24,41 @@ const DataVisuals = () => {
     const covidDataContainer = document.getElementById("covid-data");
     var legend = L.control({ position: "bottomleft" });
 
-    legend.onAdd = function (mapContainer) {
+    legend.onAdd = function () {
       var div = L.DomUtil.create("div", "legend");
       div.innerHTML += "<h4>Range Wise Colors</h4>";
 
-
       const maxgdp = Math.max(
-        ...covidData.records.map((state) => parseInt(state[3].replace(/,/g, "")))
+        ...covidData.records.map((state) =>
+          parseInt(state[3].replace(/,/g, ""))
+        )
       );
       const mingdp = Math.min(
-        ...covidData.records.map((state) => parseInt(state[3].replace(/,/g, "")))
+        ...covidData.records.map((state) =>
+          parseInt(state[3].replace(/,/g, ""))
+        )
       );
       const rangeSize = (maxgdp - mingdp) / 10;
-      
+
       for (let i = 0; i < 10; i++) {
-        let rangeStart = (mingdp + i * rangeSize); 
-        let rangeEnd = (mingdp + (i + 1) * rangeSize); 
-        let unitStart = 'L'; 
-        let unitEnd = 'L'; 
+        let rangeStart = mingdp + i * rangeSize;
+        let rangeEnd = mingdp + (i + 1) * rangeSize;
+        let unitStart = "L";
+        let unitEnd = "L";
         let color = getColor(rangeStart);
-      
+
         if (rangeStart <= 99999) {
-          rangeStart = rangeStart / 1000;
-          unitStart = 'T'; 
-        }else {
+          rangeStart = rangeStart / 10000;
+          unitStart = "T";
+        } else {
           rangeStart = (rangeStart / 100000).toFixed(2); // Convert to lakhs and set precision to 2 decimal places
         }
-        
+
         rangeEnd = (rangeEnd / 100000).toFixed(2);
-      
+
         div.innerHTML += `<i style="background: ${color}"></i><span>${rangeStart}${unitStart} - ${rangeEnd}${unitEnd}</span><br>`;
       }
-      
+
       return div;
     };
 
@@ -59,15 +66,14 @@ const DataVisuals = () => {
 
     async function loadGeoJSON() {
       console.log("Data:", data); // Log the imported data
-      const stateLayer = L.geoJson(data, {
+      L.geoJson(data, {
         style: function (feature) {
           if (covidData) {
             // Handle missing data
             const gdp =
               covidData?.records
-                ?.find(
-                  (state) => state[2] === feature.properties.DISTRICT_N
-                )?.[3]
+                ?.find((state) => state[2] === feature.properties.DISTRICT_N)
+                ?.[3]
                 ?.replace(/,/g, "") || 0;
 
             console.log("Deaths:", gdp);
@@ -87,22 +93,24 @@ const DataVisuals = () => {
 
           layer.on({
             mouseover: function (e) {
-              stateName.textContent = feature.properties.DISTRICT_N;
-              stateName.style.display = "block";
+              // stateName.textContent = feature.properties.DISTRICT_N;
+              // stateName.style.display = "block";
               layer.setStyle({ weight: 3 });
               popup.setLatLng(e.latlng);
               popup.openOn(mapContainer);
             },
             mouseout: function (e) {
-              stateName.textContent = "";
-              stateName.style.display = "none";
+              stateName.textContent = " ";
+              // stateName.style.display = "none";
               layer.setStyle({ weight: 2, fillOpacity: 0.5 });
               popup.removeFrom(mapContainer);
             },
             click: async function (e) {
               const stateName = feature.properties.DISTRICT_N;
-              covidDataContainer.textContent = "Loading...";
-              console.log("State Name:", stateName);
+              // covidDataContainer.textContent = "Loading...";
+              // console.log("State Name:", stateName);
+              
+              setClickedDistrict(stateName);
 
               let matchingDistrictData = null;
               for (const record of covidData.records) {
@@ -112,25 +120,8 @@ const DataVisuals = () => {
                 }
               }
 
-              let popupContent = `<b>${stateName}</b><br>`;
+              setRemainingData(matchingDistrictData);
 
-              if (matchingDistrictData) {
-                // Display income data for the matching district
-                for (const key in matchingDistrictData) {
-                  // Exclude "District Name"
-                  popupContent += `${key}: ${matchingDistrictData[key]}<br>`;
-                }
-              } else {
-                popupContent += "No income data available for this district.";
-              }
-
-              const popup = L.popup({
-                closeButton: false,
-                offset: L.point(0, -20),
-              }).setContent(popupContent);
-
-              popup.setLatLng(e.latlng);
-              popup.openOn(mapContainer);
             },
           });
         },
@@ -145,13 +136,34 @@ const DataVisuals = () => {
   }, []); // Empty dependency array to run the effect only once on mount
 
   return (
-    <div>
-      <h1 className="bg-gradient-to-r from-purple-500 to-blue-500 text-transparent bg-clip-text">
-        Chloropeth map
-      </h1>
+    <div className="container">
+      {/* <div className="map-container">
+      </div> */}
       <div id="map"></div>
       <div id="state-name"></div>
       <div id="covid-data"></div>
+      <div className="sidebar" style={{ backgroundColor: "gray" }}>
+        <h1>District Data</h1>
+        <hr />
+        {clickedDistrict
+          ? `${clickedDistrict} District`
+          : "Click on a district to view data"
+        }
+        {remainingData ? (
+            <>
+              <p>Name: {remainingData[2]}</p>
+              <p>State Number: {remainingData[0]}</p>
+              <p>GDP: {remainingData[3]}</p>
+              <p>4: {remainingData[4] || 'Not Available'}</p>
+              <p>5: {remainingData[5] || 'Not Available'}</p>
+              <p>6: {remainingData[6] || 'Not Available'}</p>
+              <p>7: {remainingData[7] || 'Not Available'}</p>
+            </>
+          ) : ( 
+                <p>Data not available</p>
+              )
+        }
+      </div>
     </div>
   );
 };
@@ -167,11 +179,15 @@ function getColor(deaths) {
   }
 
   const maxgdp = Math.max(
-    ...covidData.records.map((state) => parseInt(state[3].replace(/,/g, "")))
+    ...covidData.records.map((state) =>
+      parseInt(state[3].replace(/,/g, ""))
+    )
   );
   // Find maximum death count
   const mingdp = Math.min(
-    ...covidData.records.map((state) => parseInt(state[3].replace(/,/g, "")))
+    ...covidData.records.map((state) =>
+      parseInt(state[3].replace(/,/g, ""))
+    )
   );
   console.log(maxgdp + "  " + mingdp); // Find minimum death count
 
@@ -185,7 +201,7 @@ function getColor(deaths) {
     "#FF5722",
     "#F44336",
     "#E57373",
-    "#EF5350"
+    "#EF5350",
   ];
 
   // Normalize death count for color mapping
@@ -195,5 +211,7 @@ function getColor(deaths) {
   const colorIndex = Math.floor(normalized * (colorRamp.length - 1));
   return colorRamp[colorIndex];
 }
+
+
 
 export default DataVisuals;

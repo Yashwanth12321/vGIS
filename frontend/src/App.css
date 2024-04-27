@@ -1,12 +1,12 @@
 
 #map {
-  height: 85vh;
-  width: 75%;
+  height: 90vh;
+  width: 80%;
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  left: 10%;
-  /* transform: translate(0, -%); */
+  left: 0%;
+  /* transform: translate(0, -1); */
 }
 .legend {
   padding: 6px 8px;
@@ -44,7 +44,6 @@
 }
 
 
-
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -72,7 +71,20 @@
   text-shadow: 0 0 5px #1900ff, 0 0 10px #540368, 0 0 15px #2cd626;
 }
 
+.container {
+  display: flex;
+}
 
+.map-container {
+  flex: 2;
+}
+
+.sidebar {
+  flex: 0 0 400px; /* Reduced width */
+  background-color: white; /* Set background color to white */
+  border-left: 3px solid #ccc; /* Add a border for separation */
+  padding: 20px; 
+}
 
 
 /* Add padding */
@@ -83,3 +95,4 @@
 .page{
   overflow:auto;
 }
+
