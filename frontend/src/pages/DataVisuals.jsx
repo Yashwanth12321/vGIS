@@ -5,6 +5,7 @@ import React, { useEffect, useState } from "react";
 import "../App.css";
 import data from "./TS_District_Boundary_33.json"; // Import the JSON data
 import covidData from "./gdp.json"; // Import the COVID-19 data
+import Chart from 'chart.js/auto';
 
 const DataVisuals = () => {
   const [clickedDistrict, setClickedDistrict] = useState(null);
@@ -131,18 +132,74 @@ const DataVisuals = () => {
     loadGeoJSON();
 
     return () => {
-      mapContainer.remove();
+      mapContainer.remove(); 
     };
   }, []); // Empty dependency array to run the effect only once on mount
 
+  useEffect(() => {
+    if (remainingData) {
+      // Create or update bar chart when remainingData changes
+      const ctx = document.getElementById('barChart');
+      if (ctx) {
+        // If the canvas element exists, update the existing chart
+        const existingChart = Chart.getChart(ctx);
+        if (existingChart) {
+          existingChart.destroy(); // Destroy the existing chart instance
+        }
+        new Chart(ctx, {
+          type: 'bar',
+          data: {
+            labels: ['2018-19', '2019-20', '2020-21'],
+            datasets: [{
+              label: 'District Data',
+              data: [
+                parseInt(remainingData[3] || '0'),
+                parseInt(remainingData[4] || '0'),
+                parseInt(remainingData[5] || '0')
+              ],
+              backgroundColor: [
+                'rgba(255, 99, 132, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(255, 206, 86, 0.2)',
+              ],
+              borderColor: [
+                'rgba(255, 99, 132, 1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(255, 206, 86, 1)',
+              ],
+              borderWidth: 1
+            }]
+          },
+          options: {
+            scales: {
+              y: {
+                beginAtZero: true
+              }
+            }
+          }
+        });
+      }
+    } else {
+      // Clear the chart if remainingData is not available
+      const ctx = document.getElementById('barChart');
+      if (ctx) {
+        const existingChart = Chart.getChart(ctx);
+        if (existingChart) {
+          existingChart.destroy(); // Destroy the existing chart instance
+        }
+      }
+    }
+  }, [remainingData]);
+  
+
   return (
     <div className="container">
-      {/* <div className="map-container">
-      </div> */}
+      <div className="map-container">
+      </div>
       <div id="map"></div>
       <div id="state-name"></div>
       <div id="covid-data"></div>
-      <div className="sidebar" style={{ backgroundColor: "gray" }}>
+      <div className="sidebar" style={{ backgroundColor: "black" }}>
         <h1>District Data</h1>
         <hr />
         {clickedDistrict
@@ -163,6 +220,8 @@ const DataVisuals = () => {
                 <p>Data not available</p>
               )
         }
+      
+        <canvas id="barChart" width="400" height="400"></canvas>
       </div>
     </div>
   );
