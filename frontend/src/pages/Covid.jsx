@@ -1,8 +1,8 @@
 // src/IndiaMap.js
 import React, { useEffect } from "react";
 import L from "leaflet";
-import data from "./in.json"; // Import the JSON data
-import covidData from "./state_wise.json"; // Import the COVID-19 data
+import data from "../data/boundary_files/in.json"; // Import the JSON data
+import covidData from "../data/covid_data/state_wise.json"; // Import the COVID-19 data
 import "leaflet/dist/leaflet.css";
 import "../App.css";
 const covid = () => {

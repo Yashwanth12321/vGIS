@@ -3,8 +3,8 @@ import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import React, { useEffect, useState } from "react";
 import "../App.css";
-import data from "./TS_District_Boundary_33.json"; // Import the JSON data
-import covidData from "./gdp.json"; // Import the COVID-19 data
+import data from "../data/boundary_files/TS_District_Boundary_33.json"; // Import the JSON data
+import covidData from "../data/gdp/telangana/gdp.json"; // Import the COVID-19 data
 import Chart from "chart.js/auto";
 
 const DataVisuals = () => {
@@ -240,6 +240,13 @@ const DataVisuals = () => {
             ],
           },
           options: {
+            onClick: function (event, elements) {
+              if (elements.length > 0) {
+                const clickedElementIndex = elements[0].index;
+                console.log("Clicked on:", clickedElementIndex);
+              }
+            },
+
             scales: {
               y: {
                 beginAtZero: true,
@@ -267,7 +274,7 @@ const DataVisuals = () => {
       <div id="state-name"></div>
       <div id="covid-data"></div>
       <div className="sidebar" style={{ backgroundColor: "black" }}>
-        <h1>District Data</h1>
+        <h1>District Data Analysis</h1>
         <hr />
         {clickedDistrict
           ? `${clickedDistrict} District`
@@ -309,21 +316,18 @@ const DataVisuals = () => {
           <div className="ranking">
             <h2>Rankings</h2>
             <p>
-              Rank:{" "}
               {remainingData
                 ? findDistrictRank1(remainingData[2])
                 : "Not Available"}{" "}
               in 2018-2019.
             </p>
             <p>
-              Rank:{" "}
               {remainingData
                 ? findDistrictRank2(remainingData[2])
                 : "Not Available"}{" "}
               in 2019-2020.
             </p>
             <p>
-              Rank:{" "}
               {remainingData
                 ? findDistrictRank3(remainingData[2])
                 : "Not Available"}{" "}
