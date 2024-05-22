@@ -8,6 +8,9 @@ const Features = () => {
       <NavLink to="/deathchloropeth">Go to Chloropeth death map</NavLink>
       <br />
       <NavLink to="/datavisuals">Go to Data Visuals</NavLink>
+      <br />
+      <NavLink to="/IndiaGDP"> Go to India GDP </NavLink>
+      <br />
     </div>
   );
 };

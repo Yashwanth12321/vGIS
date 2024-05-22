@@ -5,6 +5,7 @@ import data from "../data/boundary_files/in.json"; // Import the JSON data
 import covidData from "../data/covid_data/state_wise.json"; // Import the COVID-19 data
 import "leaflet/dist/leaflet.css";
 import "../App.css";
+
 const covid = () => {
   useEffect(() => {
     const mapContainer = L.map("map", { minZoom: 4 }).setView([24.6, 85.75], 5);
