@@ -1,0 +1,28 @@
+{
+    "fields": [{"type":"int","id":"_id"},{"type":"numeric","id":"Sl No"},{"type":"text","id":"District Name"},{"type":"text","id":"Per-capita Income Current Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Current Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Current Prices 2020-21 (in Lakh) (FRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2020-21 (in Lakh) (FRE)"}],
+    "records": [
+      [1, 1, "Amritsar", "", "", "", "", "", ""],
+      [2, 2, "Barnala", "", "", "", "", "", ""],
+      [3, 3, "Bathinda", "", "", "", "", "", ""],
+      [4, 4, "Faridkot", "", "", "", "", "", ""],
+      [5, 5, "Fatehgarh Sahib", "", "", "", "", "", ""],
+      [6, 6, "Fazilka", "", "", "", "", "", ""],
+      [7, 7, "Ferozepur", "", "", "", "", "", ""],
+      [8, 8, "Gurdaspur", "", "", "", "", "", ""],
+      [9, 9, "Hoshiarpur", "", "", "", "", "", ""],
+      [10, 10, "Jalandhar", "", "", "", "", "", ""],
+      [11, 11, "Kapurthala", "", "", "", "", "", ""],
+      [12, 12, "Ludhiana", "", "", "", "", "", ""],
+      [13, 13, "Mansa", "", "", "", "", "", ""],
+      [14, 14, "Moga", "", "", "", "", "", ""],
+      [15, 15, "Mohali", "", "", "", "", "", ""],
+      [16, 16, "Muktsar", "", "", "", "", "", ""],
+      [17, 17, "Pathankot", "", "", "", "", "", ""],
+      [18, 18, "Patiala", "", "", "", "", "", ""],
+      [19, 19, "Rupnagar", "", "", "", "", "", ""],
+      [20, 20, "Sangrur", "", "", "", "", "", ""],
+      [21, 21, "Shaheed Bhagat Singh Nagar", "", "", "", "", "", ""],
+      [22, 22, "Tarn Taran", "", "", "", "", "", ""]
+    ]
+  }
+  

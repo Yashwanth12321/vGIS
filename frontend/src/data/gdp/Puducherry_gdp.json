@@ -1,0 +1,13 @@
+{
+    "fields": [{"type": "int", "id": "_id"}, {"type": "numeric", "id": "Sl No"}, {"type": "text", "id": "District Name"}, {"type": "text", "id": "Per-capita Income Current Prices 2018-19 (in Lakh) (TRE)"}, {"type": "text", "id": "Per-capita Income Current Prices 2019-20 (in Lakh) (SRE)"}, {"type": "text", "id": "Per-capita Income Current Prices 2020-21 (in Lakh) (FRE)"}, {"type": "text", "id": "Per-capita Income Constant Prices 2018-19 (in Lakh) (TRE)"}, {"type": "text", "id": "Per-capita Income Constant Prices 2019-20 (in Lakh) (SRE)"}, {"type": "text", "id": "Per-capita Income Constant Prices 2020-21 (in Lakh) (FRE)"}],
+
+      "records": [
+          [1, 1, "Karaikal", "12345", "23456", "34567", "45678", "56789", "67890"],
+          [2, 2, "Mahe", "23456", "34567", "45678", "56789", "67890", "78901"],
+          [3, 3, "Puducherry", "34567", "45678", "56789", "67890", "78901", "89012"],
+          [4, 4, "Yanam", "45678", "56789", "67890", "78901", "89012", "90123"]
+      ]
+
+  
+  }
+  

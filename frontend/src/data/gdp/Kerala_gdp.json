@@ -1,0 +1,20 @@
+{
+    "fields": [{"type":"int","id":"_id"},{"type":"numeric","id":"Sl No"},{"type":"text","id":"District Name"},{"type":"text","id":"Per-capita Income Current Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Current Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Current Prices 2020-21 (in Lakh) (FRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2020-21 (in Lakh) (FRE)"}],
+    "records": [
+      [1, 1, "Alappuzha", "23456", "34567", "45678", "56789", "67890", "78901"],
+      [2, 2, "Ernakulam", "34567", "45678", "56789", "67890", "78901", "89012"],
+      [3, 3, "Idukki", "45678", "56789", "67890", "78901", "89012", "90123"],
+      [4, 4, "Kannur", "56789", "67890", "78901", "89012", "90123", "12345"],
+      [5, 5, "Kasaragod", "67890", "78901", "89012", "90123", "12345", "23456"],
+      [6, 6, "Kollam", "78901", "89012", "90123", "12345", "23456", "34567"],
+      [7, 7, "Kottayam", "89012", "90123", "12345", "23456", "34567", "45678"],
+      [8, 8, "Kozhikode", "90123", "12345", "23456", "34567", "45678", "56789"],
+      [9, 9, "Malappuram", "12345", "23456", "34567", "45678", "56789", "67890"],
+      [10, 10, "Palakkad", "23456", "34567", "45678", "56789", "67890", "78901"],
+      [11, 11, "Pathanamthitta", "34567", "45678", "56789", "67890", "78901", "89012"],
+      [12, 12, "Thiruvananthapuram", "45678", "56789", "67890", "78901", "89012", "90123"],
+      [13, 13, "Thrissur", "56789", "67890", "78901", "89012", "90123", "12345"],
+      [14, 14, "Wayanad", "67890", "78901", "89012", "90123", "12345", "23456"]
+  ]
+  }
+  

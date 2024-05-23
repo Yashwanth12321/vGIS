@@ -1,0 +1,17 @@
+{
+    "fields": [{"type":"int","id":"_id"},{"type":"numeric","id":"Sl No"},{"type":"text","id":"District Name"},{"type":"text","id":"Per-capita Income Current Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Current Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Current Prices 2020-21 (in Lakh) (FRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2020-21 (in Lakh) (FRE)"}],
+    "records": [
+      [1, 1, "East Garo Hills", "", "", "", "", "", ""],
+      [2, 2, "West Garo Hills", "", "", "", "", "", ""],
+      [3, 3, "South Garo Hills", "", "", "", "", "", ""],
+      [4, 4, "North Garo Hills", "", "", "", "", "", ""],
+      [5, 5, "East Khasi Hills", "", "", "", "", "", ""],
+      [6, 6, "West Khasi Hills", "", "", "", "", "", ""],
+      [7, 7, "South West Khasi Hills", "", "", "", "", "", ""],
+      [8, 8, "Ri Bhoi", "", "", "", "", "", ""],
+      [9, 9, "East Jaintia Hills", "", "", "", "", "", ""],
+      [10, 10, "West Jaintia Hills", "", "", "", "", "", ""],
+      [11, 11, "South West Garo Hills", "", "", "", "", "", ""]
+    ]
+  }
+  

@@ -1,0 +1,23 @@
+{
+    "fields": [{"type":"int","id":"_id"},{"type":"numeric","id":"Sl No"},{"type":"text","id":"District Name"},{"type":"text","id":"Per-capita Income Current Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Current Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Current Prices 2020-21 (in Lakh) (FRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2020-21 (in Lakh) (FRE)"}],
+    "records": 
+    [
+      [1, 1, "Dimapur", "", "", "", "", "", ""],
+      [2, 2, "Kiphire", "", "", "", "", "", ""],
+      [3, 3, "Kohima", "", "", "", "", "", ""],
+      [4, 4, "Longleng", "", "", "", "", "", ""],
+      [5, 5, "Mokokchung", "", "", "", "", "", ""],
+      [6, 6, "Mon", "", "", "", "", "", ""],
+      [7, 7, "Peren", "", "", "", "", "", ""],
+      [8, 8, "Phek", "", "", "", "", "", ""],
+      [9, 9, "Tuensang", "", "", "", "", "", ""],
+      [10, 10, "Wokha", "", "", "", "", "", ""],
+      [11, 11, "Zunheboto", "", "", "", "", "", ""],
+      [12, 12, "Noklak", "", "", "", "", "", ""],
+      [13, 13, "Tseminyu", "", "", "", "", "", ""],
+      [14, 14, "Niuland", "", "", "", "", "", ""],
+      [15, 15, "Chumoukedima", "", "", "", "", "", ""],
+      [16, 16, "Shamator", "", "", "", "", "", ""]
+    ]
+  }
+  

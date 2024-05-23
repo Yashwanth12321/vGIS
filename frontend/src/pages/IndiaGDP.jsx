@@ -71,7 +71,7 @@ const IndiaGDP = () => {
     return (
         <div className='container1'>
             <div id="map" className="map" style={{height: '100vh', width: '90vh'}}></div>
-            <div className='dataBox'>
+            <div className='indiaBox'>
                 <h1>India GDP</h1>
                 <p>Click on a state to view its GDP</p>
             </div>

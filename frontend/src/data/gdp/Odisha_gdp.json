@@ -1,0 +1,36 @@
+{
+    "fields": [{"type":"int","id":"_id"},{"type":"numeric","id":"Sl No"},{"type":"text","id":"District Name"},{"type":"text","id":"Per-capita Income Current Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Current Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Current Prices 2020-21 (in Lakh) (FRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2020-21 (in Lakh) (FRE)"}],
+    "records": [
+      [1, 1, "Angul", "", "", "", "", "", ""],
+      [2, 2, "Balangir", "", "", "", "", "", ""],
+      [3, 3, "Balasore", "", "", "", "", "", ""],
+      [4, 4, "Bargarh", "", "", "", "", "", ""],
+      [5, 5, "Bhadrak", "", "", "", "", "", ""],
+      [6, 6, "Boudh", "", "", "", "", "", ""],
+      [7, 7, "Cuttack", "", "", "", "", "", ""],
+      [8, 8, "Deogarh", "", "", "", "", "", ""],
+      [9, 9, "Dhenkanal", "", "", "", "", "", ""],
+      [10, 10, "Gajapati", "", "", "", "", "", ""],
+      [11, 11, "Ganjam", "", "", "", "", "", ""],
+      [12, 12, "Jagatsinghpur", "", "", "", "", "", ""],
+      [13, 13, "Jajpur", "", "", "", "", "", ""],
+      [14, 14, "Jharsuguda", "", "", "", "", "", ""],
+      [15, 15, "Kalahandi", "", "", "", "", "", ""],
+      [16, 16, "Kandhamal", "", "", "", "", "", ""],
+      [17, 17, "Kendrapara", "", "", "", "", "", ""],
+      [18, 18, "Kendujhar", "", "", "", "", "", ""],
+      [19, 19, "Khordha", "", "", "", "", "", ""],
+      [20, 20, "Koraput", "", "", "", "", "", ""],
+      [21, 21, "Malkangiri", "", "", "", "", "", ""],
+      [22, 22, "Mayurbhanj", "", "", "", "", "", ""],
+      [23, 23, "Nabarangpur", "", "", "", "", "", ""],
+      [24, 24, "Nayagarh", "", "", "", "", "", ""],
+      [25, 25, "Nuapada", "", "", "", "", "", ""],
+      [26, 26, "Puri", "", "", "", "", "", ""],
+      [27, 27, "Rayagada", "", "", "", "", "", ""],
+      [28, 28, "Sambalpur", "", "", "", "", "", ""],
+      [29, 29, "Sonepur", "", "", "", "", "", ""],
+      [30, 30, "Sundargarh", "", "", "", "", "", ""]
+    ]
+  }
+  

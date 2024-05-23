@@ -4,25 +4,36 @@
   display: flex;
   flex-direction: row;
   height: 100vh;
+  background-color: black;
+  justify-content: space-around;
 }
 
 .map {
   flex: 1;
   height: 100%;
+  border-radius: 10px;
 }
 
-.vals {
+.stateBox {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-}
-
-.dataBox {
   flex: 1;
   padding: 20px;
   background-color: #ffffff;
   border-left: 1px solid #dee2e6;
-  border-radius: 10px;
+  border-radius: 10px ;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  overflow-y: auto;
+  color: black;
+}
+
+.indiaBox {
+  flex: 1;
+  padding: 20px;
+  background-color: #ffffff;
+  border-left: 1px solid #dee2e6;
+  border-radius: 10px ;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 20px;
   overflow-y: auto;
@@ -43,9 +54,7 @@
   background-color: #00164f;
 }
 
-
 /* for IndiaGDP*/
-
 
 
 
