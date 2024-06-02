@@ -3,8 +3,8 @@ import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import React, { useEffect, useState } from "react";
 import "../App.css";
-import data from "../data/boundary_files/Madhya Pradesh.json"; // Import the JSON data
-import covidData from "../data/gdp/Madhya Pradesh_gdp.json"; // Import the COVID-19 data
+import data from "../data/boundary_files/Telangana.json"; // Import the JSON data
+import covidData from "../data/gdp/Telangana_gdp.json"; // Import the COVID-19 data
 import Chart from "chart.js/auto";
 
 const DataVisuals = () => {

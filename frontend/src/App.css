@@ -16,7 +16,7 @@
 
 .stateBox {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   flex: 1;
   padding: 20px;
   background-color: #ffffff;
@@ -29,6 +29,8 @@
 }
 
 .indiaBox {
+  display: flex;
+  flex-direction: column;
   flex: 1;
   padding: 20px;
   background-color: #ffffff;
@@ -38,6 +40,62 @@
   margin: 20px;
   overflow-y: auto;
   color: black;
+}
+
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.year-section {
+  margin-bottom: 20px;
+}
+
+.year-section h3 {
+  margin-top: 10px;
+}
+
+.year-section ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.year-section li {
+  margin: 5px 0;
+}
+
+.year-dropdown {
+  margin-right: 470px;
+  padding: 10px;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  font-size: 16px;
+  color: black;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+
+.chartButton {
+  margin-left: 10px;
+  padding: 10px 20px;
+  background-color: #002379;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.chartButton:hover {
+  background-color: #00164f;
+}
+
+.controls {
+  display: flex;
+  align-items: space-between;
+  margin-top: 10px;
+  justify-content: space-between;
 }
 
 .backButton {
@@ -53,6 +111,7 @@
 .backButton:hover {
   background-color: #00164f;
 }
+
 
 /* for IndiaGDP*/
 
