@@ -1,0 +1,93 @@
+{
+  "state_gdp_contributions": {
+      "2019-2020": {
+          "Agriculture": "4037910",
+          "Forestry & logging": "401532",
+          "Fishing": "377443",
+          "Ag & Allied": "4816885",
+          "Mining & quarrying": "233232",
+          "Manufacturing": "2242856",
+          "Construction": "4001345",
+          "Electricity,gas and Water supply": "403460",
+          "Industry": "6880892",
+          "Transport,storage & communication": "3087751",
+          "Trade,hotels and restaurants": "5804536",
+          "Banking & Insurance": "1573711",
+          "Real estate,ownership of dwellings and business services": "4039505",
+          "Public administration": "1450200",
+          "Other services": "3614237"
+      },
+      "2020-2021": {
+          "Agriculture": "4028847",
+          "Forestry & logging": "426385",
+          "Fishing": "515239",
+          "Ag & Allied": "4970471",
+          "Mining & quarrying": "245200",
+          "Manufacturing": "2407915",
+          "Construction": "4397675",
+          "Electricity,gas and Water supply": "481786",
+          "Industry": "7532576",
+          "Transport,storage & communication": "3528780",
+          "Trade,hotels and restaurants": "6470774",
+          "Banking & Insurance": "1811439",
+          "Real estate,ownership of dwellings and business services": "4745652",
+          "Public administration": "2193720",
+          "Other services": "3530664"
+      },
+      "2021-2022": {
+          "Agriculture": "4309647",
+          "Forestry & logging": "482827",
+          "Fishing": "626454",
+          "Ag & Allied": "5418928",
+          "Mining & quarrying": "190791",
+          "Manufacturing": "2604175",
+          "Construction": "4664792",
+          "Electricity,gas and Water supply": "528579",
+          "Industry": "7988338",
+          "Transport,storage & communication": "4292701",
+          "Trade,hotels and restaurants": "7103733",
+          "Banking & Insurance": "2122131",
+          "Real estate,ownership of dwellings and business services": "5645198",
+          "Public administration": "2431105",
+          "Other services": "4626112"
+      },
+      "overall": [
+        {
+            "year": "2019-20",
+            "gdp_in_billion_usd": 1498.35740   ,
+            "per_capita_usd": 3794.877  ,
+            "growth_rate":  16.66       
+        },
+        {
+            "year": "2020-21",
+            "gdp_in_billion_usd": 1715.3647 ,
+            "per_capita_usd": 4310.984,
+            "growth_rate": 12.76
+        },
+        {
+            "year": "2021-22",
+            "gdp_in_billion_usd": 1944.5627 ,
+            "per_capita_usd": 4931.986,
+            "growth_rate": 10.26 
+        }
+    ]
+  },
+    "fields": [{"type":"int","id":"_id"},{"type":"numeric","id":"Sl No"},{"type":"text","id":"District Name"},{"type":"text","id":"Per-capita Income Current Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Current Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Current Prices 2020-21 (in Lakh) (FRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2020-21 (in Lakh) (FRE)"}],
+    "records": [
+      [1, 1, "Alappuzha", "23456", "34567", "45678", "56789", "67890", "78901"],
+      [2, 2, "Ernakulam", "34567", "45678", "56789", "67890", "78901", "89012"],
+      [3, 3, "Idukki", "45678", "56789", "67890", "78901", "89012", "90123"],
+      [4, 4, "Kannur", "56789", "67890", "78901", "89012", "90123", "12345"],
+      [5, 5, "Kasaragod", "67890", "78901", "89012", "90123", "12345", "23456"],
+      [6, 6, "Kollam", "78901", "89012", "90123", "12345", "23456", "34567"],
+      [7, 7, "Kottayam", "89012", "90123", "12345", "23456", "34567", "45678"],
+      [8, 8, "Kozhikode", "90123", "12345", "23456", "34567", "45678", "56789"],
+      [9, 9, "Malappuram", "12345", "23456", "34567", "45678", "56789", "67890"],
+      [10, 10, "Palakkad", "23456", "34567", "45678", "56789", "67890", "78901"],
+      [11, 11, "Pathanamthitta", "34567", "45678", "56789", "67890", "78901", "89012"],
+      [12, 12, "Thiruvananthapuram", "45678", "56789", "67890", "78901", "89012", "90123"],
+      [13, 13, "Thrissur", "56789", "67890", "78901", "89012", "90123", "12345"],
+      [14, 14, "Wayanad", "67890", "78901", "89012", "90123", "12345", "23456"]
+  ]
+  }
+  

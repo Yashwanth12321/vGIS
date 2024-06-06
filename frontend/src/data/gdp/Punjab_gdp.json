@@ -1,0 +1,102 @@
+{
+  "state_gdp_contributions": {
+      "2019-2020": {
+          "Agriculture": "7642451",
+          "Forestry": "477716",
+          "Fishing": "67598",
+          "Ag & Allied": "8187765",
+          "Mining": "772",
+          "Manufacturing": "4573776",
+          "Construction": "1932141",
+          "Electricity,gas and Water supply": "527848",
+          "Industry": "7034537",
+          "Transport,storage & communication": "1633194",
+          "Trade,hotels and restaurants": "3342531",
+          "Banking & Insurance": "1770103",
+          "Real estate,ownership of dwellings and business services": "1663704",
+          "Public administration": "1482366",
+          "Other services": "3397733"
+      },
+      "2020-2021": {
+          "Agriculture": "8341539",
+          "Forestry": "497923",
+          "Fishing": "92114",
+          "Ag & Allied": "8931576",
+          "Mining": "838",
+          "Manufacturing": "4969995",
+          "Construction": "2091999",
+          "Electricity,gas and Water supply": "563328",
+          "Industry": "7626160",
+          "Transport,storage & communication": "1813528",
+          "Trade,hotels and restaurants": "3626312",
+          "Banking & Insurance": "2133768",
+          "Real estate,ownership of dwellings and business services": "1856361",
+          "Public administration": "1714208",
+          "Other services": "4053734"
+      },
+      "2021-2022": {
+          "Agriculture": "8697340",
+          "Forestry": "527749",
+          "Fishing": "109791",
+          "Ag & Allied": "9334880",
+          "Mining": "877",
+          "Manufacturing": "5367744",
+          "Construction": "2265844",
+          "Electricity,gas and Water supply": "607606",
+          "Industry": "8242071",
+          "Transport,storage & communication": "2017360",
+          "Trade,hotels and restaurants": "3975526",
+          "Banking & Insurance": "2599388",
+          "Real estate,ownership of dwellings and business services": "2050721",
+          "Public administration": "1929341",
+          "Other services": "4833287"
+      },
+      "overall": [
+        {
+            "year": "2019-20",
+            "gdp_in_billion_usd": 61035,
+            "per_capita_usd": 37553,
+            "growth_rate":  15.42
+        },
+        {
+            "year": "2020-21",
+            "gdp_in_billion_usd": 52879,
+            "per_capita_usd":  33349,
+            "growth_rate": 13.27
+        },
+        {
+            "year": "2021-22",
+            "gdp_in_billion_usd": 46686,
+            "per_capita_usd": 29819,
+            "growth_rate":   17.08
+        }
+    ]
+  },
+    "fields": [{"type":"int","id":"_id"},{"type":"numeric","id":"Sl No"},{"type":"text","id":"District Name"},{"type":"text","id":"Per-capita Income Current Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Current Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Current Prices 2020-21 (in Lakh) (FRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2020-21 (in Lakh) (FRE)"}],
+    "records":
+    [
+        [1, 1, "Amritsar", "124567", "135678", "145689", "157890", "169012", "178901"],
+        [2, 2, "Barnala", "132456", "143567", "156789", "167890", "179012", "187901"],
+        [3, 3, "Bathinda", "143567", "154678", "167890", "179012", "181234", "198901"],
+        [4, 4, "Faridkot", "154678", "167890", "179012", "181234", "193456", "207890"],
+        [5, 5, "Fatehgarh Sahib", "165789", "178901", "181234", "193456", "204567", "218901"],
+        [6, 6, "Fazilka", "176890", "189012", "191234", "204567", "215678", "227890"],
+        [7, 7, "Ferozepur", "187901", "198012", "201234", "215678", "225789", "238901"],
+        [8, 8, "Gurdaspur", "198012", "209123", "211234", "225789", "236890", "247901"],
+        [9, 9, "Hoshiarpur", "134567", "145678", "157890", "169012", "171234", "187901"],
+        [10, 10, "Jalandhar", "145678", "156789", "169012", "171234", "183456", "198901"],
+        [11, 11, "Kapurthala", "156789", "167890", "179012", "181234", "193476", "207890"],
+        [12, 12, "Ludhiana", "167890", "178901", "181234", "193456", "204567", "218901"],
+        [13, 13, "Mansa", "178901", "189012", "191234", "204567", "215674", "227890"],
+        [14, 14, "Moga", "189012", "199123", "201234", "21567", "25789", "138901"],
+        [15, 15, "Mohali", "199123", "210234", "211345", "225789", "236890", "247901"],
+        [16, 16, "Muktsar", "123456", "134567", "145678", "15789", "169012", "187901"],
+        [17, 17, "Pathankot", "134567", "145678", "156789", "69012", "181234", "198901"],
+        [18, 18, "Patiala", "145678", "156789", "167890", "17234", "183456", "207890"],
+        [19, 19, "Rupnagar", "156789", "167890", "178901", "81234", "193456", "218901"],
+        [20, 20, "Sangrur", "167890", "178901", "189012", "91234", "204567", "227890"],
+        [21, 21, "Shaheed Bhagat Singh Nagar", "178931", "189012", "199123", "204567", "215678", "238901"],
+        [22, 22, "Tarn Taran", "189012", "199123", "210234", "215678", "225789", "247901"]
+        
+]
+}

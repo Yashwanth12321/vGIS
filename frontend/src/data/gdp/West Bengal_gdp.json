@@ -1,0 +1,101 @@
+{
+  "state_gdp_contributions": {
+      "2019-2020": {
+          "Agriculture": "11088402",
+          "Forestry": "663595",
+          "Fishing": "1971363",
+          "Ag & Allied": "13723360",
+          "Mining": "832304",
+          "Manufacturing": "5249741",
+          "Construction": "3211014",
+          "Electricity,gas and Water supply": "1154367",
+          "Industry": "10447426",
+          "Transport": "4621337",
+          "Trade,hotels and restaurants": "9541111",
+          "Banking & Insurance": "3820359",
+          "Real estate,ownership of dwellings and business services": "5737116",
+          "Public administration": "2952203",
+          "Other services": "9488141"
+      },
+      "2020-2021": {
+          "Agriculture": "13262435",
+          "Forestry": "914689",
+          "Fishing": "2474168",
+          "Ag & Allied": "16651292",
+          "Mining": "895955",
+          "Manufacturing": "5804235",
+          "Construction": "3446437.13",
+          "Electricity,gas and Water supply": "1647393",
+          "Industry": "11794020.13",
+          "Transport": "5345295.606",
+          "Trade,hotels and restaurants": "10654559.34",
+          "Banking & Insurance": "4244419",
+          "Real estate,ownership of dwellings and business services": "6885569",
+          "Public administration": "3304256",
+          "Other services": "11776713"
+      },
+      "2021-2022": {
+          "Agriculture": "15063466",
+          "Forestry": "1287300",
+          "Fishing": "2561786",
+          "Ag & Allied": "18912552",
+          "Mining": "1007315",
+          "Manufacturing": "6211862",
+          "Construction": "3947472.61",
+          "Electricity,gas and Water supply": "1801921",
+          "Industry": "12968570.61",
+          "Transport": "6306404.068",
+          "Trade,hotels and restaurants": "11348331.34",
+          "Banking & Insurance": "4566146",
+          "Real estate,ownership of dwellings and business services": "8181727",
+          "Public administration": "3583554",
+          "Other services": "14219499"
+      },
+      "overall": [
+        {
+            "year": "2019-20",
+            "gdp_in_billion_usd": 3539.6723,
+            "per_capita_usd":  26626,
+            "growth_rate":  7.71
+        },
+        {
+            "year": "2020-21",
+            "gdp_in_billion_usd": 3078.9532,
+            "per_capita_usd": 24720,
+            "growth_rate":  5.39
+        },
+        {
+            "year": "2021-22",
+            "gdp_in_billion_usd": 2645.4242,
+            "per_capita_usd": 23456,
+            "growth_rate": 7.73
+        }
+    ]
+  },
+
+
+    "fields": [{"type": "int", "id": "_id"}, {"type": "numeric", "id": "Sl No"}, {"type": "text", "id": "District Name"}, {"type": "text", "id": "Per-capita Income Current Prices 2018-19 (in Lakh) (TRE)"}, {"type": "text", "id": "Per-capita Income Current Prices 2019-20 (in Lakh) (SRE)"}, {"type": "text", "id": "Per-capita Income Current Prices 2020-21 (in Lakh) (FRE)"}, {"type": "text", "id": "Per-capita Income Constant Prices 2018-19 (in Lakh) (TRE)"}, {"type": "text", "id": "Per-capita Income Constant Prices 2019-20 (in Lakh) (SRE)"}, {"type": "text", "id": "Per-capita Income Constant Prices 2020-21 (in Lakh) (FRE)"}],
+    "records": [
+     [1, 1, "Alipurduar", "98303", "140670", "107775", "179832", "86013", "120438"],
+      [2, 2, "Bankura", "111090", "183528", "144766", "87282", "153586", "179694"],
+      [3, 3, "Birbhum", "93794", "181863", "153199", "112227", "156015", "100453"],
+      [4, 4, "Cooch Behar", "78047", "187493", "91362", "101982", "81134", "109413"],
+      [5, 5, "Dakshin Dinajpur (South Dinajpur)", "114265", "108634", "140763", "103252", "183014", "161760"],
+      [6, 6, "Darjeeling", "144335", "108117", "198359", "110412", "110413", "166870"],
+      [7, 7, "Hooghly", "197445", "185420", "193742", "133705", "146123", "78160"],
+      [8, 8, "Howrah", "158018", "113866", "120013", "178498", "159552", "158031"],
+      [9, 9, "Jalpaiguri", "159553", "112071", "189504", "75712", "142267", "94413"],
+      [10, 10, "Jhargram", "161211", "93887", "174520", "190783", "147002", "95308"],
+      [11, 11, "Kalimpong", "127418", "109622", "152101", "180926", "83507", "103883"],
+      [12, 12, "Kolkata", "111286", "149683", "177438", "119740", "94130", "120519"],
+      [13, 13, "Malda", "159410", "192807", "83998", "177441", "92337", "102077"],
+      [14, 14, "Murshidabad", "154032", "119458", "148630", "150689", "94000", "188089"],
+      [15, 15, "Nadia", "196395", "101664", "141589", "115737", "112171", "131127"],
+      [16, 16, "North 24 Parganas", "89386", "172575", "149003", "178197", "128669", "186421"],
+      [17, 17, "Paschim Medinipur (West Medinipur)", "190236", "130711", "194827", "102035", "138517", "163890"],
+      [18, 18, "Purba Medinipur (East Medinipur)", "179854", "194198", "107529", "98183", "98830", "182319"],
+      [19, 19, "Purulia", "142222", "107666", "129415", "110725", "138253", "170406"],
+      [20, 20, "South 24 Parganas", "185354", "198920", "108035", "96900", "177161", "168741"],
+      [21, 21, "Uttar Dinajpur (North Dinajpur)", "171655", "95746", "122752", "150147", "166914", "135949"]
+  ]
+}

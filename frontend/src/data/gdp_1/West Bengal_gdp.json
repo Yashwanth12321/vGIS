@@ -1,0 +1,28 @@
+{
+    "fields": [{"type": "int", "id": "_id"}, {"type": "numeric", "id": "Sl No"}, {"type": "text", "id": "District Name"}, {"type": "text", "id": "Per-capita Income Current Prices 2018-19 (in Lakh) (TRE)"}, {"type": "text", "id": "Per-capita Income Current Prices 2019-20 (in Lakh) (SRE)"}, {"type": "text", "id": "Per-capita Income Current Prices 2020-21 (in Lakh) (FRE)"}, {"type": "text", "id": "Per-capita Income Constant Prices 2018-19 (in Lakh) (TRE)"}, {"type": "text", "id": "Per-capita Income Constant Prices 2019-20 (in Lakh) (SRE)"}, {"type": "text", "id": "Per-capita Income Constant Prices 2020-21 (in Lakh) (FRE)"}],
+    "records": [
+      [1, 1, "Alipurduar", "", "", "", "", "", ""],
+      [2, 2, "Bankura", "", "", "", "", "", ""],
+      [3, 3, "Birbhum", "", "", "", "", "", ""],
+      [4, 4, "Cooch Behar", "", "", "", "", "", ""],
+      [5, 5, "Dakshin Dinajpur (South Dinajpur)", "", "", "", "", "", ""],
+      [6, 6, "Darjeeling", "", "", "", "", "", ""],
+      [7, 7, "Hooghly", "", "", "", "", "", ""],
+      [8, 8, "Howrah", "", "", "", "", "", ""],
+      [9, 9, "Jalpaiguri", "", "", "", "", "", ""],
+      [10, 10, "Jhargram", "", "", "", "", "", ""],
+      [11, 11, "Kalimpong", "", "", "", "", "", ""],
+      [12, 12, "Kolkata", "", "", "", "", "", ""],
+      [13, 13, "Malda", "", "", "", "", "", ""],
+      [14, 14, "Murshidabad", "", "", "", "", "", ""],
+      [15, 15, "Nadia", "", "", "", "", "", ""],
+      [16, 16, "North 24 Parganas", "", "", "", "", "", ""],
+      [17, 17, "Paschim Medinipur (West Medinipur)", "", "", "", "", "", ""],
+      [18, 18, "Purba Medinipur (East Medinipur)", "", "", "", "", "", ""],
+      [19, 19, "Purulia", "", "", "", "", "", ""],
+      [20, 20, "South 24 Parganas", "", "", "", "", "", ""],
+      [21, 21, "Uttar Dinajpur (North Dinajpur)", "", "", "", "", "", ""]
+    ]
+  }
+
+  

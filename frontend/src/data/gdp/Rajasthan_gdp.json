@@ -1,0 +1,112 @@
+{
+  "state_gdp_contributions": {
+      "2019-2020": {
+          "Agriculture": "11739986",
+          "Forestry": "1434554",
+          "Fishing": "37412",
+          "Ag & Allied": "13211952",
+          "Mining": "2244396",
+          "Manufacturing": "5963513",
+          "Construction": "4374724",
+          "Electricity,gas and Water supply": "1077135",
+          "Industry": "13659769",
+          "Transport": "2219257",
+          "Trade,hotels and restaurants": "6661778",
+          "Banking & Insurance": "1530353",
+          "Real estate,ownership of dwellings and business services": "3684993",
+          "Public administration": "1459257",
+          "Other services": "4590480"
+      },
+      "2020-2021": {
+          "Agriculture": "13026034.05",
+          "Forestry": "1515020",
+          "Fishing": "42474",
+          "Ag & Allied": "14583528.05",
+          "Mining": "2314001.442",
+          "Manufacturing": "5884610.225",
+          "Construction": "4717308.911",
+          "Electricity,gas and Water supply": "1343134.4",
+          "Industry": "14259054.98",
+          "Transport": "2572130.89",
+          "Trade,hotels and restaurants": "6889623.522",
+          "Banking & Insurance": "1834893",
+          "Real estate,ownership of dwellings and business services": "4292411.678",
+          "Public administration": "1694516",
+          "Other services": "5635295.88"
+      },
+      "2021-2022": {
+          "Agriculture": "14086091",
+          "Forestry": "1677523",
+          "Fishing": "49683",
+          "Ag & Allied": "15813297",
+          "Mining": "2490371",
+          "Manufacturing": "6161266",
+          "Construction": "5181700",
+          "Electricity,gas and Water supply": "1572040",
+          "Industry": "15405377",
+          "Transport": "2929157",
+          "Trade,hotels and restaurants": "7331455",
+          "Banking & Insurance": "2106457",
+          "Real estate,ownership of dwellings and business services": "4961841",
+          "Public administration": "1997281",
+          "Other services": "6909994"
+      },
+      "overall": [
+        {
+            "year": "2019-20",
+            "gdp_in_billion_usd": 28885,
+            "per_capita_usd": 37553,
+            "growth_rate":  6.98
+        },
+        {
+            "year": "2020-21",
+            "gdp_in_billion_usd": 27001,
+            "per_capita_usd":  33349,
+            "growth_rate": 12.57
+        },
+        {
+            "year": "2021-22",
+            "gdp_in_billion_usd": 23986,
+            "per_capita_usd": 29819,
+            "growth_rate":  13.13
+        }
+    ]
+
+  },
+  "fields": [{"type":"int","id":"_id"},{"type":"numeric","id":"Sl No"},{"type":"text","id":"District Name"},{"type":"text","id":"Per-capita Income Current Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Current Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Current Prices 2020-21 (in Lakh) (FRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2020-21 (in Lakh) (FRE)"}],
+  "records": [
+    [1, 1, "Ajmer", "121234", "134567", "145678", "156789", "167890", "178901"],
+    [2, 2, "Alwar", "130543", "120553", "130563", "140573", "150583", "160593"],
+    [3, 3, "Banswara", "156789", "145678", "123456", "112345", "134567", "123456"],
+    [4, 4, "Baran", "178901", "112345", "123456", "134567", "145678", "156789"],
+    [5, 5, "Barmer", "134567", "178901", "112345", "123456", "134567", "145678"],
+    [6, 6, "Bharatpur", "145678", "156789", "167890", "178901", "112345", "123456"],
+    [7, 7, "Bhilwara", "134567", "178901", "112345", "123456", "134567", "145678"],
+    [8, 8, "Bikaner", "112345", "123456", "134567", "145678", "156789", "167890"],
+    [9, 9, "Bundi", "178901", "112345", "123456", "134567", "145678", "156789"],
+    [10, 10, "Chittorgarh", "156789", "167890", "178901", "112345", "123456", "134567"],
+    [11, 11, "Churu", "123456", "134567", "145678", "156789", "167890", "178901"],
+    [12, 12, "Dausa", "145678", "156789", "167890", "178901", "112345", "123456"],
+    [13, 13, "Dholpur", "134567", "145678", "156789", "167890", "178901", "112345"],
+    [14, 14, "Dungarpur", "167890", "178901", "112345", "123456", "134567", "145678"],
+    [15, 15, "Ganganagar", "112345", "123456", "134567", "145678", "156789", "167890"],
+    [16, 16, "Hanumangarh", "178901", "112345", "123456", "134567", "145678", "156789"],
+    [17, 17, "Jaipur", "134567", "145678", "156789", "167890", "178901", "112345"],
+    [18, 18, "Jaisalmer", "145678", "156789", "167890", "178901", "112345", "123456"],
+    [19, 19, "Jalore", "167890", "178901", "112345", "123456", "134567", "145678"],
+    [20, 20, "Jhalawar", "112345", "123456", "134567", "145678", "156789", "167890"],
+    [21, 21, "Jhunjhunu", "178901", "112345", "123456", "134567", "145678", "156789"],
+    [22, 22, "Jodhpur", "134567", "145678", "156789", "167890", "178901", "112345"],
+    [23, 23, "Karauli", "145678", "156789", "167890", "178901", "112345", "123456"],
+    [24, 24, "Kota", "167890", "178901", "112345", "123456", "134567", "145678"],
+    [25, 25, "Nagaur", "112345", "123456", "134567", "145678", "156789", "167890"],
+    [26, 26, "Pali", "178901", "112345", "123456", "134567", "145678", "156789"],
+    [27, 27, "Pratapgarh", "134567", "145678", "156789", "167890", "178901", "112345"],
+    [28, 28, "Rajsamand", "145678", "156789", "167890", "178901", "112345", "123456"],
+    [29, 29, "Sawai Madhopur", "167890", "178901", "112345", "123456", "134567", "145678"],
+    [30, 30, "Sikar", "112345", "123456", "134567", "145678", "156789", "167890"],
+    [31, 31, "Sirohi", "178901", "112345", "123456", "134567", "145678", "156789"],
+    [32, 32, "Tonk", "134567", "145678", "156789", "167890", "178901", "112345"],
+    [33, 33, "Udaipur", "145678", "156789", "167890", "178901", "112345", "123456"]
+]
+}

@@ -1,0 +1,101 @@
+
+{
+  "state_gdp_contributions": {
+      "2021-2022": {
+          "Agriculture": "38836",
+          "Forestry": "2226",
+          "Fishing": "16541",
+          "Ag & Allied": "57603",
+
+          "Mining": "1609",
+          "Manufacturing": "4012",
+          "Construction": "161791",
+          "Electricity,gas and Water supply": "14089",
+          "Industry": "181502",
+
+          "Transport": "109609",
+          "Trade,hotels and restaurants": "38872",
+          "Banking": "12661",
+          "Real estate": "42617",
+          "Public Administration": "86465",
+          "Other Services": "85630"
+      },
+      "2020-2021": {
+          "Agriculture": "36918",
+          "Forestry": "2323",
+          "Fishing": "16090",
+          "Ag & Allied": "55331",
+
+          "Mining": "1629",
+          "Manufacturing": "4973",
+          "Construction": "139697",
+          "Electricity,gas and Water supply": "13928",
+          "Industry": "160227",
+
+          "Transport": "100173",
+          "Trade,hotels and restaurants": "36757",
+          "Banking": "11871",
+          "Real estate": "37774",
+          "Public Administration": "80511",
+          "Other Services": "80608"
+      },
+      "2019-2020": {
+          "Agriculture": "34935",
+          "Forestry": "2667",
+          "Fishing": "15456",
+          "Ag & Allied": "53058",
+
+          "Mining": "1597",
+          "Manufacturing": "4596",
+          "Construction": "116058",
+          "Electricity,gas and Water supply": "12460",
+          "Industry": "134711",
+
+          "Transport": "87885",
+          "Trade,hotels and restaurants": "32919",
+          "Banking": "13310",
+          "Real estate": "31080",
+          "Public Administration": "72580",
+          "Other Services": "73847"
+      },
+      "overall": [
+          {
+              "year": "2019-20",
+              "gdp_in_billion_usd": 2175.602,
+              "per_capita_usd":  44304.1638,
+              "growth_rate":  8.26
+          },
+          {
+              "year": "2020-21",
+              "gdp_in_billion_usd": 2371.589,
+              "per_capita_usd": 49622.2197,
+              "growth_rate": 9.25
+          },
+          {
+              "year": "2021-22",
+              "gdp_in_billion_usd": 2650.421,
+              "per_capita_usd": 50815.1271,
+              "growth_rate": 10.986
+          }
+      ]
+  },
+
+
+"fields": [
+  {"type": "int", "id": "_id"},
+  {"type": "numeric", "id": "Sl No"},
+  {"type": "text", "id": "District Name"},
+  {"type": "text", "id": "Per-capita Income Current Prices 2018-19 (in Lakh) (TRE)"},
+  {"type": "text", "id": "Per-capita Income Current Prices 2019-20 (in Lakh) (SRE)"},
+  {"type": "text", "id": "Per-capita Income Current Prices 2020-21 (in Lakh) (FRE)"},
+  {"type": "text", "id": "Per-capita Income Constant Prices 2018-19 (in Lakh) (TRE)"},
+  {"type": "text", "id": "Per-capita Income Constant Prices 2019-20 (in Lakh) (SRE)"},
+  {"type": "text", "id": "Per-capita Income Constant Prices 2020-21 (in Lakh) (FRE)"}
+],
+"records": [
+  [1, 1, "Nicobar", "12345", "23456", "34567", "45678", "56789", "67890"],
+  [2, 2, "North and Middle Andaman", "23456", "34567", "45678", "56789", "67890", "78901"],
+  [3, 3, "South Andaman", "34567", "45678", "56789", "67890", "78901", "89012"]
+]
+}
+

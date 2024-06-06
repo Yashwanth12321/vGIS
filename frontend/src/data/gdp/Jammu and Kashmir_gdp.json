@@ -1,0 +1,101 @@
+{
+  "state_gdp_contributions": {
+    "2019-2020": {
+      "Agriculture": 1485203,
+      "Forestry & logging": 199549,
+      "Fishing": 34574,
+      "Ag & Allied": 1719326,
+      "Mining & quarrying": 51799,
+      "Manufacturing": 499638,
+      "Construction": 939753,
+      "Electricity,gas and Water supply": 527752,
+      "Industry": 2018942,
+      "Transport,storage & communication": 300892,
+      "Trade,hotels and restaurants": 571420,
+      "Banking & Insurance": 286430,
+      "Real estate,ownership of dwellings and business services": 438296,
+      "Public administration": 1267251,
+      "Other services": 1089090
+    },
+    "2020-2021": {
+      "Agriculture": 1878524,
+      "Forestry & logging": 201597,
+      "Fishing": 36723,
+      "Ag & Allied": 2116844,
+      "Mining & quarrying": 52155,
+      "Manufacturing": 539518,
+      "Construction": 1022628,
+      "Electricity,gas and Water supply": 569048,
+      "Industry": 2183348,
+      "Transport,storage & communication": 319044,
+      "Trade,hotels and restaurants": 628827,
+      "Banking & Insurance": 325380,
+      "Real estate,ownership of dwellings and business services": 482337,
+      "Public administration": 1466699,
+      "Other services": 1234511
+    },
+    "2021-2022": {
+      "Agriculture": 1704882,
+      "Forestry & logging": 191520,
+      "Fishing": 33925,
+      "Ag & Allied": 1930327,
+      "Mining & quarrying": 18458,
+      "Manufacturing": 542439,
+      "Construction": 1074737,
+      "Electricity,gas and Water supply": 599794,
+      "Industry": 2235428,
+      "Transport,storage & communication": 331022,
+      "Trade,hotels and restaurants": 589389,
+      "Banking & Insurance": 343276,
+      "Real estate,ownership of dwellings and business services": 450506,
+      "Public administration": 1606620,
+      "Other services": 1305570
+    },
+    "overall": [
+      {
+          "year": "2019-20",
+          "gdp_in_billion_usd": 2653.75698     ,
+          "per_capita_usd": 2079.369 ,
+          "growth_rate": 19.36      
+      },
+      {
+          "year": "2020-21",
+          "gdp_in_billion_usd": 2903.0246,
+          "per_capita_usd":2242.2876,
+          "growth_rate": 9.39
+      },
+      {
+          "year": "2021-22",
+          "gdp_in_billion_usd": 3179.35367 ,
+          "per_capita_usd": 2421.8724,
+          "growth_rate": 9.52
+      }
+  ]
+  },
+    "fields": [{"type": "int", "id": "_id"}, {"type": "numeric", "id": "Sl No"}, {"type": "text", "id": "District Name"}, {"type": "text", "id": "Per-capita Income Current Prices 2018-19 (in Lakh) (TRE)"}, {"type": "text", "id": "Per-capita Income Current Prices 2019-20 (in Lakh) (SRE)"}, {"type": "text", "id": "Per-capita Income Current Prices 2020-21 (in Lakh) (FRE)"}, {"type": "text", "id": "Per-capita Income Constant Prices 2018-19 (in Lakh) (TRE)"}, {"type": "text", "id": "Per-capita Income Constant Prices 2019-20 (in Lakh) (SRE)"}, {"type": "text", "id": "Per-capita Income Constant Prices 2020-21 (in Lakh) (FRE)"}],
+
+      "records": [
+        [1, 1, "Anantnag", "12345", "23456", "34567", "45678", "56789", "67890"],
+        [2, 2, "Bandipora", "23456", "34567", "45678", "56789", "67890", "12345"],
+        [3, 3, "Baramulla", "34567", "45678", "56789", "67890", "12345", "23456"],
+        [4, 4, "Budgam", "45678", "56789", "67890", "12345", "23456", "34567"],
+        [5, 5, "Doda", "56789", "67890", "12345", "23456", "34567", "45678"],
+        [6, 6, "Ganderbal", "67890", "12345", "23456", "34567", "45678", "56789"],
+        [7, 7, "Jammu", "12345", "23456", "34567", "45678", "56789", "67890"],
+        [8, 8, "Kathua", "23456", "34567", "45678", "56789", "67890", "12345"],
+        [9, 9, "Kishtwar", "34567", "45678", "56789", "67890", "12345", "23456"],
+        [10, 10, "Kulgam", "45678", "56789", "67890", "12345", "23456", "34567"],
+        [11, 11, "Kupwara", "56789", "67890", "12345", "23456", "34567", "45678"],
+        [12, 12, "Poonch", "67890", "12345", "23456", "34567", "45678", "56789"],
+        [13, 13, "Pulwama", "12345", "23456", "34567", "45678", "56789", "67890"],
+        [14, 14, "Rajouri", "23456", "34567", "45678", "56789", "67890", "12345"],
+        [15, 15, "Ramban", "34567", "45678", "56789", "67890", "12345", "23456"],
+        [16, 16, "Reasi", "45678", "56789", "67890", "12345", "23456", "34567"],
+        [17, 17, "Samba", "56789", "67890", "12345", "23456", "34567", "45678"],
+        [18, 18, "Shopian", "67890", "12345", "23456", "34567", "45678", "56789"],
+        [19, 19, "Srinagar", "12345", "23456", "34567", "45678", "56789", "67890"],
+        [20, 20, "Udhampur", "23456", "34567", "45678", "56789", "67890", "12345"]
+      ]
+    
+  }
+  

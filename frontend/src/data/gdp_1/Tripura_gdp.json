@@ -1,0 +1,14 @@
+{
+    "fields": [{"type":"int","id":"_id"},{"type":"numeric","id":"Sl No"},{"type":"text","id":"District Name"},{"type":"text","id":"Per-capita Income Current Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Current Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Current Prices 2020-21 (in Lakh) (FRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2020-21 (in Lakh) (FRE)"}],
+    "records": [
+      [1, 1, "Dhalai", "", "", "", "", "", ""],
+      [2, 2, "Gomati", "", "", "", "", "", ""],
+      [3, 3, "Khowai", "", "", "", "", "", ""],
+      [4, 4, "North Tripura", "", "", "", "", "", ""],
+      [5, 5, "Sepahijala", "", "", "", "", "", ""],
+      [6, 6, "South Tripura", "", "", "", "", "", ""],
+      [7, 7, "Unakoti", "", "", "", "", "", ""],
+      [8, 8, "West Tripura", "", "", "", "", "", ""]
+    ]
+  }
+  

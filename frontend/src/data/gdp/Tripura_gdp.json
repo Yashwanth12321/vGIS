@@ -1,0 +1,90 @@
+{
+  "state_gdp_contributions": {
+      "2019-2020": {
+          "Agriculture": "319728",
+          "Forestry": "85068",
+          "Fishing": "48825",
+          "Ag & Allied": "453621",
+          "Mining": "45677",
+          "Manufacturing": "59370",
+          "Construction": "313832",
+          "Electricity,gas and Water supply": "32598",
+          "Industry": "451477",
+          "Transport": "86579",
+          "Trade,hotels and restaurants": "266690",
+          "Banking & Insurance": "57118",
+          "Real estate,ownership of dwellings and business services": "115201",
+          "Public administration": "240295",
+          "Other services": "326410"
+      },
+      "2020-2021": {
+          "Agriculture": "385295",
+          "Forestry": "94352",
+          "Fishing": "64141",
+          "Ag & Allied": "543788",
+          "Mining": "52766",
+          "Manufacturing": "63619",
+          "Construction": "341813",
+          "Electricity,gas and Water supply": "36857",
+          "Industry": "495055",
+          "Transport": "100915",
+          "Trade,hotels and restaurants": "310700",
+          "Banking & Insurance": "62375",
+          "Real estate,ownership of dwellings and business services": "116279",
+          "Public administration": "270252",
+          "Other services": "370343"
+      },
+      "2021-2022": {
+          "Agriculture": "431530",
+          "Forestry": "117940",
+          "Fishing": "77793",
+          "Ag & Allied": "627264",
+          "Mining": "62971",
+          "Manufacturing": "69296",
+          "Construction": "381609",
+          "Electricity,gas and Water supply": "38600",
+          "Industry": "552475",
+          "Transport": "123224",
+          "Trade,hotels and restaurants": "388375",
+          "Banking & Insurance": "79216",
+          "Real estate,ownership of dwellings and business services": "145349",
+          "Public administration": "302128",
+          "Other services": "462929"
+      },
+      "overall": [
+        {
+            "year": "2019-20",
+            "gdp_in_billion_usd": 10821.9721,
+            "per_capita_usd": 28806,
+            "growth_rate": 4.83
+        },
+        {
+            "year": "2020-21",
+            "gdp_in_billion_usd": 10322,
+            "per_capita_usd":  25700,
+            "growth_rate": 9.95
+        },
+        {
+            "year": "2021-22",
+            "gdp_in_billion_usd": 9388.0323,
+            "per_capita_usd": 27816,
+            "growth_rate": 13.15
+        }
+    ]
+
+
+  },
+    "fields": [{"type":"int","id":"_id"},{"type":"numeric","id":"Sl No"},{"type":"text","id":"District Name"},{"type":"text","id":"Per-capita Income Current Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Current Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Current Prices 2020-21 (in Lakh) (FRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2020-21 (in Lakh) (FRE)"}],
+    "records": 
+     [
+        [1, 1, "Dhalai", "102345", "110987", "120456", "130789", "140236", "150987"],
+        [2, 2, "Gomati", "134567", "123456", "145678", "156789", "167890", "178901"],
+        [3, 3, "Khowai", "145802", "135790", "155813", "165824", "175835", "185846"],
+        [4, 4, "North Tripura", "157369", "147258", "167480", "177591", "187602", "197713"],
+        [5, 5, "Sepahijala", "169468", "159357", "179579", "189680", "199791", "189802"],
+        [6, 6, "South Tripura", "180605", "170594", "160483", "190716", "100827", "110938"],
+        [7, 7, "Unakoti", "100526", "170493", "180504", "110637", "120748", "190515"],
+        [8, 8, "West Tripura", "180524", "190513", "100535", "110546", "120557", "130668"]
+        
+]
+}

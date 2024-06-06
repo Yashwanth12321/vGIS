@@ -1,0 +1,110 @@
+{
+  "state_gdp_contributions": {
+      "2019-2020": {
+          "Agriculture": 7084784,
+          "Forestry & logging": 1183187,
+          "Fishing": 309015,
+          "Ag & Allied": 8576985,
+          "Mining & quarrying": 398904,
+          "Manufacturing": 7464415,
+          "Construction": 4864079,
+          "Electricity,gas and Water supply": 1041974,
+          "Industry": 13769372,
+          "Transport,storage & communication": 3771811,
+          "Trade,hotels and restaurants": 6908903,
+          "Banking & Insurance": 3044474,
+          "Real estate,ownership of dwellings and business services": 9502480,
+          "Public administration": 1804240,
+          "Other services": 4889009
+      },
+      "2020-2021": {
+          "Agriculture": 8771625,
+          "Forestry & logging": 1341966,
+          "Fishing": 383645,
+          "Ag & Allied": 10497236,
+          "Mining & quarrying": 513486,
+          "Manufacturing": 8031785,
+          "Construction": 5405811,
+          "Electricity,gas and Water supply": 1216891,
+          "Industry": 15167973,
+          "Transport,storage & communication": 4724222,
+          "Trade,hotels and restaurants": 7478954,
+          "Banking & Insurance": 3635703,
+          "Real estate,ownership of dwellings and business services": 11633999,
+          "Public administration": 2014286,
+          "Other services": 6308330
+      },
+      "2021-2022": {
+          "Agriculture": 10357361,
+          "Forestry & logging": 1522149,
+          "Fishing": 430028,
+          "Ag & Allied": 12309538,
+          "Mining & quarrying": 542248,
+          "Manufacturing": 8602054,
+          "Construction": 5902978,
+          "Electricity,gas and Water supply": 1362873,
+          "Industry": 16410152,
+          "Transport,storage & communication": 5394054,
+          "Trade,hotels and restaurants": 8036854,
+          "Banking & Insurance": 4171136,
+          "Real estate,ownership of dwellings and business services": 13983393,
+          "Public administration": 2349874,
+          "Other services": 7558121
+      },
+      "overall": [
+        {
+            "year": "2019-20",
+            "gdp_in_billion_usd": 1450.6709 ,
+            "per_capita_usd": 3171.768 ,
+            "growth_rate": 15.46      
+        },
+        {
+            "year": "2020-21",
+            "gdp_in_billion_usd": 1657.5822 ,
+            "per_capita_usd": 3694.835,
+            "growth_rate": 14.28
+        },
+        {
+            "year": "2021-22",
+            "gdp_in_billion_usd": 1898.3741 ,
+            "per_capita_usd":  4151.8733,
+            "growth_rate": 14.55
+        }
+    ]
+  },
+    "fields": [{"type":"int","id":"_id"},{"type":"numeric","id":"Sl No"},{"type":"text","id":"District Name"},{"type":"text","id":"Per-capita Income Current Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Current Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Current Prices 2020-21 (in Lakh) (FRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2020-21 (in Lakh) (FRE)"}],
+    "records": [
+      [1, 1, "Bagalkot", "876543", "65432", "54321", "23456", "34567", "45678"],
+      [2, 2, "Ballari (Bellary)", "987654", "76543", "65432", "34567", "45678", "56789"],
+      [3, 3, "Belagavi (Belgaum)", "123456", "87654", "76543", "45678", "56789", "67890"],
+      [4, 4, "Bengaluru Rural", "234567", "98765", "87654", "56789", "67890", "78901"],
+      [5, 5, "Bengaluru Urban", "345678", "12345", "98765", "67890", "78901", "89012"],
+      [6, 6, "Bidar", "456789", "23456", "12345", "78901", "89012", "90123"],
+      [7, 7, "Chamarajanagar", "567890", "34567", "23456", "89012", "90123", "12345"],
+      [8, 8, "Chikballapur", "678901", "45678", "34567", "90123", "12345", "23456"],
+      [9, 9, "Chikkamagaluru (Chikmagalur)", "789012", "56789", "45678", "12345", "23456", "34567"],
+      [10, 10, "Chitradurga", "890123", "67890", "56789", "23456", "34567", "45678"],
+      [11, 11, "Dakshina Kannada", "901234", "78901", "67890", "34567", "45678", "56789"],
+      [12, 12, "Davangere", "12345", "89012", "78901", "45678", "56789", "67890"],
+      [13, 13, "Dharwad", "23456", "90123", "89012", "56789", "67890", "78901"],
+      [14, 14, "Gadag", "34567", "12345", "90123", "67890", "78901", "89012"],
+      [15, 15, "Hassan", "45678", "23456", "12345", "78901", "89012", "90123"],
+      [16, 16, "Haveri", "56789", "34567", "23456", "89012", "90123", "12345"],
+      [17, 17, "Kalaburagi (Gulbarga)", "67890", "45678", "34567", "90123", "12345", "23456"],
+      [18, 18, "Kodagu (Coorg)", "78901", "56789", "45678", "23456", "34567", "45678"],
+      [19, 19, "Kolar", "89012", "67890", "56789", "34567", "45678", "56789"],
+      [20, 20, "Koppal", "90123", "78901", "67890", "45678", "56789", "67890"],
+      [21, 21, "Mandya", "12345", "89012", "78901", "56789", "67890", "78901"],
+      [22, 22, "Mysuru (Mysore)", "23456", "90123", "89012", "67890", "78901", "89012"],
+      [23, 23, "Raichur", "34567", "12345", "90123", "78901", "89012", "90123"],
+      [24, 24, "Ramanagara", "45678", "23456", "12345", "89012", "90123", "12345"],
+      [25, 25, "Shivamogga (Shimoga)", "56789", "34567", "23456", "90123", "12345", "23456"],
+      [26, 26, "Tumakuru (Tumkur)", "67890", "45678", "34567", "12345", "23456", "34567"],
+      [27, 27, "Udupi", "78901", "56789", "45678", "23456", "34567", "45678"],
+      [28, 28, "Uttara Kannada (Karwar)", "89012", "67890", "56789", "34567", "45678", "56789"],
+      [29, 29, "Vijayapura (Bijapur)", "90123", "78901", "67890", "45678", "56789", "67890"],
+      [30, 30, "Yadgir", "12345", "89012", "78901", "56789", "67890", "78901"]
+  ]
+  }
+  
+  

@@ -1,0 +1,84 @@
+{
+  "state_gdp_contributions": {
+      "2019-2020": {
+          "Agriculture": "94099",
+          "Forestry": "5667",
+          "Fishing": "287",
+          "Ag & Allied": "100053",
+          "Mining": "1279",
+          "Manufacturing": "352555",
+          "Construction": "100257",
+          "Electricity,gas and Water supply": "87301",
+          "Industry": "541391",
+          "Transport": "19785",
+          "Trade,hotels and restaurants": "27475",
+          "Banking & Insurance": "15940",
+          "Real estate,ownership of dwellings and business services": "43451",
+          "Public administration": "75062",
+          "Other services": "67507"
+      },
+      "2020-2021": {
+          "Agriculture": "103662",
+          "Forestry": "6130",
+          "Fishing": "452",
+          "Ag & Allied": "110243",
+          "Mining": "2254",
+          "Manufacturing": "389781",
+          "Construction": "152815",
+          "Electricity,gas and Water supply": "102715",
+          "Industry": "647565",
+          "Transport": "25268",
+          "Trade,hotels and restaurants": "30781",
+          "Banking & Insurance": "18292",
+          "Real estate,ownership of dwellings and business services": "49013",
+          "Public administration": "90643",
+          "Other services": "75454"
+      },
+      "2021-2022": {
+          "Agriculture": "117610",
+          "Forestry": "6640",
+          "Fishing": "548",
+          "Ag & Allied": "124798",
+          "Mining": "3193",
+          "Manufacturing": "441336",
+          "Construction": "213466",
+          "Electricity,gas and Water supply": "120184",
+          "Industry": "778179",
+          "Transport": "30756",
+          "Trade,hotels and restaurants": "35199",
+          "Banking & Insurance": "20991",
+          "Real estate,ownership of dwellings and business services": "55320",
+          "Public administration": "102781",
+          "Other services": "89643"
+      },
+      "overall": [
+        {
+            "year": "2019-20",
+            "gdp_in_billion_usd": 2612,
+            "per_capita_usd": 37553,
+            "growth_rate": 13.66
+        },
+        {
+            "year": "2020-21",
+            "gdp_in_billion_usd": 2298,
+            "per_capita_usd":  33349,
+            "growth_rate":12.70
+        },
+        {
+            "year": "2021-22",
+            "gdp_in_billion_usd": 2039,
+            "per_capita_usd": 29819,
+            "growth_rate":  11.42
+        }
+    ]
+
+  },
+    "fields": [{"type":"int","id":"_id"},{"type":"numeric","id":"Sl No"},{"type":"text","id":"District Name"},{"type":"text","id":"Per-capita Income Current Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Current Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Current Prices 2020-21 (in Lakh) (FRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2020-21 (in Lakh) (FRE)"}],
+    "records": 
+[ 
+    [1, 1, "East Sikkim", "123456", "98765", "135790", "111111", "134567", "145678"],
+    [2, 2, "North Sikkim", "159357", "160483", "170493", "180513", "190523", "100533"],
+    [3, 3, "South Sikkim", "110543", "120553", "130563", "140573", "150583", "160593"],
+    [4, 4, "West Sikkim", "170603", "180613", "190623", "100633", "110643", "120653"]
+    
+]}

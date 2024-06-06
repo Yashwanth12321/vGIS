@@ -1,0 +1,117 @@
+{
+  "state_gdp_contributions": {
+    "2021-2022": {
+        "Agriculture": "3389055",
+        "Forestry": "744737",
+        "Fishing": "389276",
+        "Ag & Allied": "4523068",
+
+        "Mining": "1834323",
+        "Manufacturing": "2524020",
+        "Construction": "2805972",
+        "Electricity,gas and Water supply": "845088",
+        "Industry": "8009403",
+
+        "Transport": "1197287",
+        "Trade,hotels and restaurants": "1590295",
+        "Banking": "727675",
+        "Real estate": "1714402",
+        "Public Administration": "873233",
+        "Other Services": "2383816"
+    },
+    "2020-2021": {
+        "Agriculture": "3015072",
+        "Forestry": "622712",
+        "Fishing": "323693",
+        "Ag & Allied": "3961477",
+
+        "Mining": "1643013",
+        "Manufacturing": "2295841",
+        "Construction": "2542761",
+        "Electricity,gas and Water supply": "758843",
+        "Industry": "7240458",
+
+        "Transport": "1058026",
+        "Trade,hotels and restaurants": "1428586",
+        "Banking": "633516",
+        "Real estate": "1454201",
+        "Public Administration": "791768",
+        "Other Services": "2000216"
+    },
+    "2019-2020": {
+        "Agriculture": "2765427",
+        "Forestry": "533127",
+        "Fishing": "281666",
+        "Ag & Allied": "3580220",
+
+        "Mining": "1589650",
+        "Manufacturing": "2091481",
+        "Construction": "2283751",
+        "Electricity,gas and Water supply": "649992",
+        "Industry": "6614874",
+
+        "Transport": "897692",
+        "Trade,hotels and restaurants": "1302215",
+        "Banking": "599703",
+        "Real estate": "1223298",
+        "Public Administration": "611696",
+        "Other Services": "1734422"
+    },
+    "overall": [
+        {
+            "year": "2019-20",
+            "gdp_in_billion_usd":  79418.7916,
+            "per_capita_usd": 110728.188,
+            "growth_rate":    22.74
+        },
+        {
+            "year": "2020-21",
+            "gdp_in_billion_usd":   95204.1759,
+            "per_capita_usd": 119240.8297,
+            "growth_rate":  19.88
+        },
+        {
+            "year": "2021-22",
+            "gdp_in_billion_usd":   107848.6731,
+            "per_capita_usd": 124740.127,
+            "growth_rate": 13.28
+        }
+    ]
+},
+    "fields": [{"type":"int","id":"_id"},{"type":"numeric","id":"Sl No"},{"type":"text","id":"District Name"},{"type":"text","id":"Per-capita Income Current Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Current Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Current Prices 2020-21 (in Lakh) (FRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2020-21 (in Lakh) (FRE)"}],
+
+      "records": [
+        [1, 1, "Balod", "63921", "34325", "64652", "78741", "92012", "61123"],
+        [2, 2, "Baloda Bazar", "61456", "27543", "69201", "31567", "19234", "64578"],
+        [3, 3, "Balrampur", "68904", "75321", "62439", "27486", "86573", "60982"],
+        [4, 4, "Bastar", "65432", "89876", "63215", "58734", "49876", "61234"],
+        [5, 5, "Bemetara", "67890", "96123", "67834", "12345", "98765", "62345"],
+        [6, 6, "Bijapur", "61234", "45678", "69324", "98765", "59438", "63492"],
+        [7, 7, "Bilaspur", "61592", "16382", "64873", "82316", "29587", "65749"],
+        [8, 8, "Dantewada (South Bastar)", "62435", "64382", "67593", "78432", "37654", "60982"],
+        [9, 9, "Dhamtari", "61092", "58362", "64238", "47623", "78235", "63459"],
+        [10, 10, "Durg", "60743", "63527", "68432", "36582", "64375", "63492"],
+        [11, 11, "Gariaband", "61598", "61743", "64982", "43257", "75436", "67892"],
+        [12, 12, "Gaurela-Pendra-Marwahi", "62234", "60234", "62843", "24305", "80932", "61293"],
+        [13, 13, "Janjgir-Champa", "61592", "16382", "65472", "48523", "87654", "60982"],
+        [14, 14, "Jashpur", "68904", "75321", "62439", "27486", "86573", "60982"],
+        [15, 15, "Kabirdham (Kawardha)", "67123", "67981", "69345", "98765", "39485", "67901"],
+        [16, 16, "Kanker (North Bastar)", "63824", "46578", "67943", "79876", "54387", "62509"],
+        [17, 17, "Kondagaon", "67281", "61349", "66782", "49832", "84725", "62309"],
+        [18, 18, "Korba", "69210", "65432", "62874", "57438", "42679", "63492"],
+        [19, 19, "Koriya", "60123", "63215", "67492", "15382", "94287", "62094"],
+        [20, 20, "Mahasamund", "67834", "67592", "69843", "98732", "59083", "60982"],
+        [21, 21, "Mungeli", "65478", "62534", "63789", "25384", "72456", "63592"],
+        [22, 22, "Narayanpur", "67234", "69428", "67890", "54387", "45098", "60982"],
+        [23, 23, "Raigarh", "61259", "61983", "69754", "49876", "69482", "60982"],
+        [24, 24, "Raipur", "62407", "63482", "67893", "54278", "76543", "60982"],
+        [25, 25, "Rajnandgaon", "69123", "68942", "67539", "52478", "12976", "60982"],
+        [26, 26, "Sukma", "60294", "63821", "60985", "78632", "38574", "60982"],
+        [27, 27, "Surajpur", "63492", "61593", "67824", "53198", "76523", "60982"],
+        [28, 28, "Surguja", "68901", "67892", "65438", "67943", "25873", "60982"]
+      ]
+
+    
+    
+  }
+  

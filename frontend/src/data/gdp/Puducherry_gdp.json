@@ -1,0 +1,86 @@
+{
+    "state_gdp_contributions": {
+        "2019-2020": {
+            "Agriculture": "56425",
+            "Forestry": "18925",
+            "Fishing": "19836",
+            "Ag & Allied": "95186",
+            "Mining": "185",
+            "Manufacturing": "504630",
+            "Construction": "156278",
+            "Electricity,gas and Water supply": "26318",
+            "Industry": "687411",
+            "Transport,storage & communication": "67074",
+            "Trade,hotels and restaurants": "297551",
+            "Banking & Insurance": "61833",
+            "Real estate,ownership of dwellings and business services": "216476",
+            "Public administration": "75055",
+            "Other services": "178948"
+        },
+        "2020-2021": {
+            "Agriculture": "71716",
+            "Forestry": "24572",
+            "Fishing": "21916",
+            "Ag & Allied": "118204",
+            "Mining": "231",
+            "Manufacturing": "583618",
+            "Construction": "193044",
+            "Electricity,gas and Water supply": "45628",
+            "Industry": "822521",
+            "Transport,storage & communication": "82325",
+            "Trade,hotels and restaurants": "372265",
+            "Banking & Insurance": "67777",
+            "Real estate,ownership of dwellings and business services": "322580",
+            "Public administration": "104580",
+            "Other services": "217452"
+        },
+        "2021-2022": {
+            "Agriculture": "76533",
+            "Forestry": "23120",
+            "Fishing": "24091",
+            "Ag & Allied": "123744",
+            "Mining": "262",
+            "Manufacturing": "698573",
+            "Construction": "205724",
+            "Electricity,gas and Water supply": "51757",
+            "Industry": "956316",
+            "Transport,storage & communication": "103696",
+            "Trade,hotels and restaurants": "472648",
+            "Banking & Insurance": "97269",
+            "Real estate,ownership of dwellings and business services": "453549",
+            "Public administration": "130060",
+            "Other services": "244653"
+        },
+        "overall": [
+          {
+              "year": "2019-20",
+              "gdp_in_billion_usd": 13143,
+              "per_capita_usd": 89129,
+              "growth_rate":  11.63
+          },
+          {
+              "year": "2020-21",
+              "gdp_in_billion_usd": 11774,
+              "per_capita_usd":  84625,
+              "growth_rate": 14.18
+          },
+          {
+              "year": "2021-22",
+              "gdp_in_billion_usd": 10312,
+              "per_capita_usd": 78302,
+              "growth_rate":   21.75
+          }
+      ]
+    },
+    "fields": [{"type": "int", "id": "_id"}, {"type": "numeric", "id": "Sl No"}, {"type": "text", "id": "District Name"}, {"type": "text", "id": "Per-capita Income Current Prices 2018-19 (in Lakh) (TRE)"}, {"type": "text", "id": "Per-capita Income Current Prices 2019-20 (in Lakh) (SRE)"}, {"type": "text", "id": "Per-capita Income Current Prices 2020-21 (in Lakh) (FRE)"}, {"type": "text", "id": "Per-capita Income Constant Prices 2018-19 (in Lakh) (TRE)"}, {"type": "text", "id": "Per-capita Income Constant Prices 2019-20 (in Lakh) (SRE)"}, {"type": "text", "id": "Per-capita Income Constant Prices 2020-21 (in Lakh) (FRE)"}],
+
+      "records": [
+          [1, 1, "Karaikal", "12345", "23456", "34567", "45678", "56789", "67890"],
+          [2, 2, "Mahe", "23456", "34567", "45678", "56789", "67890", "78901"],
+          [3, 3, "Puducherry", "34567", "45678", "56789", "67890", "78901", "89012"],
+          [4, 4, "Yanam", "45678", "56789", "67890", "78901", "89012", "90123"]
+      ]
+
+  
+  }
+  

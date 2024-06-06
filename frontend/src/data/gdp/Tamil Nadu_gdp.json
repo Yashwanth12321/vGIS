@@ -1,0 +1,119 @@
+{
+  "state_gdp_contributions": {
+      "2012-2013": {
+          "Agriculture": "7467449",
+          "Forestry": "744272",
+          "Fishing": "450170",
+          "Ag & Allied": "8661891",
+          "Mining": "459958",
+          "Manufacturing": "13126060",
+          "Construction": "7631185",
+          "Electricity,gas and Water supply": "816232",
+          "Industry": "22033434",
+          "Transport": "5807792",
+          "Trade,hotels and restaurants": "12373767",
+          "Banking & Insurance": "4473545",
+          "Real estate,ownership of dwellings and business services": "10923778",
+          "Public administration": "2595353",
+          "Other services": "7616355"
+      },
+      "2013-2014": {
+          "Agriculture": "8720310",
+          "Forestry": "843406",
+          "Fishing": "437784",
+          "Ag & Allied": "10001500",
+          "Mining": "538059",
+          "Manufacturing": "14125854",
+          "Construction": "8421210",
+          "Electricity,gas and Water supply": "805131",
+          "Industry": "23890253",
+          "Transport": "6729689",
+          "Trade,hotels and restaurants": "14129635",
+          "Banking & Insurance": "5141974",
+          "Real estate,ownership of dwellings and business services": "13676625",
+          "Public administration": "3014036",
+          "Other services": "8840105"
+      },
+      "2014-2015": {
+          "Agriculture": "10050859",
+          "Forestry": "855825",
+          "Fishing": "468864",
+          "Ag & Allied": "11375548",
+          "Mining": "619865",
+          "Manufacturing": "14886300",
+          "Construction": "9725378",
+          "Electricity,gas and Water supply": "897794",
+          "Industry": "26129337",
+          "Transport": "7535595",
+          "Trade,hotels and restaurants": "16122851",
+          "Banking & Insurance": "5813002",
+          "Real estate,ownership of dwellings and business services": "17114998",
+          "Public administration": "3374555",
+          "Other services": "10204402"
+      },
+      "overall": [
+        {
+            "year": "2019-20",
+            "gdp_in_billion_usd": 379503,
+            "per_capita_usd": 4505,
+            "growth_rate": 11.88
+        },
+        {
+            "year": "2020-21",
+            "gdp_in_billion_usd": 339212,
+            "per_capita_usd":  40757,
+            "growth_rate":11.22
+        },
+        {
+            "year": "2021-22",
+            "gdp_in_billion_usd": 304989,
+            "per_capita_usd": 40757,
+            "growth_rate": 10.14
+        }
+    ]
+
+  },
+    "fields": [{"type":"int","id":"_id"},{"type":"numeric","id":"Sl No"},{"type":"text","id":"District Name"},{"type":"text","id":"Per-capita Income Current Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Current Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Current Prices 2020-21 (in Lakh) (FRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2020-21 (in Lakh) (FRE)"}],
+    "records": 
+     [
+        [1, 1, "Ariyalur", "124567", "98743", "112345", "145678", "78654", "123456"],
+        [2, 2, "Chengalpattu", "152345", "134567", "102345", "178345", "92345", "200000"],
+        [3, 3, "Chennai", "200000", "165432", "178345", "124567", "145678", "189012"],
+        [4, 4, "Coimbatore", "178345", "156789", "198765", "167890", "134567", "178345"],
+        [5, 5, "Cuddalore", "134567", "145678", "123456", "189012", "124567", "167890"],
+        [6, 6, "Dharmapuri", "123456", "145678", "145678", "178345", "112345", "156789"],
+        [7, 7, "Dindigul", "112345", "134567", "145678", "123456", "156789", "145678"],
+        [8, 8, "Erode", "189012", "123456", "145678", "112345", "134567", "123456"],
+        [9, 9, "Kallakurichi", "123456", "145678", "134567", "189012", "167890", "145678"],
+        [10, 10, "Kancheepuram", "145678", "178345", "145678", "112345", "189012", "156789"],
+        [11, 11, "Kanyakumari", "134567", "156789", "145678", "134567", "178345", "123456"],
+        [12, 12, "Karur", "167890", "112345", "189012", "145678", "123456", "178345"],
+        [13, 13, "Krishnagiri", "156789", "145678", "178345", "167890", "134567", "189012"],
+        [14, 14, "Madurai", "123456", "145678", "167890", "189012", "178345", "112345"],
+        [15, 15, "Nagapattinam", "134567", "145678", "156789", "167890", "112345", "189012"],
+        [16, 16, "Namakkal", "178345", "167890", "134567", "123456", "145678", "156789"],
+        [17, 17, "Nilgiris", "189012", "145678", "123456", "112345", "167890", "145678"],
+        [18, 18, "Perambalur", "112345", "134567", "145678", "167890", "189012", "156789"],
+        [19, 19, "Pudukkottai", "167890", "145678", "123456", "112345", "134567", "123456"],
+        [20, 20, "Ramanathapuram", "145678", "156789", "189012", "178345", "123456", "134567"],
+        [21, 21, "Ranipet", "123456", "145678", "178345", "167890", "134567", "112345"],
+        [22, 22, "Salem", "167890", "189012", "145678", "123456", "112345", "178345"],
+        [23, 23, "Sivaganga", "145678", "123456", "134567", "156789", "178345", "167890"],
+        [24, 24, "Tenkasi", "134567", "167890", "178345", "112345", "123456", "156789"],
+        [25, 25, "Thanjavur", "123456", "145678", "156789", "167890", "178345", "112345"],
+        [26, 26, "Theni", "178345", "189012", "134567", "123456", "145678", "156789"],
+        [27, 27, "Thoothukudi", "189012", "145678", "123456", "112345", "167890", "145678"],
+        [28, 28, "Tiruchirappalli", "112345", "134567", "145678", "167890", "189012", "156789"],
+        [29, 29, "Tirunelveli", "167890", "145678", "123456", "112345", "134567", "123456"],
+        [30, 30, "Tirupathur", "145678", "156789", "167890", "178345", "123456", "134567"],
+        [31, 31, "Tiruppur", "123456", "145678", "156789", "167890", "178345", "112345"],
+        [32, 32, "Tiruvallur", "178345", "189012", "134567", "123456", "145678", "156789"],
+        [33, 33, "Tiruvannamalai", "189012", "145678", "123456", "112345", "167890", "145678"],
+        [34, 34, "Tiruvarur", "112345", "134567", "145678", "167890", "189012", "156789"],
+        [35, 35, "Vellore", "167890", "145678", "123456", "112345", "134567", "123456"],
+        [36, 36, "Viluppuram", "145678", "156789", "167890", "178345", "123456", "134567"],
+        [37, 37, "Virudhunagar", "123456", "145678", "156789", "167890", "178345", "112345"]
+        
+]
+}
+

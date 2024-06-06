@@ -1,0 +1,93 @@
+{
+  "state_gdp_contributions": {
+    "2019-2020": {
+      "Agriculture": 881551,
+      "Forestry & logging": 328458,
+      "Fishing": 5175,
+      "Ag & Allied": 1215183,
+      "Mining & quarrying": 17608,
+      "Manufacturing": 1272103,
+      "Construction": 775873,
+      "Electricity,gas and Water supply": 576862,
+      "Industry": 2642446,
+      "Transport,storage & communication": 250167,
+      "Trade,hotels and restaurants": 740072,
+      "Banking & Insurance": 247196,
+      "Real estate,ownership of dwellings and business services": 269160,
+      "Public administration": 372338,
+      "Other services": 759183
+    },
+    "2020-2021": {
+      "Agriculture": 1062492,
+      "Forestry & logging": 364383,
+      "Fishing": 5956,
+      "Ag & Allied": 1432832,
+      "Mining & quarrying": 20773,
+      "Manufacturing": 1344011,
+      "Construction": 832706,
+      "Electricity,gas and Water supply": 649861,
+      "Industry": 2847351,
+      "Transport,storage & communication": 306532,
+      "Trade,hotels and restaurants": 811392,
+      "Banking & Insurance": 281762,
+      "Real estate,ownership of dwellings and business services": 330169,
+      "Public administration": 435040,
+      "Other services": 925925
+    },
+    "2021-2022": {
+      "Agriculture": 1198210,
+      "Forestry & logging": 405778,
+      "Fishing": 6333,
+      "Ag & Allied": 1610320,
+      "Mining & quarrying": 21146,
+      "Manufacturing": 1438563,
+      "Construction": 896659,
+      "Electricity,gas and Water supply": 678832,
+      "Industry": 3035201,
+      "Transport,storage & communication": 366707,
+      "Trade,hotels and restaurants": 898233,
+      "Banking & Insurance": 349057,
+      "Real estate,ownership of dwellings and business services": 413938,
+      "Public administration": 487740,
+      "Other services": 1097338
+    },
+    "overall": [
+      {
+          "year": "2019-20",
+          "gdp_in_billion_usd": 1322.21208796    ,
+          "per_capita_usd": 40107,
+          "growth_rate": 12.70    
+      },
+      {
+          "year": "2020-21",
+          "gdp_in_billion_usd": 3692.4453565,
+          "per_capita_usd":4453.98,
+          "growth_rate": 14.60
+      },
+      {
+          "year": "2021-22",
+          "gdp_in_billion_usd": 4227.84565,
+          "per_capita_usd":  4921.4831,
+          "growth_rate": 14.50
+      }
+  ]
+  },
+    "fields": [{"type":"int","id":"_id"},{"type":"numeric","id":"Sl No"},{"type":"text","id":"District Name"},{"type":"text","id":"Per-capita Income Current Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Current Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Current Prices 2020-21 (in Lakh) (FRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2020-21 (in Lakh) (FRE)"}],
+
+      "records": [
+        [1, 1, "Bilaspur", "45678", "56789", "67890", "12345", "23456", "34567"],
+        [2, 2, "Chamba", "56789", "67890", "12345", "23456", "34567", "45678"],
+        [3, 3, "Hamirpur", "67890", "12345", "23456", "34567", "45678", "56789"],
+        [4, 4, "Kangra", "12345", "23456", "34567", "45678", "56789", "67890"],
+        [5, 5, "Kinnaur", "23456", "34567", "45678", "56789", "67890", "12345"],
+        [6, 6, "Kullu", "34567", "45678", "56789", "67890", "12345", "23456"],
+        [7, 7, "Lahaul and Spiti", "45678", "56789", "67890", "12345", "23456", "34567"],
+        [8, 8, "Mandi", "56789", "67890", "12345", "23456", "34567", "45678"],
+        [9, 9, "Shimla", "67890", "12345", "23456", "34567", "45678", "56789"],
+        [10, 10, "Sirmaur", "12345", "23456", "34567", "45678", "56789", "67890"],
+        [11, 11, "Solan", "23456", "34567", "45678", "56789", "67890", "12345"],
+        [12, 12, "Una", "34567", "45678", "56789", "67890", "12345", "23456"]
+      ]
+    
+  }
+  

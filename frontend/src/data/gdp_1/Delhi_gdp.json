@@ -1,0 +1,19 @@
+{
+    "fields": [{"type": "int", "id": "_id"}, {"type": "numeric", "id": "Sl No"}, {"type": "text", "id": "District Name"}, {"type": "text", "id": "Per-capita Income Current Prices 2018-19 (in Lakh) (TRE)"}, {"type": "text", "id": "Per-capita Income Current Prices 2019-20 (in Lakh) (SRE)"}, {"type": "text", "id": "Per-capita Income Current Prices 2020-21 (in Lakh) (FRE)"}, {"type": "text", "id": "Per-capita Income Constant Prices 2018-19 (in Lakh) (TRE)"}, {"type": "text", "id": "Per-capita Income Constant Prices 2019-20 (in Lakh) (SRE)"}, {"type": "text", "id": "Per-capita Income Constant Prices 2020-21 (in Lakh) (FRE)"}],
+
+      "records": [
+        [1, 1, "Central Delhi", "12345", "23456", "21234", "18976", "19876", "22765"],
+        [2, 2, "East Delhi", "13456", "24567", "22345", "20123", "21098", "23876"],
+        [3, 3, "New Delhi", "14567", "25678", "23456", "21234", "22234", "24876"],
+        [4, 4, "North Delhi", "15678", "26789", "24567", "22345", "23345", "25876"],
+        [5, 5, "North East Delhi", "16789", "27890", "25678", "23456", "24456", "26890"],
+        [6, 6, "North West Delhi", "17890", "28901", "26789", "24567", "25567", "27890"],
+        [7, 7, "Shahdara", "18901", "29012", "27890", "25678", "26678", "28876"],
+        [8, 8, "South Delhi", "19012", "30123", "29012", "26789", "27789", "29876"],
+        [9, 9, "South East Delhi", "20123", "31234", "30123", "27890", "28890", "30876"],
+        [10, 10, "South West Delhi", "21234", "32345", "31234", "29012", "30012", "31890"],
+        [11, 11, "West Delhi", "22345", "33456", "32345", "30123", "31123", "32876"]
+      ]
+    
+  }
+  

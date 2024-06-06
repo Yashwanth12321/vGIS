@@ -1,0 +1,101 @@
+{
+  "state_gdp_contributions": {
+      "2019-2020": {
+          "Agriculture": "125698",
+          "Forestry": "35153",
+          "Fishing": "66567",
+          "Ag & Allied": "227418",
+          "Mining": "637294",
+          "Manufacturing": "1373266",
+          "Construction": "246168",
+          "Electricity,gas and Water supply": "116117",
+          "Industry": "2372844",
+          "Transport": "515074",
+          "Trade,hotels and restaurants": "457433",
+          "Banking & Insurance": "182426",
+          "Real estate,ownership of dwellings and business services": "227636",
+          "Public administration": "144684",
+          "Other services": "197936"
+      },
+      "2020-2021": {
+          "Agriculture": "136116",
+          "Forestry": "37758",
+          "Fishing": "81306",
+          "Ag & Allied": "255180",
+          "Mining": "203622",
+          "Manufacturing": "1478958",
+          "Construction": "272227",
+          "Electricity,gas and Water supply": "136763",
+          "Industry": "2091571",
+          "Transport": "568081",
+          "Trade,hotels and restaurants": "442235",
+          "Banking & Insurance": "204323",
+          "Real estate,ownership of dwellings and business services": "257627",
+          "Public administration": "175673",
+          "Other services": "246057"
+      },
+      "2021-2022": {
+          "Agriculture": "158676",
+          "Forestry": "81528",
+          "Fishing": "151374",
+          "Ag & Allied": "391578",
+          "Mining": "203482",
+          "Manufacturing": "1555677",
+          "Construction": "309898",
+          "Electricity,gas and Water supply": "161661",
+          "Industry": "2230719",
+          "Transport": "643622",
+          "Trade,hotels and restaurants": "584221",
+          "Banking & Insurance": "228848",
+          "Real estate,ownership of dwellings and business services": "293186",
+          "Public administration": "207819",
+          "Other services": "309738"
+      },
+      "overall": [
+          {
+              "year": "2019-20",
+              "gdp_in_billion_usd":  17215.7516,
+              "per_capita_usd": 105582.1458,
+              "growth_rate":     12.90
+          },
+          {
+              "year": "2020-21",
+              "gdp_in_billion_usd":   16862.1769,
+              "per_capita_usd": 118142.2834,
+              "growth_rate":  13.03
+          },
+          {
+              "year": "2021-22",
+              "gdp_in_billion_usd":   17628.0928,
+              "per_capita_usd": 101721.127,
+              "growth_rate": 10.96
+          }
+      ]
+  },
+  "fields": [
+      {"type": "int", "id": "_id"},
+      {"type": "numeric", "id": "Sl No"},
+      {"type": "text", "id": "District Name"},
+      {"type": "text", "id": "Per-capita Income Current Prices 2018-19 (in Lakh) (TRE)"},
+      {"type": "text", "id": "Per-capita Income Current Prices 2019-20 (in Lakh) (SRE)"},
+      {"type": "text", "id": "Per-capita Income Current Prices 2020-21 (in Lakh) (FRE)"},
+      {"type": "text", "id": "Per-capita Income Constant Prices 2018-19 (in Lakh) (TRE)"},
+      {"type": "text", "id": "Per-capita Income Constant Prices 2019-20 (in Lakh) (SRE)"},
+      {"type": "text", "id": "Per-capita Income Constant Prices 2020-21 (in Lakh) (FRE)"}
+  ],
+  "records": [
+      [1, 1, "Srikakulam", "1,39,949", "1,62,750", "1,52,455", "95,502", "1,07,891", "94,587"],
+      [2, 2, "Vizianagaram", "1,49,441", "1,46,748", "1,31,843", "99,322", "95,090", "78,282"],
+      [3, 3, "Visakhapatnam", "1,46,432", "1,66,813", "1,60,883", "1,02,236", "1,09,599", "98,914"],
+      [4, 4, "East Godavari", "1,32,694", "1,60,064", "1,52,634", "86,924", "1,00,888", "89,308"],
+      [5, 5, "West Godavari", "1,29,238", "1,56,409", "1,55,515", "87,586", "1,00,362", "93,672"],
+      [6, 6, "Krishna", "1,12,997", "1,50,406", "1,46,723", "74,498", "94,909", "84,742"],
+      [7, 7, "Guntur", "1,80,401", "1,89,659", "1,70,353", "1,27,162", "1,26,860", "1,06,184"],
+      [8, 8, "Prakasam", "2,57,006", "2,42,973", "2,15,612", "1,62,786", "1,51,324", "1,26,461"],
+      [9, 9, "Sri Potti Sriramulu Nell*", "1,68,302", "1,93,498", "1,79,112", "1,17,963", "1,26,749", "1,04,865"],
+      [10, 10, "Chittoor", "1,35,909", "1,37,644", "1,48,711", "87,519", "85,671", "83,560"],
+      [11, 11, "Y.S.R.", "1,25,151", "1,55,640", "1,71,111", "84,739", "98,727", "1,01,090"],
+      [12, 12, "Anantapur", "1,25,271", "1,40,819", "1,30,821", "87,054", "92,644", "81,295"],
+      [13, 13, "Kurnool", "1,62,279", "1,69,010", "1,79,908", "1,11,273", "1,10,119", "1,10,568"]
+  ]
+}
