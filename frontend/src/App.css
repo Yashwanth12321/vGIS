@@ -1,9 +1,10 @@
+
 /* for IndiaGDP*/
 
 .container1 {
   display: flex;
   flex-direction: row;
-  height: 100vh;
+  height: 100%;
   background-color: black;
   justify-content: space-around;
 }
@@ -18,92 +19,45 @@
   display: flex;
   flex-direction: column;
   flex: 1;
-  width: 50%;
-  height: 100%;
   padding: 20px;
   background-color: #ffffff;
   border-left: 1px solid #dee2e6;
   border-radius: 10px ;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin: 20px;
+  margin-left: 20px;
   overflow-y: auto;
   color: black;
+  border-top: 0px;
 }
 
 .indiaBox {
-  display: flex;
-  flex-direction: column;
   flex: 1;
   padding: 20px;
+  width: 100vh;
   background-color: #ffffff;
   border-left: 1px solid #dee2e6;
   border-radius: 10px ;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin: 20px;
+  margin-left: 20px;
   overflow-y: auto;
   color: black;
 }
-
-.header-section {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.year-section {
+.year-dropdown{
   margin-bottom: 20px;
-}
-
-.year-section h3 {
-  margin-top: 10px;
-}
-
-.year-section ul {
-  list-style-type: none;
-  padding-left: 0;
-}
-
-.year-section li {
-  margin: 5px 0;
-}
-
-.year-dropdown {
-  margin-right: 470px;
-  padding: 10px;
-  border: 1px solid #dee2e6;
-  border-radius: 5px;
-  font-size: 16px;
-  color: black;
-  background-color: transparent;
-  cursor: pointer;
-}
-
-
-.chartButton {
-  margin-left: 10px;
+  margin-left:25px;
   padding: 10px 20px;
-  background-color: #002379;
+  background-color: #0f0f10;
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-}
 
-.chartButton:hover {
-  background-color: #00164f;
-}
-
-.controls {
-  display: flex;
-  align-items: space-between;
-  margin-top: 10px;
-  justify-content: space-between;
 }
 
 .backButton {
   margin-top: 20px;
-  padding: 10px 20px;
-  background-color: #002379;
+  pading: 10px 20px;
+  background-color: #3863ce;
   color: white;
   border: none;
   border-radius: 5px;
@@ -114,14 +68,26 @@
   background-color: #00164f;
 }
 
+.header-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 20px;
+  color: black;
+}
 
 /* for IndiaGDP*/
 
+.header {
+  justify-content: flex-end; /* Align items to the right */
+  margin-top: -20px; /* Adjust the margin-top as needed */
+  margin-left: 20px; /* Adjust the margin-top as needed */
+}
 
 
 #map {
-  height: 90vh;
-  width: 80%;
+  height: 96vh;
+  width: 70%;
   position: relative;
   margin-left: auto;
   margin-right: auto;
@@ -184,11 +150,21 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  font-size: 0.9em;
+  height:85vh;
+  font-size: 0.8em;
   width: 100%;
-  padding: 2rem;
+  margin-left: 30px;
+  text-align: center; /* Center align text horizontally */
   text-shadow: 0 0 5px #1900ff, 0 0 10px #540368, 0 0 15px #2cd626;
+}
+
+.additional-text {
+  font-size: 1.45em; /* Adjust font size as needed */
+  color: #777; /* Adjust color as needed */
+  margin-top: 10px; /* Adjust margin as needed */
+  margin-left: 25px;
+  margin-bottom: 5px;
+  text-align: left; /* Left align the text */
 }
 
 .container {
@@ -204,6 +180,8 @@
   background-color: white; /* Set background color to white */
   border-left: 3px solid #ccc; /* Add a border for separation */
   padding: 20px; 
+  height: 96vh;
+  width:1500px;
 }
 
 

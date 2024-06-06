@@ -5,16 +5,19 @@ const Home = () => {
     <div className="page">
       <div className="container">
         <div className="hero">
-          <h1>
-            Visualize the <span className="catchy">world</span> like never
-            before
+          <h1 style={{ marginBottom: "30px" }}>
+            VISUALIZE THE WORLD<span></span> LIKE NEVER
+            BEFORE
           </h1>
+          <p className="additional-text">
+            Unlock a world of data-driven insights and captivating visualizations that reveal insights into our world like never before. Witness information evolving into art and knowledge transforming into clarity. Welcome to a new way of seeing.
+          </p>
         </div>
-        <div className="right-div">
+        <div className="center-div"> {/* Centering the Earth component */}
           <Earth />
         </div>
       </div>
-      <div className=" bg-gradient-to-r from-sky-500 to-indigo-500 px-4 py-8">
+      <div className=" bg-gradient-to-r from-#00336e to-indigo-500 px-4 py-8">
         <h1 className="text-3xl font-bold text-center text-white mb-8">
           The Power of Location: Unveiling Insights with Geospatial Data
           Analysis
@@ -22,7 +25,7 @@ const Home = () => {
 
         {/* About Section */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold text-white mb-4">
+          <h2 className="text-2xl font-semibold text-red-600 mb-4" style={{ color: "darkturquoise" }}>
             What is Geospatial Data Analysis?
           </h2>
           <p className="text-lg text-gray-200">
@@ -38,7 +41,7 @@ const Home = () => {
 
         {/* Benefits Section */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold text-white mb-4">
+          <h2 className="text-2xl font-semibold text-white mb-4" style={{ color: "darkturquoise" }}>
             Benefits of Geospatial Data Analysis
           </h2>
           <ul className="list-disc space-y-2 text-lg text-gray-200">
@@ -60,20 +63,20 @@ const Home = () => {
 
         {/* Use Cases Section */}
         <section className="mb-12 grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="bg-white rounded-lg shadow-md p-6">
-            <h3 className="text-xl font-semibold text-gray-800 mb-2">
+          <div className="bg-gray-700 rounded-lg shadow-md p-6">
+            <h3 className="text-xl font-semibold text-white mb-2">
               Urban Planning
             </h3>
-            <p className="text-base text-gray-600">
+            <p className="text-base text-gray-200">
               Optimize infrastructure placement, identify areas for development,
               and analyze traffic patterns.
             </p>
           </div>
-          <div className="bg-white rounded-lg shadow-md p-6">
-            <h3 className="text-xl font-semibold text-gray-800 mb-2">
+          <div className="bg-gray-700 rounded-lg shadow-md p-6">
+            <h3 className="text-xl font-semibold text-white mb-2">
               Public Health
             </h3>
-            <p className="text-base text-gray-600">
+            <p className="text-base text-gray-200">
               Track disease outbreaks, identify high-risk areas, and allocate
               resources effectively.
             </p>
@@ -85,7 +88,7 @@ const Home = () => {
 
         {/* Types of Visualization Techniques */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold text-white mb-4">
+          <h2 className="text-2xl font-semibold text-white mb-4" style={{ color: "darkturquoise" }}>
             Types of Geospatial Visualization Techniques
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -115,7 +118,7 @@ const Home = () => {
 
         {/* Tools and Technologies Section */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold text-white mb-4">
+          <h2 className="text-2xl font-semibold text-white mb-4" style={{ color: "darkturquoise" }}>
             Tools and Technologies
           </h2>
           <p className="text-lg text-gray-200">

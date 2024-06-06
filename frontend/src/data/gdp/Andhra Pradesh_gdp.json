@@ -82,12 +82,12 @@
         {"type": "int", "id": "_id"},
         {"type": "numeric", "id": "Sl No"},
         {"type": "text", "id": "District Name"},
-        {"type": "text", "id": "Per-capita Income Current Prices 2018-19 (in Lakh) (TRE)"},
-        {"type": "text", "id": "Per-capita Income Current Prices 2019-20 (in Lakh) (SRE)"},
-        {"type": "text", "id": "Per-capita Income Current Prices 2020-21 (in Lakh) (FRE)"},
-        {"type": "text", "id": "Per-capita Income Constant Prices 2018-19 (in Lakh) (TRE)"},
-        {"type": "text", "id": "Per-capita Income Constant Prices 2019-20 (in Lakh) (SRE)"},
-        {"type": "text", "id": "Per-capita Income Constant Prices 2020-21 (in Lakh) (FRE)"}
+        {"type": "text", "id": "Per-capita Income Current Prices 2019-20 (in Lakh) (TRE)"},
+        {"type": "text", "id": "Per-capita Income Current Prices 2020-21 (in Lakh) (SRE)"},
+        {"type": "text", "id": "Per-capita Income Current Prices 2021-22 (in Lakh) (FRE)"},
+        {"type": "text", "id": "Per-capita Income Constant Prices 2019-20 (in Lakh) (TRE)"},
+        {"type": "text", "id": "Per-capita Income Constant Prices 2020-21 (in Lakh) (SRE)"},
+        {"type": "text", "id": "Per-capita Income Constant Prices 2021-22 (in Lakh) (FRE)"}
     ],
     "records": [
         [1, 1, "Srikakulam", "1,39,949", "1,62,750", "1,52,455", "95,502", "1,07,891", "94,587"],

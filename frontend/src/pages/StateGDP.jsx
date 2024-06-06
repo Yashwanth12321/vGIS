@@ -4,6 +4,7 @@ import React, { useEffect, useState, useRef } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { Chart, registerables } from "chart.js";
 import "../App.css";
+// import "./style.css"
 import ChartDataLabels from "chartjs-plugin-datalabels";
 Chart.register(ChartDataLabels);
 
@@ -35,31 +36,46 @@ const StateGDP = () => {
 
         setStateData(boundary.default);
         setGdpData(parsedGdpData);
+        console.log(parsedGdpData);
         setSectorData(parsedSectorData);
 
         const years = Object.keys(parsedSectorData);
-        if (years.length > 0) {
+        if (years.length > 0 && !selectedYear) {
           setSelectedYear(years[0]);
         }
       } catch (error) {
         console.error("Error loading state boundary data:", error);
       }
     };
+    function parseGdpData(data) {
+      console.log(data.records);
+      console.log(selectedYear);
+      const districtIncome = {};
+      var x = 8;
+      if (selectedYear === "overall") {
+        x = 6;
+      }
+      if (selectedYear == "2019-2020") {
+        x = 3;
+      }
+      if (selectedYear == "2021-2022") {
+        x = 4;
+      }
+      if (selectedYear == "2020-2021") {
+        x = 5;
+      }
+      for (const record of data.records) {
+        districtIncome[record[2]] = record[x];
+      }
+      return districtIncome;
+    }
 
     fetchData();
-  }, [stateName]);
-
-  function parseGdpData(data) {
-    const districtIncome = {};
-    for (const record of data.records) {
-      districtIncome[record[2]] = record[3];
-    }
-    return districtIncome;
-  }
+  }, [stateName, selectedYear]);
 
   useEffect(() => {
     if (stateData && !map) {
-      const map = L.map("stateMap", {
+      const mapInstance = L.map("stateMap", {
         zoomControl: false,
         scrollWheelZoom: false,
         doubleClickZoom: false,
@@ -70,22 +86,94 @@ const StateGDP = () => {
         touchZoom: false,
       });
       L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png").addTo(
-        map
+        mapInstance
       );
+
+      setMap(mapInstance);
+    }
+  }, [stateData, map]);
+  useEffect(() => {
+    if (map && stateData && gdpData) {
+      console.log(gdpData);
+      var legend = L.control({ position: "bottomleft" });
+
+      legend.onAdd = function (map) {
+        var div = L.DomUtil.create("div", "legend");
+        div.innerHTML += "<h4>Gdp (per annum)</h4>";
+
+        const maxGdp = Math.max(
+          ...Object.values(gdpData).map((value) =>
+            parseInt(String(value).replace(/,/g, ""))
+          )
+        );
+        const minGdp = Math.min(
+          ...Object.values(gdpData).map((value) =>
+            parseInt(String(value).replace(/,/g, ""))
+          )
+        );
+
+        const colorRamp = ["#4CAF50", "#FFEB3B", "#FF5722", "#b21326"];
+        const rangeSize = (maxGdp - minGdp) / colorRamp.length;
+
+        for (let i = 0; i < colorRamp.length; i++) {
+          let rangeStart = minGdp + i * rangeSize;
+          let rangeEnd = minGdp + (i + 1) * rangeSize;
+          let unitStart = "L";
+          let unitEnd = "L";
+          let color = colorRamp[i];
+
+          if (rangeStart <= 99999) {
+            rangeStart = (rangeStart / 10000).toFixed(2);
+            unitStart = "T";
+          } else {
+            rangeStart = (rangeStart / 100000).toFixed(2); // Convert to lakhs and set precision to 2 decimal places
+          }
+
+          rangeEnd = (rangeEnd / 100000).toFixed(2);
+
+          div.innerHTML += `<i style="background: ${color}"></i><span>${rangeStart}${unitStart} - ${rangeEnd}${unitEnd}</span><br>`;
+        }
+
+        return div;
+      };
+
+      const existingLegend = document.querySelector(".legend");
+      if (existingLegend) {
+        existingLegend.remove();
+      }
+
+      legend.addTo(map);
+    }
+  }, [gdpData, map, stateData]);
+
+  useEffect(() => {
+    if (map && stateData && gdpData) {
+      console.log(gdpData);
 
       const getColor = (income) => {
         if (!income) return "#cccccc";
 
-        let value = parseFloat(income.replace(/,/g, ""));
+        const maxGdp = Math.max(
+          ...Object.values(gdpData).map((value) =>
+            parseInt(value.replace(/,/g, ""))
+          )
+        );
+        const minGdp = Math.min(
+          ...Object.values(gdpData).map((value) =>
+            parseInt(value.replace(/,/g, ""))
+          )
+        );
+        income = parseInt(income.replace(/,/g, ""));
+        const colorRamp = ["#4CAF50", "#FFEB3B", "#FF5722", "#b21326"];
+        const normalized = (income - minGdp) / (maxGdp - minGdp);
 
-        if (value > 120000) {
-          return "#ffff00";
-        } else if (value > 30000) {
-          return "#ffff00";
-        } else {
-          return "#ff0000";
-        }
+        // Map normalized value to a color in the color ramp
+        const colorIndex = Math.floor(normalized * (colorRamp.length - 1));
+        return colorRamp[colorIndex];
       };
+
+      console.log(gdpData);
+      console.log("hihii");
 
       const geoJSONLayer = L.geoJSON(stateData, {
         style: (feature) => {
@@ -103,6 +191,7 @@ const StateGDP = () => {
           layer.on("mouseover", () => {
             const districtName = feature.properties.DISTRICT_N;
             const incomeValue = gdpData[districtName];
+
             layer
               .bindPopup(`District: ${districtName} - Income: ${incomeValue}`)
               .openPopup();
@@ -114,75 +203,18 @@ const StateGDP = () => {
         },
       });
 
+      // Clear the existing layers
+      map.eachLayer((layer) => {
+        if (layer instanceof L.GeoJSON) {
+          map.removeLayer(layer);
+        }
+      });
+
       geoJSONLayer.addTo(map);
 
       map.fitBounds(geoJSONLayer.getBounds());
-
-      setMap(map);
     }
-  }, [stateData, map, gdpData]);
-
-  const renderSectorData = (data, year) => {
-    const primarySectors = [
-      "Agriculture",
-      "Forestry",
-      "Fishing",
-      "Ag & Allied",
-    ];
-    const secondarySectors = [
-      "Mining",
-      "Manufacturing",
-      "Construction",
-      "Electricity,gas and Water supply",
-      "Industry",
-    ];
-    const tertiarySectors = [
-      "Transport",
-      "Trade,hotels and restaurants",
-      "Banking",
-      "Real estate",
-      "Public Administration",
-      "Other Services",
-    ];
-
-    const yearData = data[year];
-
-    return (
-      <div key={year} className="year-section">
-        <h3>{year}</h3>
-        <div>
-          <h4 className="font-bold">Primary Sector</h4>
-          <ul>
-            {primarySectors.map((sector) => (
-              <li key={sector}>
-                {sector}: {yearData[sector]}
-              </li>
-            ))}
-          </ul>
-        </div>
-        <div>
-          <h4 className="font-bold">Secondary Sector</h4>
-          <ul>
-            {secondarySectors.map((sector) => (
-              <li key={sector}>
-                {sector}: {yearData[sector]}
-              </li>
-            ))}
-          </ul>
-        </div>
-        <div>
-          <h4 className="font-bold">Tertiary Sector</h4>
-          <ul>
-            {tertiarySectors.map((sector) => (
-              <li key={sector}>
-                {sector}: {yearData[sector]}
-              </li>
-            ))}
-          </ul>
-        </div>
-      </div>
-    );
-  };
+  }, [map, stateData, gdpData, selectedYear]);
 
   const handleYearChange = (event) => {
     setSelectedYear(event.target.value);
@@ -473,29 +505,24 @@ const StateGDP = () => {
         <div className="header-section">
           <h1
             style={{ fontSize: "24px", fontWeight: "bold" }}
-            className="text-2xl font-bold"
-          >
+            className="text-2xl font-bold">
             {stateName} GDP
           </h1>
           <p>
             <button
               className="backButton"
-              onClick={() => navigate("/IndiaGDP")}
-            >
+              onClick={() => navigate("/IndiaGDP")}>
               Back
             </button>
           </p>
         </div>
-        <br />
-        <hr />
         {sectorData && (
           <>
             <div className="controls">
               <select
                 value={selectedYear}
                 onChange={handleYearChange}
-                className="year-dropdown"
-              >
+                className="year-dropdown">
                 {Object.keys(sectorData).map((year) => (
                   <option key={year} value={year}>
                     {year}
@@ -511,8 +538,7 @@ const StateGDP = () => {
                     position: "relative",
                     height: "40vh",
                     width: "40vw",
-                  }}
-                >
+                  }}>
                   <canvas ref={pieChartRef}></canvas>
                 </div>
                 <div id="sector_name" className="text-lg font-bold"></div>

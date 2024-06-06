@@ -12,7 +12,6 @@
   color-scheme: dark;
   color: rgba(255, 255, 255, 0.87);
   background-color:#000011;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -21,7 +20,7 @@
 
 .container {
   background-color: #000011;
-
+  background-image: url(frontend/src/assets/images/space.jpg);
   display: flex;
   flex-direction: row;
   justify-content: space-between;

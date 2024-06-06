@@ -77,7 +77,7 @@ const DataVisuals = () => {
   useEffect(() => {
     const mapContainer = L.map("map").setView(
       [17.0944, 79.775],
-      5
+      7
     );
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
       attribution:
