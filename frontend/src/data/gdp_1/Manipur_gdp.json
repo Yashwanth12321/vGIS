@@ -1,0 +1,22 @@
+{
+    "fields": [{"type":"int","id":"_id"},{"type":"numeric","id":"Sl No"},{"type":"text","id":"District Name"},{"type":"text","id":"Per-capita Income Current Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Current Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Current Prices 2020-21 (in Lakh) (FRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2020-21 (in Lakh) (FRE)"}],
+    "records": [
+      [1, 1, "Bishnupur", "", "", "", "", "", ""],
+      [2, 2, "Chandel", "", "", "", "", "", ""],
+      [3, 3, "Churachandpur", "", "", "", "", "", ""],
+      [4, 4, "Imphal East", "", "", "", "", "", ""],
+      [5, 5, "Imphal West", "", "", "", "", "", ""],
+      [6, 6, "Jiribam", "", "", "", "", "", ""],
+      [7, 7, "Kakching", "", "", "", "", "", ""],
+      [8, 8, "Kamjong", "", "", "", "", "", ""],
+      [9, 9, "Kangpokpi", "", "", "", "", "", ""],
+      [10, 10, "Noney", "", "", "", "", "", ""],
+      [11, 11, "Pherzawl", "", "", "", "", "", ""],
+      [12, 12, "Senapati", "", "", "", "", "", ""],
+      [13, 13, "Tamenglong", "", "", "", "", "", ""],
+      [14, 14, "Tengnoupal", "", "", "", "", "", ""],
+      [15, 15, "Thoubal", "", "", "", "", "", ""],
+      [16, 16, "Ukhrul", "", "", "", "", "", ""]
+    ]
+  }
+  

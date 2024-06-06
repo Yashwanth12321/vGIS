@@ -1,0 +1,87 @@
+{
+  "state_gdp_contributions": {
+    "2021-2022": {
+        "Agriculture": "10693",
+        "Forestry": "881",
+        "Fishing": "55",
+        "Ag & Allied": "11629",
+
+        "Mining": "0",
+        "Manufacturing": "133967",
+        "Construction": "162214",
+        "Electricity,gas and Water supply": "29966",
+        "Industry": "326147",
+
+        "Transport": "153279",
+        "Trade,hotels and restaurants": "902236",
+        "Banking": "400798",
+        "Real estate": "662580",
+        "Public Administration": "215108",
+        "Other Services": "235773"
+    },
+    "2020-2021": {
+        "Agriculture": "9795",
+        "Forestry": "871",
+        "Fishing": "52",
+        "Ag & Allied": "10718",
+
+        "Mining": "0",
+        "Manufacturing": "131059",
+        "Construction": "149416",
+        "Electricity,gas and Water supply": "26689",
+        "Industry": "307164",
+
+        "Transport": "132532",
+        "Trade,hotels and restaurants": "718333",
+        "Banking": "349890",
+        "Real estate": "584072",
+        "Public Administration": "197453",
+        "Other Services": "204480"
+    },
+    "2019-2020": {
+        "Agriculture": "9237",
+        "Forestry": "866",
+        "Fishing": "214",
+        "Ag & Allied": "10317",
+
+        "Mining": "0",
+        "Manufacturing": "126120",
+        "Construction": "157257",
+        "Electricity,gas and Water supply": "24295",
+        "Industry": "307672",
+
+        "Transport": "111309",
+        "Trade,hotels and restaurants": "681314",
+        "Banking": "305448",
+        "Real estate": "517214",
+        "Public Administration": "171843",
+        "Other Services": "177467"
+    },
+    "overall": [
+        {
+            "year": "2019-20",
+            "gdp_in_billion_usd":  14176.7586,
+            "per_capita_usd": 110728.188,
+            "growth_rate":    15.67
+        },
+        {
+            "year": "2020-21",
+            "gdp_in_billion_usd":  16431.8759,
+            "per_capita_usd": 119240.8297,
+            "growth_rate":  15.91
+        },
+        {
+            "year": "2021-22",
+            "gdp_in_billion_usd":   19296.361,
+            "per_capita_usd": 119240.127,
+            "growth_rate": 17.44
+        }
+    ]
+},
+    "fields": [{"type": "int", "id": "_id"}, {"type": "numeric", "id": "Sl No"}, {"type": "text", "id": "District Name"}, {"type": "text", "id": "Per-capita Income Current Prices 2018-19 (in Lakh) (TRE)"}, {"type": "text", "id": "Per-capita Income Current Prices 2019-20 (in Lakh) (SRE)"}, {"type": "text", "id": "Per-capita Income Current Prices 2020-21 (in Lakh) (FRE)"}, {"type": "text", "id": "Per-capita Income Constant Prices 2018-19 (in Lakh) (TRE)"}, {"type": "text", "id": "Per-capita Income Constant Prices 2019-20 (in Lakh) (SRE)"}, {"type": "text", "id": "Per-capita Income Constant Prices 2020-21 (in Lakh) (FRE)"}],
+    "records": [
+      [1, 1, "Chandigarh", "65432", "68974", "58321", "42987", "26548", "62349"]
+    ]
+    
+  }
+  

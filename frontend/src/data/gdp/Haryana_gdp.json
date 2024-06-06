@@ -1,0 +1,110 @@
+{
+  "state_gdp_contributions": {
+    "2021-2022": {
+        "Agriculture": "7664337",
+        "Forestry": "392623",
+        "Fishing": "120330",
+        "Ag & Allied": "8177291",
+
+        "Mining": "9639",
+        "Manufacturing": "6456310",
+        "Construction": "4101336",
+        "Electricity,gas and Water supply": "807736",
+        "Industry": "11375022",
+
+        "Transport": "3902860",
+        "Trade,hotels and restaurants": "8745981",
+        "Banking": "1592674",
+        "Real estate": "5386573",
+        "Public Administration": "1020130",
+        "Other Services": "3330476"
+    },
+    "2020-2021": {
+        "Agriculture": "7400608",
+        "Forestry": "364877",
+        "Fishing": "95022",
+        "Ag & Allied": "7860506",
+
+        "Mining": "9338",
+        "Manufacturing": "6044695",
+        "Construction": "3582028",
+        "Electricity,gas and Water supply": "667366",
+        "Industry": "10303426",
+
+        "Transport": "3426284",
+        "Trade,hotels and restaurants": "7770751",
+        "Banking": "1405714",
+        "Real estate": "4418366",
+        "Public Administration": "900798",
+        "Other Services": "2805817"
+    },
+    "2019-2020": {
+        "Agriculture": "6427406",
+        "Forestry": "374074",
+        "Fishing": "100332",
+        "Ag & Allied": "6901812",
+
+        "Mining": "8120",
+        "Manufacturing": "5721845",
+        "Construction": "3138426",
+        "Electricity,gas and Water supply": "481903",
+        "Industry": "9350294",
+
+        "Transport": "2947522",
+        "Trade,hotels and restaurants": "7077523",
+        "Banking": "1256550",
+        "Real estate": "3427167",
+        "Public Administration": "790881",
+        "Other Services": "2383367"
+    },
+    "overall": [
+      {
+          "year": "2019-20",
+          "gdp_in_billion_usd": 1542.3125376  ,
+          "per_capita_usd": 5900.8,
+          "growth_rate": 18.42  
+      },
+      {
+          "year": "2020-21",
+          "gdp_in_billion_usd": 1825.8867387,
+          "per_capita_usd":7787.368,
+          "growth_rate": 18.39
+      },
+      {
+          "year": "2021-22",
+          "gdp_in_billion_usd": 2095.103247,
+          "per_capita_usd": 2238.1271,
+          "growth_rate": 14.74
+      }
+  ]
+},
+
+    "fields": [{"type":"int","id":"_id"},{"type":"numeric","id":"Sl No"},{"type":"text","id":"District Name"},{"type":"text","id":"Per-capita Income Current Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Current Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Current Prices 2020-21 (in Lakh) (FRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2020-21 (in Lakh) (FRE)"}],
+
+      "records": [
+        [1, 1, "Ambala", "12345", "23456", "34567", "45678", "56789", "67890"],
+        [2, 2, "Bhiwani", "23456", "34567", "45678", "56789", "67890", "12345"],
+        [3, 3, "Charki Dadri", "34567", "45678", "56789", "67890", "12345", "23456"],
+        [4, 4, "Faridabad", "45678", "56789", "67890", "12345", "23456", "34567"],
+        [5, 5, "Fatehabad", "56789", "67890", "12345", "23456", "34567", "45678"],
+        [6, 6, "Gurugram", "67890", "12345", "23456", "34567", "45678", "56789"],
+        [7, 7, "Hisar", "78901", "23456", "34567", "45678", "56789", "67890"],
+        [8, 8, "Jhajjar", "89012", "34567", "45678", "56789", "67890", "12345"],
+        [9, 9, "Jind", "90123", "45678", "56789", "67890", "12345", "23456"],
+        [10, 10, "Kaithal", "11223", "56789", "67890", "12345", "23456", "34567"],
+        [11, 11, "Karnal", "33445", "67890", "12345", "23456", "34567", "45678"],
+        [12, 12, "Kurukshetra", "55667", "78901", "23456", "34567", "45678", "56789"],
+        [13, 13, "Mahendragarh", "77889", "89012", "34567", "45678", "56789", "67890"],
+        [14, 14, "Nuh", "99011", "12345", "45678", "56789", "67890", "12345"],
+        [15, 15, "Palwal", "11223", "23456", "56789", "67890", "12345", "23456"],
+        [16, 16, "Panchkula", "33445", "34567", "67890", "12345", "23456", "34567"],
+        [17, 17, "Panipat", "55667", "45678", "12345", "23456", "34567", "45678"],
+        [18, 18, "Rewari", "77889", "56789", "23456", "34567", "45678", "56789"],
+        [19, 19, "Rohtak", "99011", "67890", "34567", "45678", "56789", "67890"],
+        [20, 20, "Sirsa", "11223", "78901", "45678", "56789", "67890", "12345"],
+        [21, 21, "Sonipat", "33445", "89012", "56789", "67890", "12345", "23456"],
+        [22, 22, "Yamunanagar", "55667", "12345", "67890", "12345", "23456", "34567"]
+      ]
+    
+  }
+  

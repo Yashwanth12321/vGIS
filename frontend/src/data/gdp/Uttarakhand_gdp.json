@@ -1,0 +1,86 @@
+{
+    "state_gdp_contributions": {
+        "2019-2020": {
+            "Agriculture": "20988346",
+            "Forestry": "1650105",
+            "Fishing": "308489",
+            "Ag & Allied": "22946940",
+            "Mining": "591744",
+            "Manufacturing": "8545868",
+            "Construction": "6508586",
+            "Electricity,gas and Water supply": "379011",
+            "Industry": "16025209",
+            "Transport": "7005783",
+            "Trade,hotels and restaurants": "9454157",
+            "Banking & Insurance": "3002794",
+            "Real estate,ownership of dwellings and business services": "7136415",
+            "Public administration": "4906216",
+            "Other services": "7562346"
+        },
+        "2020-2021": {
+            "Agriculture": "22241872",
+            "Forestry": "1672616",
+            "Fishing": "342371",
+            "Ag & Allied": "24256859",
+            "Mining": "689343",
+            "Manufacturing": "8942911",
+            "Construction": "7327126",
+            "Electricity,gas and Water supply": "701074",
+            "Industry": "17660454",
+            "Transport": "8365019",
+            "Trade,hotels and restaurants": "10126268",
+            "Banking & Insurance": "3486171",
+            "Real estate,ownership of dwellings and business services": "8073186",
+            "Public administration": "5476684",
+            "Other services": "8829950"
+        },
+        "2021-2022": {
+            "Agriculture": "26046042",
+            "Forestry": "1821478",
+            "Fishing": "373945",
+            "Ag & Allied": "28241465",
+            "Mining": "754835",
+            "Manufacturing": "9418673",
+            "Construction": "7984450",
+            "Electricity,gas and Water supply": "745013",
+            "Industry": "18902971",
+            "Transport": "9799387",
+            "Trade,hotels and restaurants": "10939874",
+            "Banking & Insurance": "4054416",
+            "Real estate,ownership of dwellings and business services": "9499076",
+            "Public administration": "6082301",
+            "Other services": "10110164"
+      
+        },
+         "overall": [
+            {
+                "year": "2019-20",
+                "gdp_in_billion_usd": 4687.2262,
+                "per_capita_usd":  42031,
+                "growth_rate": 16.49
+            },
+            {
+                "year": "2020-21",
+                "gdp_in_billion_usd": 4023.8953,
+                "per_capita_usd":  36675,
+                "growth_rate": 11.63
+            },
+            {
+                "year": "2021-22",
+                "gdp_in_billion_usd": 3604.5214,
+                "per_capita_usd": 33381,
+                "growth_rate": 14.87
+            }
+        ]
+
+
+    },
+
+"fields":[{"type":"int","id":"_id"},{"type":"numeric","id":"Sl No"},{"type":"text","id":"District Name"},{"type":"text","id":"Per-capita Income Current Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Current Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Current Prices 2020-21 (in Lakh) (FRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2020-21 (in Lakh) (FRE)"}],
+"records":[
+        [1, 1, "Almora", "98654", "135670", "127745", "148832", "119013", "125438"],
+        [2, 2, "Bageshwar", "115090", "143528", "154766", "122282", "153586", "129694"],
+        [3, 3, "Chamoli", "137794", "158863", "121199", "132227", "136015", "130453"],
+        [4, 4, "Champawat", "128047", "157493", "161362", "121982", "141134", "129413"]
+    ]
+}

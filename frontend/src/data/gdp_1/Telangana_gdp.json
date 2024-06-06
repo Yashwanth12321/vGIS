@@ -1,0 +1,111 @@
+{
+  "state_gdp_contributions": {
+      "2019-2020": {
+          "Agriculture": "6450179",
+          "Forestry": "332289",
+          "Fishing": "165535",
+          "Ag & Allied": "6948003",
+          "Mining": "1349390",
+          "Manufacturing": "4283042",
+          "Construction": "3009219",
+          "Electricity,gas and Water supply": "614270",
+          "Industry": "9255921",
+          "Transport": "2806345",
+          "Trade,hotels and restaurants": "4578724",
+          "Banking & Insurance": "2169700",
+          "Real estate,ownership of dwellings and business services": "4869640",
+          "Public administration": "1247678",
+          "Other services": "2832192"
+      },
+      "2020-2021": {
+          "Agriculture": "7463823",
+          "Forestry": "356966",
+          "Fishing": "233652",
+          "Ag & Allied": "8054441",
+          "Mining": "1340837",
+          "Manufacturing": "4476731",
+          "Construction": "3275502",
+          "Electricity,gas and Water supply": "779028",
+          "Industry": "9872098",
+          "Transport": "3236079",
+          "Trade,hotels and restaurants": "5078989",
+          "Banking & Insurance": "2375103",
+          "Real estate,ownership of dwellings and business services": "5713441",
+          "Public administration": "1510925",
+          "Other services": "3334050"
+      },
+      "2021-2022": {
+          "Agriculture": "7051477",
+          "Forestry": "386857",
+          "Fishing": "267744",
+          "Ag & Allied": "7706078",
+          "Mining": "1245627",
+          "Manufacturing": "4951959",
+          "Construction": "3694161",
+          "Electricity,gas and Water supply": "861067",
+          "Industry": "10752814",
+          "Transport": "3563501",
+          "Trade,hotels and restaurants": "5641027",
+          "Banking & Insurance": "2832246",
+          "Real estate,ownership of dwellings and business services": "6710568",
+          "Public administration": "1983893",
+          "Other services": "3869808"
+      },
+      "overall": [
+        {
+            "year": "2019-20",
+            "gdp_in_billion_usd": 44081.0431,
+            "per_capita_usd": 28806,
+            "growth_rate": 7.77
+        },
+        {
+            "year": "2020-21",
+            "gdp_in_billion_usd": 40902.2231,
+            "per_capita_usd":  25700,
+            "growth_rate": 14.89
+        },
+        {
+            "year": "2021-22",
+            "gdp_in_billion_usd": 35600.3221,
+            "per_capita_usd": 27816,
+            "growth_rate": 16.96
+        }
+    ]
+
+  },
+  "fields": [{"type":"int","id":"_id"},{"type":"numeric","id":"Sl No"},{"type":"text","id":"District Name"},{"type":"text","id":"Per-capita Income Current Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Current Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Current Prices 2020-21 (in Lakh) (FRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2020-21 (in Lakh) (FRE)"}],
+  "records": [
+    [1,1,"Adilabad","1,39,949","1,62,750","1,52,455","95,502","1,07,891","94,587"],
+    [2,2,"Kumuram Bheem","1,49,441","1,46,748","1,31,843","99,322","95,090","78,282"],
+    [3,3,"Mancherial","1,46,432","1,66,813","1,60,883","1,02,236","1,09,599","98,914"],
+    [4,4,"Nirmal","1,32,694","1,60,064","1,52,634","86,924","1,00,888","89,308"],
+    [5,5,"Nizamabad","1,29,238","1,56,409","1,55,515","87,586","1,00,362","93,672"],
+    [6,6,"Jagtial","1,12,997","1,50,406","1,46,723","74,498","94,909","84,742"],
+    [7,7,"Peddapalli","1,80,401","1,89,659","1,70,353","1,27,162","1,26,860","1,06,184"],
+    [8,8,"Jayashankar Bhupalpally","2,57,006","2,42,973","2,15,612","1,62,786","1,51,324","1,26,461"],
+    [9,9,"Bhadradri Kothagudem","1,68,302","1,93,498","1,79,112","1,17,963","1,26,749","1,04,865"],
+    [10,10,"Mahabubabad","1,35,909","1,37,644","1,48,711","87,519","85,671","83,560"],
+    [11,11,"Warangal","1,25,151","1,55,640","1,71,111","84,739","98,727","1,01,090"],
+    [12,12,"Hanumakonda","1,25,271","1,40,819","1,30,821","87,054","92,644","81,295"],
+    [13,13,"Karimnagar","1,62,279","1,69,010","1,79,908","1,11,273","1,10,119","1,10,568"],
+    [14,14,"Rajanna Sircilla","1,24,564","1,50,262","1,51,412","82,442","94,749","88,932"],
+    [15,15,"Kamareddy","1,23,688","1,51,659","1,49,575","81,791","95,172","87,815"],
+    [16,16,"Sangareddy","2,29,464","2,57,610","2,49,091","1,73,443","1,85,214","1,72,111"],
+    [17,17,"Medak","1,76,605","2,19,095","2,11,445","1,26,447","1,44,545","1,33,295"],
+    [18,18,"Siddipet","1,74,560","1,74,794","2,12,788","1,12,693","1,10,380","1,21,960"],
+    [19,19,"Jangoan","1,34,647","1,79,417","1,72,118","89,257","1,10,400","99,243"],
+    [20,20,"Yadadri Bhuvanagiri","1,68,270","1,99,865","2,07,322","1,14,580","1,28,266","1,24,155"],
+    [21,21,"Medchal_Malkajgiri","2,13,362","2,28,866","2,09,838","1,58,856","1,63,033","1,42,148"],
+    [22,22,"Hyderabad","3,56,398","3,63,526","3,49,061","2,54,660","2,44,397","2,22,471"],
+    [23,23,"Rangareddy","5,90,015","6,23,728","6,69,102","4,18,733","4,23,011","4,18,964"],
+    [24,24,"Vikarabad","1,50,784","1,40,128","1,31,962","97,153","88,397","78,032"],
+    [25,25,"Mahabubnagar","1,95,618","1,98,855","2,08,343","1,39,646","1,36,108","1,33,744"],
+    [26,26,"Jogulamba Gadwal","1,38,811","1,44,028","1,46,990","89,154","89,500","82,934"],
+    [27,27,"Wanaparthy","1,25,292","1,56,059","1,51,299","83,624","97,132","86,514"],
+    [28,28,"Nagarkurnool","1,20,698","1,64,252","1,59,267","78,855","1,01,664","92,115"],
+    [29,29,"Nalgonda","1,57,441","1,97,896","2,04,847","1,09,643","1,28,223","1,23,962"],
+    [30,30,"Suryapet","1,34,266","1,73,186","1,75,606","90,526","1,09,200","1,02,703"],
+    [31,31,"Khammam","1,60,810","1,90,024","1,94,337","1,12,982","1,22,709","1,16,318"],
+    [32,32,"Mulugu","1,44,051","1,70,295","1,63,285","92,005","1,04,175","90,268"],
+    [33,33,"Narayanpet","91,139","1,37,057","1,41,809","60,053","85,427","80,079"]
+]}

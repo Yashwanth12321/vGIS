@@ -1,0 +1,103 @@
+{
+  "state_gdp_contributions": {
+      "2019-2020": {
+          "Agriculture": 2205030,
+          "Forestry & logging": 497990,
+          "Fishing": 79115,
+          "Ag & Allied": 2782135,
+          "Mining & quarrying": 1508566,
+          "Manufacturing": 2592790,
+          "Construction": 1346478,
+          "Electricity,gas and Water supply": 145045,
+          "Industry": 5592879,
+          "Transport,storage & communication": 1038365,
+          "Trade,hotels and restaurants": 1700552,
+          "Banking & Insurance": 471674,
+          "Real estate,ownership of dwellings and business services": 772210,
+          "Public administration": 1297769,
+          "Other services": 1509886
+      },
+      "2020-2021": {
+          "Agriculture": 2554588,
+          "Forestry & logging": 557758,
+          "Fishing": 99798,
+          "Ag & Allied": 3212144,
+          "Mining & quarrying": 1675223,
+          "Manufacturing": 2695820,
+          "Construction": 1586797,
+          "Electricity,gas and Water supply": 154178,
+          "Industry": 6112018,
+          "Transport,storage & communication": 1192304,
+          "Trade,hotels and restaurants": 1935095,
+          "Banking & Insurance": 550262,
+          "Real estate,ownership of dwellings and business services": 907909,
+          "Public administration": 1607665,
+          "Other services": 1759864
+      },
+      "2021-2022": {
+          "Agriculture": 2959560,
+          "Forestry & logging": 624699,
+          "Fishing": 127369,
+          "Ag & Allied": 3711629,
+          "Mining & quarrying": 1860302,
+          "Manufacturing": 2808321,
+          "Construction": 1870008,
+          "Electricity,gas and Water supply": 163886,
+          "Industry": 6702516,
+          "Transport,storage & communication": 1370810,
+          "Trade,hotels and restaurants": 2201987,
+          "Banking & Insurance": 641944,
+          "Real estate,ownership of dwellings and business services": 1067455,
+          "Public administration": 1991561,
+          "Other services": 2063528
+      },
+      "overall": [
+        {
+            "year": "2019-20",
+            "gdp_in_billion_usd": 2240.654062       ,
+            "per_capita_usd": 1847.724 ,
+            "growth_rate": 16.66     
+        },
+        {
+            "year": "2020-21",
+            "gdp_in_billion_usd": 2706.9676547,
+            "per_capita_usd": 1992.288,
+            "growth_rate": 12.76
+        },
+        {
+            "year": "2021-22",
+            "gdp_in_billion_usd": 2984.56765 ,
+            "per_capita_usd":  2146.395,
+            "growth_rate": 10.26
+        }
+    ]
+  },
+    "fields": [{"type":"int","id":"_id"},{"type":"numeric","id":"Sl No"},{"type":"text","id":"District Name"},{"type":"text","id":"Per-capita Income Current Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Current Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Current Prices 2020-21 (in Lakh) (FRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2020-21 (in Lakh) (FRE)"}],
+    "records": 
+     [
+  [1, 1, "Bokaro", "71234", "82345", "93456", "12345", "23456", "34567"],
+  [2, 2, "Chatra", "83456", "94567", "105678", "23456", "34567", "45678"],
+  [3, 3, "Deoghar", "98765", "109876", "111987", "45678", "56789", "67890"],
+  [4, 4, "Dhanbad", "109876", "111987", "123098", "56789", "67890", "78901"],
+  [5, 5, "Dumka", "123098", "134209", "145320", "87654", "98765", "109876"],
+  [6, 6, "East Singhbhum", "145320", "156431", "167542", "109876", "123098", "134209"],
+  [7, 7, "Garhwa", "167542", "178653", "189764", "23456", "34567", "45678"],
+  [8, 8, "Giridih", "189764", "200875", "211986", "98765", "109876", "111987"],
+  [9, 9, "Godda", "211986", "223097", "234208", "56789", "67890", "78901"],
+  [10, 10, "Gumla", "234208", "245319", "256430", "98765", "109876", "111987"],
+  [11, 11, "Hazaribagh", "256430", "267541", "278652", "34567", "45678", "56789"],
+  [12, 12, "Jamtara", "278652", "289763", "300874", "109876", "111987", "123098"],
+  [13, 13, "Khunti", "300874", "311985", "323096", "123098", "134209", "145320"],
+  [14, 14, "Koderma", "323096", "334207", "345318", "56789", "67890", "78901"],
+  [15, 15, "Latehar", "345318", "356429", "367540", "98765", "109876", "111987"],
+  [16, 16, "Lohardaga", "367540", "378651", "389762", "45678", "56789", "67890"],
+  [17, 17, "Pakur", "389762", "400873", "411984", "109876", "111987", "123098"],
+  [18, 18, "Palamu", "411984", "423095", "434206", "23456", "34567", "45678"],
+  [19, 19, "Ramgarh", "434206", "445317", "456428", "56789", "67890", "78901"],
+  [20, 20, "Ranchi", "456428", "467539", "478650", "98765", "109876", "111987"],
+  [21, 21, "Sahebganj", "478650", "489761", "500872", "123098", "134209", "145320"],
+  [22, 22, "Seraikela Kharsawan", "500872", "511983", "523094", "23456", "34567", "45678"],
+  [23, 23, "Simdega", "523094", "534205", "545316", "56789", "67890", "78901"],
+  [24, 24, "West Singhbhum", "545316", "556427", "567538", "98765", "109876", "111987"]
+]
+}

@@ -1,0 +1,121 @@
+{
+  "state_gdp_contributions": {
+    "2021-2022": {
+        "Agriculture": "3531406",
+        "Forestry": "261839",
+        "Fishing": "372185",
+        "Ag & Allied": "4165430",
+
+        "Mining": "847575",
+        "Manufacturing": "1248806",
+        "Construction": "1719382",
+        "Electricity,gas and Water supply": "189001",
+        "Industry": "4004764",
+
+        "Transport": "1700786",
+        "Trade,hotels and restaurants": "2411535",
+        "Banking": "598879",
+        "Real estate": "420524",
+        "Public Administration": "1240356",
+        "Other Services": "3837485"
+    },
+    "2020-2021": {
+        "Agriculture": "3148299",
+        "Forestry": "241823",
+        "Fishing": "330473",
+        "Ag & Allied": "3720595",
+
+        "Mining": "791185",
+        "Manufacturing": "1131625",
+        "Construction": "1406698",
+        "Electricity,gas and Water supply": "177298",
+        "Industry": "3506806",
+
+        "Transport": "1351610",
+        "Trade,hotels and restaurants": "2182985",
+        "Banking": "520973",
+        "Real estate": "374698",
+        "Public Administration": "1153957",
+        "Other Services": "3134408"
+    },
+    "2019-2020": {
+        "Agriculture": "2670510",
+        "Forestry": "221367",
+        "Fishing": "311579",
+        "Ag & Allied": "3203456",
+
+        "Mining": "826489",
+        "Manufacturing": "1062523",
+        "Construction": "1234060",
+        "Electricity,gas and Water supply": "169940",
+        "Industry": "3293012",
+
+        "Transport": "1108921",
+        "Trade,hotels and restaurants": "1992811",
+        "Banking": "490413",
+        "Real estate": "341654",
+        "Public Administration": "902356",
+        "Other Services": "2507464"
+    },
+    "overall": [
+        {
+            "year": "2019-20",
+            "gdp_in_billion_usd": 71625.7216,
+            "per_capita_usd": 21991.138,
+            "growth_rate":   11.17
+        },
+        {
+            "year": "2020-21",
+            "gdp_in_billion_usd": 79277.5469,
+            "per_capita_usd": 23993.2197,
+            "growth_rate": 10.68
+        },
+        {
+            "year": "2021-22",
+            "gdp_in_billion_usd":  88023.3961,
+            "per_capita_usd": 26242.1271,
+            "growth_rate": 11.03
+        }
+    ]
+},
+    "fields": [{"type":"int","id":"_id"},{"type":"numeric","id":"Sl No"},{"type":"text","id":"District Name"},{"type":"text","id":"Per-capita Income Current Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Current Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Current Prices 2020-21 (in Lakh) (FRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2020-21 (in Lakh) (FRE)"}],
+
+      "records": [
+        [1, 1, "Baksa", "52345", "63456", "71234", "49567", "57234", "65321"],
+        [2, 2, "Barpeta", "43567", "58934", "63457", "41234", "52345", "59876"],
+        [3, 3, "Biswanath", "48976", "57234", "62345", "45876", "51234", "59876"],
+        [4, 4, "Bongaigaon", "51234", "60234", "67890", "49876", "54321", "61234"],
+        [5, 5, "Cachar", "53421", "62345", "68901", "47890", "53214", "60234"],
+        [6, 6, "Charaideo", "52345", "61234", "67891", "49876", "52345", "61234"],
+        [7, 7, "Chirang", "51234", "62345", "67890", "47890", "54321", "60234"],
+        [8, 8, "Darrang", "52345", "63456", "71234", "49567", "57234", "65321"],
+        [9, 9, "Dhemaji", "43567", "58934", "63457", "41234", "52345", "59876"],
+        [10, 10, "Dhubri", "48976", "57234", "62345", "45876", "51234", "59876"],
+        [11, 11, "Dibrugarh", "51234", "60234", "67890", "49876", "54321", "61234"],
+        [12, 12, "Dima Hasao", "53421", "62345", "68901", "47890", "53214", "60234"],
+        [13, 13, "Goalpara", "52345", "61234", "67891", "49876", "52345", "61234"],
+        [14, 14, "Golaghat", "51234", "62345", "67890", "47890", "54321", "60234"],
+        [15, 15, "Hailakandi", "52345", "63456", "71234", "49567", "57234", "65321"],
+        [16, 16, "Hojai", "43567", "58934", "63457", "41234", "52345", "59876"],
+        [17, 17, "Jorhat", "48976", "57234", "62345", "45876", "51234", "59876"],
+        [18, 18, "Kamrup Metropolitan", "51234", "60234", "67890", "49876", "54321", "61234"],
+        [19, 19, "Kamrup", "53421", "62345", "68901", "47890", "53214", "60234"],
+        [20, 20, "Karbi Anglong", "52345", "61234", "67891", "49876", "52345", "61234"],
+        [21, 21, "Karimganj", "51234", "62345", "67890", "47890", "54321", "60234"],
+        [22, 22, "Kokrajhar", "52345", "63456", "71234", "49567", "57234", "65321"],
+        [23, 23, "Lakhimpur", "43567", "58934", "63457", "41234", "52345", "59876"],
+        [24, 24, "Majuli", "48976", "57234", "62345", "45876", "51234", "59876"],
+        [25, 25, "Morigaon", "51234", "60234", "67890", "49876", "54321", "61234"],
+        [26, 26, "Nagaon", "53421", "62345", "68901", "47890", "53214", "60234"],
+        [27, 27, "Nalbari", "52345", "61234", "67891", "49876", "52345", "61234"],
+        [28, 28, "Sivasagar", "51234", "62345", "67890", "47890", "54321", "60234"],
+        [29, 29, "Sonitpur", "52345", "63456", "71234", "49567", "57234", "65321"],
+        [30, 30, "South Salmara-Mankachar", "43567", "58934", "63457", "41234", "52345", "59876"],
+        [31, 31, "Tinsukia", "48976", "57234", "62345", "45876", "51234", "59876"],
+        [32, 32, "Udalguri", "51234", "60234", "67890", "49876", "54321", "61234"],
+        [33, 33, "West Karbi Anglong", "53421", "62345", "68901", "47890", "53214", "60234"]
+      ]
+
+    
+  }
+  

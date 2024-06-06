@@ -1,0 +1,92 @@
+{
+    "state_gdp_contributions": {
+        "2019-2020": {
+            "Agriculture": "102041",
+            "Forestry": "31060",
+            "Fishing": "4854",
+            "Ag & Allied": "137955",
+            "Mining": "2331",
+            "Manufacturing": "7727",
+            "Construction": "96516",
+            "Electricity,gas and Water supply": "21972",
+            "Industry": "128546",
+            "Transport,storage & communication": "16356",
+            "Trade,hotels and restaurants": "60967",
+            "Banking & Insurance": "19135",
+            "Real estate,ownership of dwellings and business services": "109288",
+            "Public administration": "122707",
+            "Other services": "94021"
+        },
+        "2020-2021": {
+            "Agriculture": "112341",
+            "Forestry": "33872",
+            "Fishing": "5747",
+            "Ag & Allied": "151960",
+            "Mining": "1653",
+            "Manufacturing": "8642",
+            "Construction": "147574",
+            "Electricity,gas and Water supply": "26253",
+            "Industry": "184122",
+            "Transport,storage & communication": "20211",
+            "Trade,hotels and restaurants": "71116",
+            "Banking & Insurance": "19233",
+            "Real estate,ownership of dwellings and business services": "127939",
+            "Public administration": "155176",
+            "Other services": "106535"
+        },
+        "2021-2022": {
+            "Agriculture": "123681",
+            "Forestry": "36939",
+            "Fishing": "6804",
+            "Ag & Allied": "167424",
+            "Mining": "1172",
+            "Manufacturing": "10035",
+            "Construction": "225642",
+            "Electricity,gas and Water supply": "31368",
+            "Industry": "268217",
+            "Transport,storage & communication": "25047",
+            "Trade,hotels and restaurants": "82954",
+            "Banking & Insurance": "19332",
+            "Real estate,ownership of dwellings and business services": "149773",
+            "Public administration": "196236",
+            "Other services": "120715"
+        },
+        "overall": [
+            {
+                "year": "2019-20",
+                "gdp_in_billion_usd":305.89,
+                "per_capita_usd": 262.20,
+                "growth_rate": 12.42          
+            },
+            {
+                "year": "2020-21",
+                "gdp_in_billion_usd": 341.652,
+                "per_capita_usd": 281.70,
+                "growth_rate":11.54
+            },
+            {
+                "year": "2021-22",
+                "gdp_in_billion_usd": 380.879  ,
+                "per_capita_usd":302.92 ,
+                "growth_rate": 11.64
+            }
+        ]
+    },
+
+    "fields": [{"type":"int","id":"_id"},{"type":"numeric","id":"Sl No"},{"type":"text","id":"District Name"},{"type":"text","id":"Per-capita Income Current Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Current Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Current Prices 2020-21 (in Lakh) (FRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2020-21 (in Lakh) (FRE)"}],
+    "records":
+     [
+ 
+  [1, 1, "Aizawl", "11678027", "539300", "2132478", "14349806", "916163", "4575797"],
+  [2, 2, "Champhai", "78901", "89012", "90123", "91234", "92345", "93456"],
+  [3, 3, "Kolasib", "34567", "45678", "56789", "67890", "78901", "89012"],
+  [4, 4, "Lawngtlai", "90123", "91234", "92345", "93456", "12345", "23456"],
+  [5, 5, "Lunglei", "56789", "67890", "78901", "89012", "90123", "91234"],
+  [6, 6, "Mamit", "12345", "23456", "34567", "45678", "56789", "67890"],
+  [7, 7, "Saiha", "67890", "78901", "89012", "90123", "91234", "92345"],
+  [8, 8, "Serchhip", "23456", "34567", "45678", "56789", "67890", "78901"],
+  [9, 9, "Hnahthial", "89012", "90123", "91234", "92345", "93456", "12345"],
+  [10, 10, "Khawzawl", "45678", "56789", "67890", "78901", "89012", "90123"],
+  [11, 11, "Saitual", "91234", "92345", "93456", "12345", "23456", "34567"]
+     ]
+}

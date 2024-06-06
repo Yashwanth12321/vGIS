@@ -1,0 +1,129 @@
+{
+  "state_gdp_contributions": {
+      "2019-2020": {
+          "Agriculture": "11369055",
+          "Forestry & logging": "2525988",
+          "Fishing": "351888",
+          "Ag & Allied": "14246930",
+          "Mining & quarrying": "624028",
+          "Manufacturing": "25835880",
+          "Construction": "8555310",
+          "Electricity,gas and Water supply": "2406675",
+          "Industry": "37421893",
+          "Transport,storage & communication": "9696697",
+          "Trade,hotels and restaurants": "19252325",
+          "Banking & Insurance": "14046493",
+          "Real estate,ownership of dwellings and business services": "22191368",
+          "Public administration": "5063352",
+          "Other services": "10303176"
+      },
+      "2020-2021": {
+          "Agriculture": "13383943",
+          "Forestry & logging": "3253407",
+          "Fishing": "385504",
+          "Ag & Allied": "17022854",
+          "Mining & quarrying": "578702",
+          "Manufacturing": "27323137",
+          "Construction": "9487771",
+          "Electricity,gas and Water supply": "3689250",
+          "Industry": "41078861",
+          "Transport,storage & communication": "10831201",
+          "Trade,hotels and restaurants": "20804670",
+          "Banking & Insurance": "16235853",
+          "Real estate,ownership of dwellings and business services": "26733390",
+          "Public administration": "5941281",
+          "Other services": "12365105"
+      },
+      "2021-2022": {
+          "Agriculture": "12298249",
+          "Forestry & logging": "3898493",
+          "Fishing": "459125",
+          "Ag & Allied": "16655868",
+          "Mining & quarrying": "557655",
+          "Manufacturing": "28393340",
+          "Construction": "10953362",
+          "Electricity,gas and Water supply": "4526756",
+          "Industry": "44431113",
+          "Transport,storage & communication": "12449235",
+          "Trade,hotels and restaurants": "18756949",
+          "Banking & Insurance": "32504512",
+          "Real estate,ownership of dwellings and business services": "6700197",
+          "Public administration": "15049486",
+          "Other services": "6700197"
+      },
+      "overall": [
+        {
+            "year": "2019-20",
+            "gdp_in_billion_usd": 6101.2608,
+            "per_capita_usd":  4905.268 ,
+            "growth_rate":  17.90        
+        },
+        {
+            "year": "2020-21",
+            "gdp_in_billion_usd": 6927.649,
+            "per_capita_usd": 5486.3877,
+            "growth_rate": 13.55
+        },
+        {
+            "year": "2021-22",
+            "gdp_in_billion_usd":8319.26771 ,
+            "per_capita_usd": 6495.4833,
+            "growth_rate": 20.10
+        }
+    ]
+  },
+    "fields": [
+      {"type": "int", "id": "_id"},
+      {"type": "numeric", "id": "Sl No"},
+      {"type": "text", "id": "District Name"},
+      {"type": "text", "id": "Per-capita Income Current Prices 2018-19 (in Lakh) (TRE)"},
+      {"type": "text", "id": "Per-capita Income Current Prices 2019-20 (in Lakh) (SRE)"},
+      {"type": "text", "id": "Per-capita Income Current Prices 2020-21 (in Lakh) (FRE)"},
+      {"type": "text", "id": "Per-capita Income Constant Prices 2018-19 (in Lakh) (TRE)"},
+      {"type": "text", "id": "Per-capita Income Constant Prices 2019-20 (in Lakh) (SRE)"},
+      {"type": "text", "id": "Per-capita Income Constant Prices 2020-21 (in Lakh) (FRE)"}
+    ],
+      "records": [
+          [1, 1, "Ahmednagar", "12345", "23456", "34567", "45678", "56789", "67890"],
+          [2, 2, "Akola", "23456", "34567", "45678", "56789", "67890", "78901"],
+          [3, 3, "Amravati", "34567", "45678", "56789", "67890", "78901", "89012"],
+          [4, 4, "Aurangabad", "45678", "56789", "67890", "78901", "89012", "90123"],
+          [5, 5, "Beed", "56789", "67890", "78901", "89012", "90123", "12345"],
+          [6, 6, "Bhandara", "67890", "78901", "89012", "90123", "12345", "23456"],
+          [7, 7, "Buldhana", "78901", "89012", "90123", "12345", "23456", "34567"],
+          [8, 8, "Chandrapur", "89012", "90123", "12345", "23456", "34567", "45678"],
+          [9, 9, "Dhule", "90123", "12345", "23456", "34567", "45678", "56789"],
+          [10, 10, "Gadchiroli", "12345", "23456", "34567", "45678", "56789", "67890"],
+          [11, 11, "Gondia", "23456", "34567", "45678", "56789", "67890", "78901"],
+          [12, 12, "Hingoli", "34567", "45678", "56789", "67890", "78901", "89012"],
+          [13, 13, "Jalgaon", "45678", "56789", "67890", "78901", "89012", "90123"],
+          [14, 14, "Jalna", "56789", "67890", "78901", "89012", "90123", "12345"],
+          [15, 15, "Kolhapur", "67890", "78901", "89012", "90123", "12345", "23456"],
+          [16, 16, "Latur", "78901", "89012", "90123", "12345", "23456", "34567"],
+          [17, 17, "Mumbai City", "89012", "90123", "12345", "23456", "34567", "45678"],
+          [18, 18, "Mumbai Suburban", "90123", "12345", "23456", "34567", "45678", "56789"],
+          [19, 19, "Nagpur", "12345", "23456", "34567", "45678", "56789", "67890"],
+          [20, 20, "Nanded", "23456", "34567", "45678", "56789", "67890", "78901"],
+          [21, 21, "Nandurbar", "34567", "45678", "56789", "67890", "78901", "89012"],
+          [22, 22, "Nashik", "45678", "56789", "67890", "78901", "89012", "90123"],
+          [23, 23, "Osmanabad", "56789", "67890", "78901", "89012", "90123", "12345"],
+          [24, 24, "Palghar", "67890", "78901", "89012", "90123", "12345", "23456"],
+          [25, 25, "Parbhani", "78901", "89012", "90123", "12345", "23456", "34567"],
+          [26, 26, "Pune", "89012", "90123", "12345", "23456", "34567", "45678"],
+          [27, 27, "Raigad", "90123", "12345", "23456", "34567", "45678", "56789"],
+          [28, 28, "Ratnagiri", "12345", "23456", "34567", "45678", "56789", "67890"],
+          [29, 29, "Sangli", "23456", "34567", "45678", "56789", "67890", "78901"],
+          [30, 30, "Satara", "34567", "45678", "56789", "67890", "78901", "89012"],
+          [31, 31, "Sindhudurg", "45678", "56789", "67890", "78901", "89012", "90123"],
+          [32, 32, "Solapur", "56789", "67890", "78901", "89012", "90123", "12345"],
+          [33, 33, "Thane", "67890", "78901", "89012", "90123", "12345", "23456"],
+          [34, 34, "Wardha", "78901", "89012", "90123", "12345", "23456", "34567"],
+          [35, 35, "Washim", "89012", "90123", "12345", "23456", "34567", "45678"],
+          [36, 36, "Yavatmal", "90123", "12345", "23456","34567", "45678", "56789"]
+        ]
+
+    
+  
+  }
+  
+  

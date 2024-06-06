@@ -1,0 +1,20 @@
+{
+    "fields": [{"type":"int","id":"_id"},{"type":"numeric","id":"Sl No"},{"type":"text","id":"District Name"},{"type":"text","id":"Per-capita Income Current Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Current Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Current Prices 2020-21 (in Lakh) (FRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2020-21 (in Lakh) (FRE)"}],
+
+      "records": [
+        [1, 1, "Bilaspur", "45678", "56789", "67890", "12345", "23456", "34567"],
+        [2, 2, "Chamba", "56789", "67890", "12345", "23456", "34567", "45678"],
+        [3, 3, "Hamirpur", "67890", "12345", "23456", "34567", "45678", "56789"],
+        [4, 4, "Kangra", "12345", "23456", "34567", "45678", "56789", "67890"],
+        [5, 5, "Kinnaur", "23456", "34567", "45678", "56789", "67890", "12345"],
+        [6, 6, "Kullu", "34567", "45678", "56789", "67890", "12345", "23456"],
+        [7, 7, "Lahaul and Spiti", "45678", "56789", "67890", "12345", "23456", "34567"],
+        [8, 8, "Mandi", "56789", "67890", "12345", "23456", "34567", "45678"],
+        [9, 9, "Shimla", "67890", "12345", "23456", "34567", "45678", "56789"],
+        [10, 10, "Sirmaur", "12345", "23456", "34567", "45678", "56789", "67890"],
+        [11, 11, "Solan", "23456", "34567", "45678", "56789", "67890", "12345"],
+        [12, 12, "Una", "34567", "45678", "56789", "67890", "12345", "23456"]
+      ]
+    
+  }
+  

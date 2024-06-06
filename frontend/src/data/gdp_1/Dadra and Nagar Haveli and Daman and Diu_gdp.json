@@ -1,0 +1,11 @@
+{
+    "fields": [{"type": "int", "id": "_id"}, {"type": "numeric", "id": "Sl No"}, {"type": "text", "id": "District Name"}, {"type": "text", "id": "Per-capita Income Current Prices 2018-19 (in Lakh) (TRE)"}, {"type": "text", "id": "Per-capita Income Current Prices 2019-20 (in Lakh) (SRE)"}, {"type": "text", "id": "Per-capita Income Current Prices 2020-21 (in Lakh) (FRE)"}, {"type": "text", "id": "Per-capita Income Constant Prices 2018-19 (in Lakh) (TRE)"}, {"type": "text", "id": "Per-capita Income Constant Prices 2019-20 (in Lakh) (SRE)"}, {"type": "text", "id": "Per-capita Income Constant Prices 2020-21 (in Lakh) (FRE)"}],
+
+      "records": [
+        [1, 1, "Dadra and Nagar Haveli", "23456", "31234", "28765", "21234", "25432", "29876"],
+        [2, 2, "Daman", "21234", "29876", "26789", "19876", "22345", "26890"],
+        [3, 3, "Diu", "22345", "31234", "29765", "20876", "23214", "28876"]
+      ]
+    }
+    
+  

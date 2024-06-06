@@ -1,0 +1,17 @@
+{
+    "fields": [{"type":"int","id":"_id"},{"type":"numeric","id":"Sl No"},{"type":"text","id":"District Name"},{"type":"text","id":"Per-capita Income Current Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Current Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Current Prices 2020-21 (in Lakh) (FRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2020-21 (in Lakh) (FRE)"}],
+    "records": [
+      [1, 1, "Aizawl", "", "", "", "", "", ""],
+      [2, 2, "Champhai", "", "", "", "", "", ""],
+      [3, 3, "Kolasib", "", "", "", "", "", ""],
+      [4, 4, "Lawngtlai", "", "", "", "", "", ""],
+      [5, 5, "Lunglei", "", "", "", "", "", ""],
+      [6, 6, "Mamit", "", "", "", "", "", ""],
+      [7, 7, "Saiha", "", "", "", "", "", ""],
+      [8, 8, "Serchhip", "", "", "", "", "", ""],
+      [9, 9, "Hnahthial", "", "", "", "", "", ""],
+      [10, 10, "Khawzawl", "", "", "", "", "", ""],
+      [11, 11, "Saitual", "", "", "", "", "", ""]
+    ]
+  }
+  

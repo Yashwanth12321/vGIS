@@ -1,0 +1,30 @@
+{
+    "fields": [{"type":"int","id":"_id"},{"type":"numeric","id":"Sl No"},{"type":"text","id":"District Name"},{"type":"text","id":"Per-capita Income Current Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Current Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Current Prices 2020-21 (in Lakh) (FRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2020-21 (in Lakh) (FRE)"}],
+    "records": [
+      [1, 1, "Bokaro", "", "", "", "", "", ""],
+      [2, 2, "Chatra", "", "", "", "", "", ""],
+      [3, 3, "Deoghar", "", "", "", "", "", ""],
+      [4, 4, "Dhanbad", "", "", "", "", "", ""],
+      [5, 5, "Dumka", "", "", "", "", "", ""],
+      [6, 6, "East Singhbhum", "", "", "", "", "", ""],
+      [7, 7, "Garhwa", "", "", "", "", "", ""],
+      [8, 8, "Giridih", "", "", "", "", "", ""],
+      [9, 9, "Godda", "", "", "", "", "", ""],
+      [10, 10, "Gumla", "", "", "", "", "", ""],
+      [11, 11, "Hazaribagh", "", "", "", "", "", ""],
+      [12, 12, "Jamtara", "", "", "", "", "", ""],
+      [13, 13, "Khunti", "", "", "", "", "", ""],
+      [14, 14, "Koderma", "", "", "", "", "", ""],
+      [15, 15, "Latehar", "", "", "", "", "", ""],
+      [16, 16, "Lohardaga", "", "", "", "", "", ""],
+      [17, 17, "Pakur", "", "", "", "", "", ""],
+      [18, 18, "Palamu", "", "", "", "", "", ""],
+      [19, 19, "Ramgarh", "", "", "", "", "", ""],
+      [20, 20, "Ranchi", "", "", "", "", "", ""],
+      [21, 21, "Sahebganj", "", "", "", "", "", ""],
+      [22, 22, "Seraikela Kharsawan", "", "", "", "", "", ""],
+      [23, 23, "Simdega", "", "", "", "", "", ""],
+      [24, 24, "West Singhbhum", "", "", "", "", "", ""]
+    ]
+  }
+  

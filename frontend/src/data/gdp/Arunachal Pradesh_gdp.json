@@ -1,0 +1,110 @@
+{
+    "state_gdp_contributions": {
+        "2021-2022": {
+            "Agriculture": "492348",
+            "Forestry": "210377",
+            "Fishing": "5670",
+            "Ag & Allied": "708395",
+
+            "Mining": "21032",
+            "Manufacturing": "26943",
+            "Construction": "267265",
+            "Electricity,gas and Water supply": "64730",
+            "Industry": "379970",
+
+            "Transport": "33022",
+            "Trade,hotels and restaurants": "54621",
+            "Banking": "30221",
+            "Real estate": "22427",
+            "Public Administration": "184938",
+            "Other Services": "145211"
+        },
+        "2020-2021": {
+            "Agriculture": "419787",
+            "Forestry": "189566",
+            "Fishing": "5526",
+            "Ag & Allied": "614879",
+
+            "Mining": "16864",
+            "Manufacturing": "23209",
+            "Construction": "228226",
+            "Electricity,gas and Water supply": "59821",
+            "Industry": "328120",
+
+            "Transport": "29670",
+            "Trade,hotels and restaurants": "47891",
+            "Banking": "27221",
+            "Real estate": "21064",
+            "Public Administration": "159024",
+            "Other Services": "126677"
+        },
+        "2019-2020": {
+            "Agriculture": "375397",
+            "Forestry": "178421",
+            "Fishing": "5405",
+            "Ag & Allied": "559223",
+
+            "Mining": "21561",
+            "Manufacturing": "20369",
+            "Construction": "162641",
+            "Electricity,gas and Water supply": "56371",
+            "Industry": "260942",
+
+            "Transport": "26083",
+            "Trade,hotels and restaurants": "46525",
+            "Banking": "24044",
+            "Real estate": "19608",
+            "Public Administration": "133703",
+            "Other Services": "113473"
+        },
+        "overall": [
+            {
+                "year": "2019-20",
+                "gdp_in_billion_usd": 3888.616,
+                "per_capita_usd": 28945.138,
+                "growth_rate":  13.92
+            },
+            {
+                "year": "2020-21",
+                "gdp_in_billion_usd": 4536.869,
+                "per_capita_usd": 33302.2197,
+                "growth_rate": 16.67
+            },
+            {
+                "year": "2021-22",
+                "gdp_in_billion_usd": 4961.3061,
+                "per_capita_usd": 42197.1271,
+                "growth_rate": 9.0503
+            }
+        ]
+    },
+    "fields": [{"type":"int","id":"_id"},{"type":"numeric","id":"Sl No"},{"type":"text","id":"District Name"},{"type":"text","id":"Per-capita Income Current Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Current Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Current Prices 2020-21 (in Lakh) (FRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2020-21 (in Lakh) (FRE)"}],
+    "records": [
+      [1, 1, "Tawang", "12345", "23456", "34567", "45678", "56789", "67890"],
+      [2, 2, "West Kameng", "23456", "34567", "45678", "56789", "67890", "78901"],
+      [3, 3, "East Kameng", "34567", "45678", "56789", "67890", "78901", "89012"],
+      [4, 4, "Papum Pare", "45678", "56789", "67890", "78901", "89012", "90123"],
+      [5, 5, "Kurung Kumey", "56789", "67890", "78901", "89012", "90123", "12345"],
+      [6, 6, "Kra Daadi", "67890", "78901", "89012", "90123", "12345", "23456"],
+      [7, 7, "Lower Subansiri", "78901", "89012", "90123", "12345", "23456", "34567"],
+      [8, 8, "Upper Subansiri", "89012", "90123", "12345", "23456", "34567", "45678"],
+      [9, 9, "West Siang", "90123", "12345", "23456", "34567", "45678", "56789"],
+      [10, 10, "East Siang", "12345", "23456", "34567", "45678", "56789", "67890"],
+      [11, 11, "Siang", "23456", "34567", "45678", "56789", "67890", "78901"],
+      [12, 12, "Upper Siang", "34567", "45678", "56789", "67890", "78901", "89012"],
+      [13, 13, "Lower Siang", "45678", "56789", "67890", "78901", "89012", "90123"],
+      [14, 14, "Lower Dibang Valley", "56789", "67890", "78901", "89012", "90123", "12345"],
+      [15, 15, "Dibang Valley", "67890", "78901", "89012", "90123", "12345", "23456"],
+      [16, 16, "Anjaw", "78901", "89012", "90123", "12345", "23456", "34567"],
+      [17, 17, "Lohit", "89012", "90123", "12345", "23456", "34567", "45678"],
+      [18, 18, "Namsai", "90123", "12345", "23456", "34567", "45678", "56789"],
+      [19, 19, "Changlang", "12345", "23456", "34567", "45678", "56789", "67890"],
+      [20, 20, "Tirap", "23456", "34567", "45678", "56789", "67890", "78901"],
+      [21, 21, "Longding", "34567", "45678", "56789", "67890", "78901", "89012"],
+      [22, 22, "Pakke Kessang", "45678", "56789", "67890", "78901", "89012", "90123"],
+      [23, 23, "Lepa Rada", "56789", "67890", "78901", "89012", "90123", "12345"],
+      [24, 24, "Shi Yomi", "67890", "78901", "89012", "90123", "12345", "23456"]
+    ]
+    
+  }
+  

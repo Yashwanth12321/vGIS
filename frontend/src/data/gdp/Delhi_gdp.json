@@ -1,0 +1,98 @@
+{
+  "state_gdp_contributions": {
+    "2021-2022": {
+        "Agriculture": "366565",
+        "Forestry": "9858",
+        "Fishing": "978",
+        "Ag & Allied": "377401",
+
+        "Mining": "0",
+        "Manufacturing": "2023714",
+        "Construction": "2488922",
+        "Electricity,gas and Water supply": "760067",
+        "Industry": "5272703",
+
+        "Transport": "3186493",
+        "Trade,hotels and restaurants": "7647533",
+        "Banking": "7179025",
+        "Real estate": "13531233",
+        "Public Administration": "1969152",
+        "Other Services": "5951826"
+    },
+    "2020-2021": {
+        "Agriculture": "366150",
+        "Forestry": "9624",
+        "Fishing": "947",
+        "Ag & Allied": "376721",
+
+        "Mining": "0",
+        "Manufacturing": "1882947",
+        "Construction": "2325002",
+        "Electricity,gas and Water supply": "595352",
+        "Industry": "4803301",
+
+        "Transport": "2771802",
+        "Trade,hotels and restaurants": "6719843",
+        "Banking": "6523452",
+        "Real estate": "11163824",
+        "Public Administration": "1845464",
+        "Other Services": "4908074"
+    },
+    "2019-2020": {
+        "Agriculture": "320965",
+        "Forestry": "9406",
+        "Fishing": "840",
+        "Ag & Allied": "331211",
+
+        "Mining": "0",
+        "Manufacturing": "1755404",
+        "Construction": "2129321",
+        "Electricity,gas and Water supply": "512075",
+        "Industry": "4396800",
+
+        "Transport": "2339817",
+        "Trade,hotels and restaurants": "5792498",
+        "Banking": "5914311",
+        "Real estate": "9111385",
+        "Public Administration": "1641736",
+        "Other Services": "3963713"
+    },
+    "overall": [
+        {
+            "year": "2019-20",
+            "gdp_in_billion_usd":  144303.0116,
+            "per_capita_usd": 78790.188,
+            "growth_rate":     15.09
+        },
+        {
+            "year": "2020-21",
+            "gdp_in_billion_usd":   165948.1769,
+            "per_capita_usd": 88421.2834,
+            "growth_rate":  15.00
+        },
+        {
+            "year": "2021-22",
+            "gdp_in_billion_usd":   172628.3031,
+            "per_capita_usd": 91721.127,
+            "growth_rate": 13.91
+        }
+    ]
+},
+    "fields": [{"type": "int", "id": "_id"}, {"type": "numeric", "id": "Sl No"}, {"type": "text", "id": "District Name"}, {"type": "text", "id": "Per-capita Income Current Prices 2018-19 (in Lakh) (TRE)"}, {"type": "text", "id": "Per-capita Income Current Prices 2019-20 (in Lakh) (SRE)"}, {"type": "text", "id": "Per-capita Income Current Prices 2020-21 (in Lakh) (FRE)"}, {"type": "text", "id": "Per-capita Income Constant Prices 2018-19 (in Lakh) (TRE)"}, {"type": "text", "id": "Per-capita Income Constant Prices 2019-20 (in Lakh) (SRE)"}, {"type": "text", "id": "Per-capita Income Constant Prices 2020-21 (in Lakh) (FRE)"}],
+
+      "records": [
+        [1, 1, "Central Delhi", "12345", "23456", "21234", "18976", "19876", "22765"],
+        [2, 2, "East Delhi", "13456", "24567", "22345", "20123", "21098", "23876"],
+        [3, 3, "New Delhi", "14567", "25678", "23456", "21234", "22234", "24876"],
+        [4, 4, "North Delhi", "15678", "26789", "24567", "22345", "23345", "25876"],
+        [5, 5, "North East Delhi", "16789", "27890", "25678", "23456", "24456", "26890"],
+        [6, 6, "North West Delhi", "17890", "28901", "26789", "24567", "25567", "27890"],
+        [7, 7, "Shahdara", "18901", "29012", "27890", "25678", "26678", "28876"],
+        [8, 8, "South Delhi", "19012", "30123", "29012", "26789", "27789", "29876"],
+        [9, 9, "South East Delhi", "20123", "31234", "30123", "27890", "28890", "30876"],
+        [10, 10, "South West Delhi", "21234", "32345", "31234", "29012", "30012", "31890"],
+        [11, 11, "West Delhi", "22345", "33456", "32345", "30123", "31123", "32876"]
+      ]
+    
+  }
+  

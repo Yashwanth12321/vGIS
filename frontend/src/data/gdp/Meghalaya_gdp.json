@@ -1,0 +1,91 @@
+{
+  "state_gdp_contributions": {
+      "2019-2020": {
+          "Agriculture": "240000",
+          "Forestry & logging": "64039",
+          "Fishing": "6582",
+          "Ag & Allied": "310621",
+          "Mining & quarrying": "93109",
+          "Manufacturing": "125315",
+          "Construction": "366205",
+          "Electricity,gas and Water supply": "32471",
+          "Industry": "617100",
+          "Transport,storage & communication": "140100",
+          "Trade,hotels and restaurants": "182938",
+          "Banking & Insurance": "55280",
+          "Real estate,ownership of dwellings and business services": "115749",
+          "Public administration": "238158",
+          "Other services": "240961"
+      },
+      "2020-2021": {
+          "Agriculture": "271271",
+          "Forestry & logging": "68891",
+          "Fishing": "7638",
+          "Ag & Allied": "347800",
+          "Mining & quarrying": "95920",
+          "Manufacturing": "130095",
+          "Construction": "449012",
+          "Electricity,gas and Water supply": "31956",
+          "Industry": "706983",
+          "Transport,storage & communication": "164376",
+          "Trade,hotels and restaurants": "205957",
+          "Banking & Insurance": "58160",
+          "Real estate,ownership of dwellings and business services": "125314",
+          "Public administration": "262836",
+          "Other services": "320781"
+      },
+      "2021-2022": {
+          "Agriculture": "299169",
+          "Forestry & logging": "73651",
+          "Fishing": "9030",
+          "Ag & Allied": "381851",
+          "Mining & quarrying": "98051",
+          "Manufacturing": "151544",
+          "Construction": "490563",
+          "Electricity,gas and Water supply": "36751",
+          "Industry": "776909",
+          "Transport,storage & communication": "194762",
+          "Trade,hotels and restaurants": "231962",
+          "Banking & Insurance": "68348",
+          "Real estate,ownership of dwellings and business services": "130036",
+          "Public administration": "302597",
+          "Other services": "446876"
+      },
+      "overall": [
+        {
+            "year": "2019-20",
+            "gdp_in_billion_usd":733.230,
+            "per_capita_usd": 263.87,
+            "growth_rate": 13.73          
+        },
+        {
+            "year": "2020-21",
+            "gdp_in_billion_usd": 847.3422,
+            "per_capita_usd": 298.11,
+            "growth_rate": 15.58
+        },
+        {
+            "year": "2021-22",
+            "gdp_in_billion_usd":961.461  ,
+            "per_capita_usd":  336.74 ,
+            "growth_rate": 13.44
+        }
+    ]
+  },
+    "fields": [{"type":"int","id":"_id"},{"type":"numeric","id":"Sl No"},{"type":"text","id":"District Name"},{"type":"text","id":"Per-capita Income Current Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Current Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Current Prices 2020-21 (in Lakh) (FRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2020-21 (in Lakh) (FRE)"}],
+    "records": [
+    
+  [1, 1, "East Garo Hills", "121524", "98556", "143986", "157524", "189356", "176589"],
+  [2, 2, "West Garo Hills", "102356", "110487", "132569", "114986", "105248", "119854"],
+  [3, 3, "South Garo Hills", "132569", "119854", "127856", "134869", "144986", "152369"],
+  [4, 4, "North Garo Hills", "143986", "152369", "131569", "122456", "110487", "127856"],
+  [5, 5, "East Khasi Hills", "121524", "98556", "143986", "157524", "189356", "176589"],
+  [6, 6, "West Khasi Hills", "102356", "110487", "132569", "114986", "105248", "119854"],
+  [7, 7, "South West Khasi Hills", "132569", "119854", "127856", "134869", "144986", "152369"],
+  [8, 8, "Ri Bhoi", "143986", "152369", "131569", "122456", "110487", "127856"],
+  [9, 9, "East Jaintia Hills", "121524", "98556", "143986", "157524", "189356", "176589"],
+  [10, 10, "West Jaintia Hills", "102356", "110487", "132569", "114986", "105248", "119854"],
+  [11, 11, "South West Garo Hills", "132569", "119854", "127856", "134869", "144986", "152369"]
+]
+
+}

@@ -1,0 +1,116 @@
+  {
+    "state_gdp_contributions": {
+        "2019-2020": {
+            "Agriculture": "7642451",
+            "Forestry": "477716",
+            "Fishing": "67598",
+            "Ag & Allied": "8187765",
+            "Mining": "772",
+            "Manufacturing": "4573776",
+            "Construction": "1932141",
+            "Electricity,gas and Water supply": "527848",
+            "Industry": "7034537",
+            "Transport": "1633194",
+            "Trade,hotels and restaurants": "3342531",
+            "Banking & Insurance": "1770103",
+            "Real estate,ownership of dwellings and business services": "1663704",
+            "Public administration": "1482366",
+            "Other services": "3397733"
+        },
+        "2020-2021": {
+            "Agriculture": "8341539",
+            "Forestry": "497923",
+            "Fishing": "92114",
+            "Ag & Allied": "8931576",
+            "Mining": "838",
+            "Manufacturing": "4969995",
+            "Construction": "2091999",
+            "Electricity,gas and Water supply": "563328",
+            "Industry": "7626160",
+            "Transport": "1813528",
+            "Trade,hotels and restaurants": "3626312",
+            "Banking & Insurance": "2133768",
+            "Real estate,ownership of dwellings and business services": "1856361",
+            "Public administration": "1714208",
+            "Other services": "4053734"
+        },
+        "2021-2022": {
+            "Agriculture": "8697340",
+            "Forestry": "527749",
+            "Fishing": "109791",
+            "Ag & Allied": "9334880",
+            "Mining": "877",
+            "Manufacturing": "5367744",
+            "Construction": "2265844",
+            "Electricity,gas and Water supply": "607606",
+            "Industry": "8242071",
+            "Transport": "2017360",
+            "Trade,hotels and restaurants": "3975526",
+            "Banking & Insurance": "2599388",
+            "Real estate,ownership of dwellings and business services": "2050721",
+            "Public administration": "1929341",
+            "Other services": "4833287"
+        },
+        "overall": [
+            {
+                "year": "2019-20",
+                "gdp_in_billion_usd":  303734.7506,
+                "per_capita_usd": 45433.0921,
+                "growth_rate":     15.61
+            },
+            {
+                "year": "2020-21",
+                "gdp_in_billion_usd":   337217.1769,
+                "per_capita_usd": 49251.9834,
+                "growth_rate":  11.02
+            },
+            {
+                "year": "2021-22",
+                "gdp_in_billion_usd":    380096.1928,
+                "per_capita_usd": 52721.0924,
+                "growth_rate": 12.72
+            }
+        ]
+    },
+
+    "fields": [{"type":"int","id":"_id"},{"type":"numeric","id":"Sl No"},{"type":"text","id":"District Name"},{"type":"text","id":"Per-capita Income Current Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Current Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Current Prices 2020-21 (in Lakh) (FRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2020-21 (in Lakh) (FRE)"}],
+
+      "records": [
+        [1, 1, "Ahmedabad", "36541", "48795", "59824", "42978", "56321", "72649"],
+        [2, 2, "Amreli", "25413", "39678", "54782", "31245", "49876", "63487"],
+        [3, 3, "Anand", "42678", "57891", "49382", "36789", "51234", "67891"],
+        [4, 4, "Aravalli", "31975", "45987", "52893", "38456", "49785", "58324"],
+        [5, 5, "Banaskantha", "29876", "42895", "51324", "37159", "45987", "54678"],
+        [6, 6, "Bharuch", "38754", "51983", "62451", "45236", "58791", "71456"],
+        [7, 7, "Bhavnagar", "34159", "47328", "58216", "41937", "53698", "69781"],
+        [8, 8, "Botad", "29681", "42756", "53147", "38712", "51237", "64892"],
+        [9, 9, "Chhota Udaipur", "23579", "37648", "48971", "31286", "46829", "59374"],
+        [10, 10, "Dahod", "28543", "41692", "52437", "37968", "49573", "62438"],
+        [11, 11, "Dang", "26834", "39782", "49856", "35421", "48169", "61573"],
+        [12, 12, "Devbhoomi Dwarka", "31927", "45936", "54921", "39147", "52783", "68349"],
+        [13, 13, "Gandhinagar", "38716", "51894", "62378", "45981", "58642", "71293"],
+        [14, 14, "Gir Somnath", "29681", "43827", "51294", "38726", "49783", "56819"],
+        [15, 15, "Jamnagar", "35429", "48736", "59284", "42671", "57389", "72468"],
+        [16, 16, "Junagadh", "31274", "45983", "54329", "39817", "51429", "67938"],
+        [17, 17, "Kheda", "39482", "52736", "62819", "45371", "59827", "73146"],
+        [18, 18, "Kutch", "28346", "41973", "51847", "37192", "49528", "64387"],
+        [19, 19, "Mahisagar", "26793", "39821", "48967", "34678", "47236", "61589"],
+        [20, 20, "Mehsana", "37846", "51782", "62134", "43987", "58621", "71234"],
+        [21, 21, "Morbi", "31589", "45628", "54273", "39217", "51347", "67859"],
+        [22, 22, "Narmada", "29147", "42983", "51376", "37928", "49735", "62481"],
+        [23, 23, "Navsari", "38792", "52146", "62583", "45279", "58923", "71834"],
+        [24, 24, "Panchmahal", "27964", "41589", "51724", "38291", "49736", "63819"],
+        [25, 25, "Patan", "32468", "45987", "54926", "39782", "51294", "68731"],
+        [26, 26, "Porbandar", "33629", "48715", "59682", "41957", "57384", "72468"],
+        [27, 27, "Rajkot", "39157", "52468", "62193", "45928", "59834", "73146"],
+        [28, 28, "Sabarkantha", "28761", "41935", "51387", "37281", "49673", "64519"],
+        [29, 29, "Surat", "37592", "51846", "61932", "43728", "58713", "71364"],
+        [30, 30, "Surendranagar", "32847", "45963", "54917", "39472", "51786", "68319"],
+        [31, 31, "Tapi", "29638", "42951", "51897", "37426", "49215", "63179"],
+        [32, 32, "Vadodara", "38291", "52147", "62583", "45692", "59374", "71836"],
+        [33, 33, "Valsad", "27963", "41387", "51294", "37628", "49817", "64519"]
+      ]
+
+    
+  }
+  

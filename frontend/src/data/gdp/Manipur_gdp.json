@@ -1,0 +1,95 @@
+{
+  "state_gdp_contributions": {
+      "2019-2020": {
+          "Agriculture": "184410",
+          "Forestry & logging": "37357",
+          "Fishing": "19085",
+          "Ag & Allied": "240852",
+          "Mining & quarrying": "0",
+          "Manufacturing": "52581",
+          "Construction": "185394",
+          "Electricity,gas and Water supply": "42914",
+          "Industry": "280889",
+          "Transport,storage & communication": "39604",
+          "Trade,hotels and restaurants": "80728",
+          "Banking & Insurance": "26728",
+          "Real estate,ownership of dwellings and business services": "44935",
+          "Public administration": "215336",
+          "Other services": "179286"
+      },
+      "2020-2021": {
+          "Agriculture": "214764",
+          "Forestry & logging": "38984",
+          "Fishing": "26432",
+          "Ag & Allied": "280180",
+          "Mining & quarrying": "0",
+          "Manufacturing": "57240",
+          "Construction": "189881",
+          "Electricity,gas and Water supply": "48892",
+          "Industry": "296013",
+          "Transport,storage & communication": "46243",
+          "Trade,hotels and restaurants": "90060",
+          "Banking & Insurance": "29144",
+          "Real estate,ownership of dwellings and business services": "49839",
+          "Public administration": "253991",
+          "Other services": "224195"
+      },
+      "2021-2022": {
+          "Agriculture": "232062",
+          "Forestry & logging": "40089",
+          "Fishing": "33839",
+          "Ag & Allied": "305990",
+          "Mining & quarrying": "0",
+          "Manufacturing": "58707",
+          "Construction": "207715",
+          "Electricity,gas and Water supply": "55038",
+          "Industry": "321460",
+          "Transport,storage & communication": "54731",
+          "Trade,hotels and restaurants": "100421",
+          "Banking & Insurance": "30925",
+          "Real estate,ownership of dwellings and business services": "55299",
+          "Public administration": "285113",
+          "Other services": "278430"
+      },
+      "overall": [
+        {
+            "year": "2019-20",
+            "gdp_in_billion_usd": 540.413 ,
+            "per_capita_usd": 1863.370 ,
+            "growth_rate":  6.65         
+        },
+        {
+            "year": "2020-21",
+            "gdp_in_billion_usd": 584.268,
+            "per_capita_usd": 1978.370,
+            "growth_rate": 8.24
+        },
+        {
+            "year": "2021-22",
+            "gdp_in_billion_usd": 634.2614 ,
+            "per_capita_usd": 2106.362,
+            "growth_rate": 8.48
+        }
+    ]
+  },
+    "fields": [{"type":"int","id":"_id"},{"type":"numeric","id":"Sl No"},{"type":"text","id":"District Name"},{"type":"text","id":"Per-capita Income Current Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Current Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Current Prices 2020-21 (in Lakh) (FRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2020-21 (in Lakh) (FRE)"}],
+    "records": 
+    [
+  [1, 1, "Bishnupur", "82345", "92784", "120345", "100345", "110901", "117654"],
+  [2, 2, "Chandel", "95432", "87654", "123345", "121234", "123456", "127654"],
+  [3, 3, "Churachandpur", "98765", "76543", "134456", "134532", "142765", "123345"],
+  [4, 4, "Imphal East", "92345", "98765", "187654", "185432", "181234", "178901"],
+  [5, 5, "Imphal West", "134456", "87654", "182345", "181234", "194532", "187654"],
+  [6, 6, "Jiribam", "178901", "83456", "191234", "198765", "176543", "198765"],
+  [7, 7, "Kakching", "194532", "87654", "183456", "178901", "17654", "182345"],
+  [8, 8, "Kamjong", "87654", "76543", "83456", "94532", "98765", "92345"],
+  [9, 9, "Kangpokpi", "92345", "98765", "120654", "120432", "121234", "124901"],
+  [10, 10, "Noney", "13456", "87654", "102345", "101234", "102345", "107654"],
+  [11, 11, "Pherzawl", "117891", "813456", "912345", "987654", "876543", "987651"],
+  [12, 12, "Senapati", "94532", "98765", "200654", "200432", "201234", "201901"],
+  [13, 13, "Tamenglong", "17654", "76543", "134456", "134532", "142765", "123345"],
+  [14, 14, "Tengnoupal", "120345", "98765", "87654", "85432", "81234", "78901"],
+  [15, 15, "Thoubal", "176454", "87654", "82345", "81234", "94532", "87654"],
+  [16, 16, "Ukhrul", "78901", "83456", "91234", "98765", "76543", "98765"]
+]
+}

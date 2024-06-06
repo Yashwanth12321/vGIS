@@ -5,6 +5,7 @@ const Earth = () => {
   const globeE1 = useRef();
   useEffect(() => {
     const globe = globeE1.current;
+    globe.controls().enableZoom = false;
     globe.controls().autoRotate = true;
     globe.controls().autoRotateSpeed = 0.5;
   });
