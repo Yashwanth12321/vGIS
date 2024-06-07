@@ -503,10 +503,8 @@ const StateGDP = () => {
       <div id="stateMap" className="map"></div>
       <div className="stateBox">
         <div className="header-section">
-          <h1
-            style={{ fontSize: "24px", fontWeight: "bold" }}
-            className="text-2xl font-bold">
-            {stateName} GDP
+          <h1 style={{ fontSize: "35px", fontWeight: "bold" }}>
+            {stateName} GDP Analysis
           </h1>
           <p>
             <button
@@ -516,6 +514,8 @@ const StateGDP = () => {
             </button>
           </p>
         </div>
+        <hr />
+        <br />
         {sectorData && (
           <>
             <div className="controls">
@@ -531,25 +531,34 @@ const StateGDP = () => {
               </select>
             </div>
             {selectedYear !== "overall" ? (
-              <>
-                <div
-                  className="chart-container mb-4"
-                  style={{
-                    position: "relative",
-                    height: "40vh",
-                    width: "40vw",
-                  }}>
-                  <canvas ref={pieChartRef}></canvas>
+              <> 
+                <p className="flex justify-center" style={{ fontSize: "20px", fontWeight: "bold" }}>
+                  Sector-wise Contribution of GDP
+                </p>
+                <p className="flex justify-center" style={{ fontSize: "15px", fontWeight: "bold" }}>
+                  (In the year {selectedYear})
+                </p>
+                <br />
+                <div className="flex justify-center items-center chart-container w-1/2 h-1/2 md:w-1/2 md:h-1/2">
+                  <canvas ref={pieChartRef} className="w-1/2 h-1/2"></canvas>
                 </div>
-                <div id="sector_name" className="text-lg font-bold"></div>
 
+                <div id="sector_name" className="text-lg font-bold"></div>
                 <div id="sectorDetails" className="mb-4"></div>
                 {/* {sectorData &&
                   selectedYear &&
                   renderSectorData(sectorData, selectedYear)} */}
               </>
             ) : (
-              <canvas ref={chartRef} width="400" height="200"></canvas>
+              <>
+                <br />
+                <p className="flex justify-center font-bold">
+                  Analysis of GDP and Growth rate in the years 2019-2022
+                </p>
+                <br />
+
+                <canvas ref={chartRef} width="400" height="200"></canvas>
+              </>
             )}
           </>
         )}

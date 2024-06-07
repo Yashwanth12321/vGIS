@@ -274,7 +274,7 @@ const DataVisuals = () => {
       <div id="state-name"></div>
       <div id="covid-data"></div>
       <div className="sidebar" style={{ backgroundColor: "black" }}>
-        <h1>District Data Analysis</h1>
+        <h1>Telangana District Data Analysis</h1>
         <hr />
         {clickedDistrict
           ? `${clickedDistrict} District`

@@ -51,7 +51,7 @@ const IndiaMap = () => {
             mouseover: function (e) {
               stateName.textContent = feature.properties.name;
               stateName.style.display = "block";
-              layer.setStyle({ weight: 3 }); // Highlight on hover
+              layer.setStyle({weight: 3, opacity:0.4 }); // Highlight on hover
               popup.setLatLng(e.latlng);
               popup.openOn(mapContainer);
             },
@@ -76,8 +76,9 @@ const IndiaMap = () => {
   return (
     <div>
       <h1 className="bg-gradient-to-r from-purple-500 to-blue-500 text-transparent bg-clip-text">
-        Chloropeth map
+        COVID-19 Deaths Analysis in India
       </h1>
+      <h3 className="text-black">(Hover on a state to view its details)</h3>
       <div id="map"></div>
       <div id="state-name"></div>
       <div id="covid-data"></div>

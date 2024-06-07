@@ -1,8 +1,88 @@
 {
-    "fields": [{"type": "int", "id": "_id"}, {"type": "numeric", "id": "Sl No"}, {"type": "text", "id": "District Name"}, {"type": "text", "id": "Per-capita Income Current Prices 2018-19 (in Lakh) (TRE)"}, {"type": "text", "id": "Per-capita Income Current Prices 2019-20 (in Lakh) (SRE)"}, {"type": "text", "id": "Per-capita Income Current Prices 2020-21 (in Lakh) (FRE)"}, {"type": "text", "id": "Per-capita Income Constant Prices 2018-19 (in Lakh) (TRE)"}, {"type": "text", "id": "Per-capita Income Constant Prices 2019-20 (in Lakh) (SRE)"}, {"type": "text", "id": "Per-capita Income Constant Prices 2020-21 (in Lakh) (FRE)"}],
-    "records": [
-      [1, 1, "Kargil", "23456", "34567", "45678", "56789", "67890", "78901"],
-      [2, 2, "Leh", "34567", "45678", "56789", "67890", "78901", "89012"]
-  ]
-  }
-  
+  "fields": [{"type": "int", "id": "_id"}, {"type": "numeric", "id": "Sl No"}, {"type": "text", "id": "District Name"}, {"type": "text", "id": "Per-capita Income Current Prices 2018-19 (in Lakh) (TRE)"}, {"type": "text", "id": "Per-capita Income Current Prices 2019-20 (in Lakh) (SRE)"}, {"type": "text", "id": "Per-capita Income Current Prices 2020-21 (in Lakh) (FRE)"}, {"type": "text", "id": "Per-capita Income Constant Prices 2018-19 (in Lakh) (TRE)"}, {"type": "text", "id": "Per-capita Income Constant Prices 2019-20 (in Lakh) (SRE)"}, {"type": "text", "id": "Per-capita Income Constant Prices 2020-21 (in Lakh) (FRE)"}],
+  "records": [
+    [1, 1, "Kargil", "23456", "34567", "45678", "56789", "67890", "78901"],
+    [2, 2, "Leh", "34567", "45678", "56789", "67890", "78901", "89012"]
+],
+
+  "state_gdp_contributions": {
+      "2019-2020": {
+          "Agriculture": "11739986",
+          "Forestry": "1434554",
+          "Fishing": "37412",
+          "Ag & Allied": "13211952",
+          "Mining": "2244396",
+          "Manufacturing": "5963513",
+          "Construction": "4374724",
+          "Electricity,gas and Water supply": "1077135",
+          "Industry": "13659769",
+          "Transport": "2219257",
+          "Trade,hotels and restaurants": "6661778",
+          "Banking & Insurance": "1530353",
+          "Real estate,ownership of dwellings and business services": "3684993",
+          "Public administration": "1459257",
+          "Other services": "4590480"
+      },
+      "2020-2021": {
+          "Agriculture": "13026034.05",
+          "Forestry": "1515020",
+          "Fishing": "42474",
+          "Ag & Allied": "14583528.05",
+          "Mining": "2314001.442",
+          "Manufacturing": "5884610.225",
+          "Construction": "4717308.911",
+          "Electricity,gas and Water supply": "1343134.4",
+          "Industry": "14259054.98",
+          "Transport": "2572130.89",
+          "Trade,hotels and restaurants": "6889623.522",
+          "Banking & Insurance": "1834893",
+          "Real estate,ownership of dwellings and business services": "4292411.678",
+          "Public administration": "1694516",
+          "Other services": "5635295.88"
+      },
+      "2021-2022": {
+          "Agriculture": "14086091",
+          "Forestry": "1677523",
+          "Fishing": "49683",
+          "Ag & Allied": "15813297",
+          "Mining": "2490371",
+          "Manufacturing": "6161266",
+          "Construction": "5181700",
+          "Electricity,gas and Water supply": "1572040",
+          "Industry": "15405377",
+          "Transport": "2929157",
+          "Trade,hotels and restaurants": "7331455",
+          "Banking & Insurance": "2106457",
+          "Real estate,ownership of dwellings and business services": "4961841",
+          "Public administration": "1997281",
+          "Other services": "6909994"
+      },
+      "overall": [
+        {
+            "year": "2019-20",
+            "gdp_in_billion_usd": 28885,
+            "per_capita_usd": 37553,
+            "growth_rate":  6.98
+        },
+        {
+            "year": "2020-21",
+            "gdp_in_billion_usd": 27001,
+            "per_capita_usd":  33349,
+            "growth_rate": 12.57
+        },
+        {
+            "year": "2021-22",
+            "gdp_in_billion_usd": 23986,
+            "per_capita_usd": 29819,
+            "growth_rate":  13.13
+        }
+    ]
+
+  },
+  "fields": [{"type":"int","id":"_id"},{"type":"numeric","id":"Sl No"},{"type":"text","id":"District Name"},{"type":"text","id":"Per-capita Income Current Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Current Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Current Prices 2020-21 (in Lakh) (FRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2018-19 (in Lakh) (TRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2019-20 (in Lakh) (SRE)"},{"type":"text","id":"Per-capita Income Constant Prices 2020-21 (in Lakh) (FRE)"}],
+  "records": [
+    [1, 1, "Kargil", "121234", "134567", "145678", "156789", "167890", "178901"],
+    [2, 2, "Leh", "130543", "120553", "130563", "140573", "150583", "160593"]
+    
+]
+}

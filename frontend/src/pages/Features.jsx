@@ -23,7 +23,7 @@ const Features = () => {
         <a href="/deathchloropeth" className="card-link">
           <img src={death} alt="Chloropeth" className="card-image" />
           <div className="card-content flex flex-col justify-center items-center">
-            <h2>Chloropeth Map</h2>
+            <h2>Covid Deaths Analysis</h2>
             <p>Information and updates on Chloropeth</p>
           </div>
         </a>

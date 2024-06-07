@@ -1,10 +1,10 @@
-import L from 'leaflet';
-import React, { useEffect, useState, useRef } from 'react';
-import { useNavigate } from 'react-router-dom';
 import { Chart, registerables } from 'chart.js';
-import data from "../data/boundary_files/in.json";
+import L from 'leaflet';
 import "leaflet/dist/leaflet.css";
+import React, { useEffect, useRef, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import "../App.css";
+import data from "../data/boundary_files/in.json";
 
 Chart.register(...registerables);
 
@@ -80,21 +80,21 @@ const IndiaGDP = () => {
                 datasets: [
                     {
                         label: 'GDP (in billion USD)',
-                        data: [2835.606256616, 2671.5954059869, 3150.3068391421],
+                        data: [2835.60, 2671.59, 3150.30],
                         backgroundColor: 'rgba(75, 192, 192, 0.2)',
                         borderColor: 'rgba(75, 192, 192, 1)',
                         borderWidth: 1
                     },
                     {
                         label: 'Per Capita USD',
-                        data: [2050.1638, 1913.2197, 2238.1271],
+                        data: [2050.16, 1913.21, 2238.12],
                         backgroundColor: 'rgba(153, 102, 255, 0.2)',
                         borderColor: 'rgba(153, 102, 255, 1)',
                         borderWidth: 1
                     },
                     {
                         label: 'Growth Rate',
-                        data: [3.8714, -5.8311, 9.0503],
+                        data: [3.87, -5.83, 9.05],
                         type: 'line',
                         borderColor: 'rgba(255, 159, 64, 1)',
                         borderWidth: 2,
@@ -108,6 +108,11 @@ const IndiaGDP = () => {
                 data: chartData,
                 options: {
                     responsive: true,
+                    plugins: {
+                        datalabels: {
+                            display: false
+                        }
+                    },
                     scales: {
                         y: {
                             beginAtZero: true,
@@ -141,7 +146,25 @@ const IndiaGDP = () => {
                 <br />
                 <hr />
                 <br />
+                <div className='flex justify-center items-center'>
+                    <h1 style={{ fontSize: "20px", fontWeight: "bold" }}>
+                        Bar Chart Analysis of India GDP in 2019-22
+                    </h1>
+                </div>
+                <br />
                 <canvas ref={chartRef} width="400" height="200"></canvas>
+                <br />
+                <div className='flex flex-col'>
+                    <h1 style={{ fontSize: "20px", fontWeight: "bold" }}>The Top 3 states are (in $Billion)</h1>
+                    <p>417.2 - Maharastra</p>
+                    <p>278 - Tamil Nadu</p>
+                    <p>265.4 - Gujarat</p>
+                    <br />
+                    <h1 style={{ fontSize: "20px", fontWeight: "bold" }}>The Least 3 states are (in $Billion)</h1>
+                    <p>4.3 - Nagaland</p>
+                    <p>3.7 - Mizoram</p>
+                    <p>1.5 - Andaman</p>
+                </div>
             </div>
         </div>
     );

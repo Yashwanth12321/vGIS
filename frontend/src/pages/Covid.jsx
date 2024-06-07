@@ -17,7 +17,7 @@ const covid = () => {
     const covidDataContainer = document.getElementById("covid-data");
 
     async function loadGeoJSON() {
-      console.log("Data:", data); // Log the imported data
+      console.log("Data:", data);
       const stateLayer = L.geoJson(data, {
         style: function (feature) {
           return {
@@ -95,9 +95,10 @@ const covid = () => {
   return (
     <div>
       <h1 className="bg-gradient-to-r from-purple-500 to-blue-500 text-transparent bg-clip-text">
-        Chloropeth map
+        COVID-19 Cases in India
       </h1>
-      <div id="map"></div>
+      <h3 className="text-black">(click on a state to view its details)</h3>
+      <div id="map" className="w-full h-screen"></div>
       <div id="state-name"></div>
       <div id="covid-data"></div>
     </div>
